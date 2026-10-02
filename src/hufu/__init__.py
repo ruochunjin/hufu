@@ -43,7 +43,7 @@ from hufu.rules import (
 )
 from hufu.scenarios import detect_memory_conflicts
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 __all__ = [
     "CallableEmbeddingBackend",

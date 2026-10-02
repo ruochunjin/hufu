@@ -15,6 +15,16 @@ hypergraph simulation, quality rules) makes the final call.
 
 ## What it does today
 
+**Document contradictions & training-data outliers (v0.4).**
+`detect_contradictions` checks statement pairs within and across documents
+against RICO-style rules (entity/value/polarity conflicts + NLI fallback),
+and every finding carries evidence provenance — document/sentence positions
+plus the full rule trace. `classify_outliers` implements the
+good / bad / ugly philosophy: outliers are classified by their *measured
+effect* on your downstream model (injected as a plain callable); ugly ones
+are repaired (never silently deleted), good ones (repairing would hurt) are
+kept, harmless ones are left alone.
+
 **Conflict-aware trimming & rule discovery (v0.3).** Once conflicts are
 detected, HuFu resolves them — at evidence level (dependency-free greedy
 cover, chains like A↔B↔C drop only B) and, for faiss HNSW indexes, at the
@@ -93,8 +103,13 @@ from hufu import (
 
 - **v0.1** — HyperMatch engine: reference core + text-level checking + Rust accelerator.
 - **v0.2** — Unified quality-rule DSL (CDR / RICO / OMR syntax), pluggable predicate library, memory-conflict scenario.
-- **v0.3** — Conflict-aware trimming (evidence level + HNSW edges); LLM-guided rule discovery with coverage/accuracy validation. *(this release)*
-- **v0.4** — Intra-/cross-document contradiction detection with evidence provenance; training-data outlier management (good / bad / ugly).
+- **v0.3** — Conflict-aware trimming (evidence level + HNSW edges); LLM-guided rule discovery with coverage/accuracy validation.
+- **v0.4** — Document contradiction detection with evidence provenance; training-data outlier management (good / bad / ugly). *(this release — the four application scenarios are complete)*
+
+Future directions: tighter coupling between the HyperMatch structural verdicts
+and the rule layer (structural predicates as rule conditions), prebuilt
+adapters for popular vector stores, and benchmark suites (ContraDoc, ECON,
+ConTRoL, ContractNLI).
 
 ## Installation
 

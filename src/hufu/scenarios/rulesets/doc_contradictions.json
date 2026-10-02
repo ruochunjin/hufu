@@ -1,0 +1,49 @@
+{
+  "name": "doc_contradictions",
+  "version": "1",
+  "metadata": {
+    "description": "RICO-style contradiction rules for statements within and across documents",
+    "source_paper": "Detecting Contradictions Within and Across Documents (DocChecker)"
+  },
+  "rules": [
+    {
+      "id": "rico.entity_value_conflict",
+      "if": [
+        {"pred": "attr_equal", "attr": "entity"},
+        {"pred": "numeric_conflict", "attr": "value", "rel_tol": 0.05}
+      ],
+      "then": {"label": "contradiction:numeric"},
+      "source": "manual",
+      "description": "Same entity, materially different numeric values (revenue, temperature, date-as-number...)"
+    },
+    {
+      "id": "rico.entity_polarity_conflict",
+      "if": [
+        {"pred": "attr_equal", "attr": "entity"},
+        {"pred": "attr_conflict", "attr": "polarity"}
+      ],
+      "then": {"label": "contradiction:polarity"},
+      "source": "manual",
+      "description": "Same entity with opposing polarities/claims (increase vs decrease, supports vs opposes)"
+    },
+    {
+      "id": "rico.entity_state_conflict",
+      "if": [
+        {"pred": "attr_equal", "attr": "entity"},
+        {"pred": "attr_conflict", "attr": "state"}
+      ],
+      "then": {"label": "contradiction:state"},
+      "source": "manual",
+      "description": "Same entity in incompatible states (alive/dead, open/closed, married/single)"
+    },
+    {
+      "id": "rico.nli_contradiction",
+      "if": [
+        {"pred": "nli_contradicts", "threshold": 0.85}
+      ],
+      "then": {"label": "contradiction:nli", "confidence": 0.9},
+      "source": "manual",
+      "description": "NLI cross-encoder judges the statement pair contradictory (unstructured fallback)"
+    }
+  ]
+}
