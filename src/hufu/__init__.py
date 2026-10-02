@@ -30,13 +30,26 @@ from hufu.api import (
     run_hypermatch,
 )
 from hufu.backends import SentenceTransformerBackend
+from hufu.rules import (
+    Condition,
+    Item,
+    PredicateRegistry,
+    Rule,
+    RuleEngine,
+    RuleMatch,
+    RuleSet,
+    Verdict,
+    predicate,
+)
+from hufu.scenarios import detect_memory_conflicts
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "CallableEmbeddingBackend",
     "CallableRoleCellScorer",
     "Cluster",
+    "Condition",
     "ConsistencyVerdict",
     "EmbeddingBackend",
     "FANCY_CONFIG",
@@ -44,13 +57,22 @@ __all__ = [
     "HyperMatchOutput",
     "Hyperedge",
     "Hypergraph",
+    "Item",
+    "PredicateRegistry",
     "QueryInstance",
     "Role",
     "RoleScoringResult",
+    "Rule",
+    "RuleEngine",
+    "RuleMatch",
+    "RuleSet",
     "SentenceTransformerBackend",
+    "Verdict",
     "Vertex",
     "__version__",
     "check_pair",
     "check_retrieval",
+    "detect_memory_conflicts",
+    "predicate",
     "run_hypermatch",
 ]

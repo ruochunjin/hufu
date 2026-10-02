@@ -1,0 +1,53 @@
+{
+  "name": "memory_conflicts",
+  "version": "1",
+  "metadata": {
+    "description": "CDR-style conflict detection rules for vector-store memories (embodied agents, RAG memory banks)",
+    "source_paper": "Conflict-Aware Memory for Embodied Agents: Enhancing Vector Data Quality via Detection Rules (ACL 2026)"
+  },
+  "rules": [
+    {
+      "id": "cdr.action_conflict",
+      "if": [
+        {"pred": "attr_equal", "attr": "object"},
+        {"pred": "attr_conflict", "attr": "action"},
+        {"pred": "vec_sim", "threshold": 0.5}
+      ],
+      "then": {"label": "conflict"},
+      "source": "manual",
+      "description": "Same object, opposing actions, high vector similarity (e.g. 'turn on the light' vs 'turn off the light')"
+    },
+    {
+      "id": "cdr.state_conflict",
+      "if": [
+        {"pred": "attr_equal", "attr": "object"},
+        {"pred": "attr_conflict", "attr": "state"},
+        {"pred": "vec_sim", "threshold": 0.5}
+      ],
+      "then": {"label": "conflict"},
+      "source": "manual",
+      "description": "Same object with incompatible states (e.g. 'door is open' vs 'door is closed')"
+    },
+    {
+      "id": "cdr.value_conflict",
+      "if": [
+        {"pred": "attr_equal", "attr": "object"},
+        {"pred": "numeric_conflict", "attr": "value", "rel_tol": 0.05},
+        {"pred": "vec_sim", "threshold": 0.5}
+      ],
+      "then": {"label": "conflict"},
+      "source": "manual",
+      "description": "Same object with materially different numeric values"
+    },
+    {
+      "id": "rico.nli_contradiction",
+      "if": [
+        {"pred": "vec_sim", "threshold": 0.6},
+        {"pred": "nli_contradicts", "threshold": 0.8}
+      ],
+      "then": {"label": "contradiction", "confidence": 0.9},
+      "source": "manual",
+      "description": "Vector-similar statements that an NLI model judges contradictory (unstructured fallback)"
+    }
+  ]
+}
