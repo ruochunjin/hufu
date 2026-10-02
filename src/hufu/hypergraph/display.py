@@ -17,18 +17,22 @@ def main() -> int:
             "The visualization demo requires spaCy and FastCoref."
         ) from error
 
+    import os
+
     from hufu.hypergraph.combine import calc_correfs_str, combine
 
-    nlp_coref = spacy.load("en_core_web_trf")
+    spacy_model = os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf")
+    coref_model = os.environ.get("HUFU_COREF_MODEL", "biu-nlp/lingmess-coref")
+    nlp_coref = spacy.load(spacy_model)
     nlp_coref.add_pipe(
         "fastcoref",
         config={
             "model_architecture": "LingMessCoref",
-            "model_path": "biu-nlp/lingmess-coref",
+            "model_path": coref_model,
             "device": "cpu",
         },
     )
-    nlp_parse = spacy.load("en_core_web_trf")
+    nlp_parse = spacy.load(spacy_model)
     text = (
         "Scholar Nilsson delivered a keynote at Stockholmsmässan on August. "
         "He also participated in roundtable discussions. That day, the venue "

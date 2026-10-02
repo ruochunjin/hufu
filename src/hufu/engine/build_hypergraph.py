@@ -47,13 +47,17 @@ def normalize_special_chars(text: str) -> str:
     result = re.sub(r' +', ' ', result)
     return result.strip()
 def get_nlp(use_gpu: bool = False) -> spacy.Language:
-    """Return the cached spaCy pipeline, loading fast coreference on first use."""
+    """Return the cached spaCy pipeline, loading fast coreference on first use.
+
+    The spaCy model is configurable through ``HUFU_SPACY_MODEL`` (default
+    ``en_core_web_trf``); the coreference model through ``HUFU_COREF_MODEL``.
+    """
 
     global _NLP
     if _NLP is None:
         if use_gpu:
             spacy.require_gpu()
-        _NLP = spacy.load('en_core_web_trf')
+        _NLP = spacy.load(os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf"))
         try:
             import fastcoref  # noqa: F401 - registers the spaCy factory.
         except ImportError:

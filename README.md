@@ -81,6 +81,7 @@ pip install ./rust/simulation
 | `HUFU_EMBED_MODEL` | `Qwen/Qwen3-Embedding-0.6B` | sentence embedding model |
 | `HUFU_NLI_MODEL` | `cross-encoder/nli-deberta-v3-base` | NLI cross-encoder |
 | `HUFU_COREF_MODEL` | `biu-nlp/lingmess-coref` | coreference model |
+| `HUFU_SPACY_MODEL` | `en_core_web_trf` | spaCy pipeline |
 | `HUFU_API_KEY` / `HUFU_BASE_URL` / `HUFU_MODEL` | — | OpenAI-compatible endpoint for LLM-assisted features |
 
 ## Repository layout
