@@ -1,0 +1,77 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[project]
+name = "hufu-dq"
+version = "0.1.0"
+description = "HuFu (虎符): neuro-symbolic data-quality verification — hypergraph-simulation consistency checking for vector retrieval, documents, and LLM data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+keywords = ["data quality", "consistency checking", "RAG", "vector database", "hypergraph", "graph simulation", "neuro-symbolic"]
+authors = [{ name = "HuFu Developers" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Database",
+]
+# The reference core (hufu.run_hypermatch + contracts) is dependency-free.
+dependencies = []
+
+[project.optional-dependencies]
+# Text-level checking: hypergraph construction + model backends.
+models = [
+    "spacy>=3.7,<4",
+    "numpy>=1.26,<3",
+    "tqdm>=4.60",
+    "sentence-transformers>=2.7",
+    "fastcoref>=2.1.6",
+]
+# LLM-assisted rule discovery and graph enrichment (optional features).
+llm = ["openai>=1.30"]
+# LLM-assisted graph building via LangChain (optional, legacy interface).
+graph = ["langchain-core>=0.3", "networkx>=3.0", "pydantic>=2.0", "tenacity>=8.0", "requests>=2.31"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/REPLACE-ORG/hufu"
+Documentation = "https://github.com/REPLACE-ORG/hufu#readme"
+Issues = "https://github.com/REPLACE-ORG/hufu/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hufu"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+# Ported engine modules.  Accepted deliberately for v0.1:
+# - F821: names published by _load_standard_dependencies() into the module
+#   namespace (lazy optional-dependency pattern; verified by tests).
+# - F841: timing/instrumentation variables kept for log correlation.
+# - E701/E731/E722: legacy style preserved verbatim from the research code.
+"src/hufu/engine/hyper_simulation.py" = ["F821", "F841", "E701"]
+"src/hufu/engine/postprocess.py" = ["F841"]
+"src/hufu/engine/alignment.py" = ["E731"]
+"src/hufu/hypergraph/abstraction.py" = ["E701"]
+"src/hufu/hypergraph/union.py" = ["F841"]
+"src/hufu/hypergraph/hypergraph.py" = ["F841"]
+"src/hufu/hypergraph/combine.py" = ["F841"]
+"src/hufu/hypergraph/dependency.py" = ["F841"]
+"src/hufu/core/query_instance.py" = ["F841"]
+# Prompt templates: trailing whitespace inside triple-quoted strings is
+# significant to the prompt text and must not be stripped.
+"src/hufu/llm/prompt_graph.py" = ["W291"]

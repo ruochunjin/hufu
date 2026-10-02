@@ -1,0 +1,22 @@
+[package]
+name = "simulation"
+version = "0.1.15"
+edition = "2021"
+license = "MIT"
+description = "A Python package for simulation algorithms"
+
+
+[lib]
+name = "simulation"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.27.1", features = ["extension-module"] }
+# Pin the fixed-point implementation to the adjacent crate so a self-contained
+# workspace build cannot silently resolve a different registry version.
+graph-simulation = { version = "0.1.30", path = "../graph-simulation" }
+graph-base = "0.1.14"
+rayon = "1.10.0"
+
+[package.metadata.maturin]
+bindings = "pyo3"
