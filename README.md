@@ -15,6 +15,23 @@ hypergraph simulation, quality rules) makes the final call.
 
 ## What it does today
 
+**Conflict-aware trimming & rule discovery (v0.3).** Once conflicts are
+detected, HuFu resolves them — at evidence level (dependency-free greedy
+cover, chains like A↔B↔C drop only B) and, for faiss HNSW indexes, at the
+graph level by cutting edges between conflicting vectors so retrieval stops
+surfacing conflicts. And rules don't have to be hand-written:
+`hufu.rules.discovery.discover_rules` has an LLM propose candidate rules
+from labeled pairs, then keeps only those passing coverage + accuracy
+thresholds — offline discovery, LLM-free runtime.
+
+```python
+from hufu.scenarios import trim_evidence
+
+result = trim_evidence(memories, [(0, 1), (1, 2)], strategy="keep_recent",
+                       items_attrs=[{"timestamp": t} for t in timestamps])
+clean_memories = result.apply(memories)
+```
+
 **Unified quality-rule language (v0.2).** One JSON rule schema covering the
 CDR / RICO / OMR rule systems — logic predicates, NLI predicates, similarity
 predicates, numeric/temporal predicates, all pluggable via a registry. Rules
@@ -75,8 +92,8 @@ from hufu import (
 ## Roadmap
 
 - **v0.1** — HyperMatch engine: reference core + text-level checking + Rust accelerator.
-- **v0.2** — Unified quality-rule DSL (CDR / RICO / OMR syntax), pluggable predicate library, memory-conflict scenario. *(this release)*
-- **v0.3** — Vector-store / agent-memory index trimming (HNSW); LLM-guided rule discovery.
+- **v0.2** — Unified quality-rule DSL (CDR / RICO / OMR syntax), pluggable predicate library, memory-conflict scenario.
+- **v0.3** — Conflict-aware trimming (evidence level + HNSW edges); LLM-guided rule discovery with coverage/accuracy validation. *(this release)*
 - **v0.4** — Intra-/cross-document contradiction detection with evidence provenance; training-data outlier management (good / bad / ugly).
 
 ## Installation
