@@ -68,7 +68,9 @@ def trim_evidence(
     the most *unresolved* conflicts (chains like A↔B↔C drop only B, never
     everything); ties are broken against the strategy's preference.  A
     conflict stops counting once one side is dropped, so survivors never
-    conflict with each other.
+    conflict with each other.  Note this is an *approximation*: greedy
+    maximum-degree cover does not guarantee the globally smallest deletion
+    set on adversarial graphs.
     """
 
     if strategy not in {"keep_recent", "keep_first", "keep_last", "keep_priority"}:

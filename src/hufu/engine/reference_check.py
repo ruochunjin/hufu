@@ -26,6 +26,7 @@ def reference_consistent_detection(
     role_scorer=None,
     query_local=None,
     data_local=None,
+    query_is_question: bool = True,
 ) -> tuple[bool, float, str]:
     """Return ``(has_contradiction, distance, evidence)`` for one text pair.
 
@@ -35,6 +36,11 @@ def reference_consistent_detection(
     ``query_local`` / ``data_local`` optionally supply pre-built production
     hypergraphs (e.g. from the benchmark pickle cache) so long documents do
     not have to be re-parsed on every evaluation run.
+
+    ``query_is_question=False`` builds the query side as a declarative claim:
+    wh-words inside relative clauses ("the nursery where ...") are then NOT
+    mistaken for answer placeholders (finding F8 — declarative refs in the
+    ContraDoc harness hit exactly this).
     """
 
     from hufu.backends import EmbeddingRoleCellScorer, SentenceTransformerBackend
@@ -56,7 +62,11 @@ def reference_consistent_detection(
             f"[CONSISTENT] Distance={distance:.4f} ≤ threshold={distance_threshold}",
         )
 
-    query_local = query_local if query_local is not None else text_to_hypergraph(query_text, is_query=True)
+    query_local = (
+        query_local
+        if query_local is not None
+        else text_to_hypergraph(query_text, is_query=query_is_question)
+    )
     data_local = data_local if data_local is not None else text_to_hypergraph(data_text)
     query_core = bridge_hypergraph(query_local, side="query").hypergraph
     data_core = bridge_hypergraph(data_local, side="data").hypergraph

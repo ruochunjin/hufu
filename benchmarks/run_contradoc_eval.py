@@ -61,16 +61,28 @@ def _cached_hypergraph(text: str, *, is_query: bool, spacy_model: str):
     return graph
 
 
-def _neg_sentence_pair(text: str) -> tuple[str, str] | None:
-    """Pick two well-separated sentences from a clean document."""
+def _neg_sentence_pair(text: str, mode: str = "identity") -> tuple[str, str] | None:
+    """Pick a sentence pair from a clean document for the negative class.
+
+    ``identity`` (default): (sentence, same sentence) — self-coverage must be
+    consistent; a contradiction verdict here is a genuine false positive.
+    ``distant``: (first, middle) — hard negatives for stress reporting only.
+    Distant sentences legitimately fail coverage ("does D cover Q" is
+    rightfully *no* for unrelated sentences), so they are NOT golden
+    negatives for a coverage checker and must not enter F1 accounting.
+    """
 
     sentences = [s.strip() for s in text.split(". ") if len(s.split()) >= _MIN_REF_WORDS]
-    if len(sentences) < 3:
+    if mode == "distant":
+        if len(sentences) < 3:
+            return None
+        return sentences[0], sentences[len(sentences) // 2]
+    if not sentences:
         return None
-    return sentences[0], sentences[len(sentences) // 2]
+    return sentences[0], sentences[0]
 
 
-def evaluate(engine: str, limit: int, threshold: float) -> dict:
+def evaluate(engine: str, limit: int, threshold: float, neg_mode: str = "identity") -> dict:
     from hufu.engine.reference_check import reference_consistent_detection
 
     spacy_model = os.environ.get("HUFU_SPACY_MODEL", "en_core_web_sm")
@@ -95,7 +107,7 @@ def evaluate(engine: str, limit: int, threshold: float) -> dict:
             query_text, doc_text, expected = refs[0], example.hypothesis, False
             pos_seen += 1
         else:
-            pair = _neg_sentence_pair(example.premise)
+            pair = _neg_sentence_pair(example.premise, mode=neg_mode)
             if pair is None:
                 results["skip"] += 1
                 continue
@@ -104,7 +116,10 @@ def evaluate(engine: str, limit: int, threshold: float) -> dict:
 
         start = time.perf_counter()
         if engine == "reference":
-            query_graph = _cached_hypergraph(query_text, is_query=True, spacy_model=spacy_model)
+            # ContraDoc refs/evidence are declarative claims, not questions:
+            # build the query side with is_query=False so relative-clause
+            # wh-words are not mistaken for placeholders (finding F8).
+            query_graph = _cached_hypergraph(query_text, is_query=False, spacy_model=spacy_model)
             data_graph = _cached_hypergraph(doc_text, is_query=False, spacy_model=spacy_model)
             has_contradiction, _dist, evidence = reference_consistent_detection(
                 query_text,
@@ -112,6 +127,7 @@ def evaluate(engine: str, limit: int, threshold: float) -> dict:
                 distance_threshold=threshold,
                 query_local=query_graph,
                 data_local=data_graph,
+                query_is_question=False,
             )
             consistent = not has_contradiction
         else:
@@ -156,6 +172,7 @@ def evaluate(engine: str, limit: int, threshold: float) -> dict:
     return {
         "engine": engine,
         "threshold": threshold,
+        "neg_mode": neg_mode,
         "confusion": results,
         "accuracy": round((tp + tn) / total, 4) if total else 0.0,
         "precision": round(precision, 4),
@@ -170,14 +187,20 @@ def main() -> None:
     parser.add_argument("--engine", choices=["standard", "reference"], default="reference")
     parser.add_argument("--limit", type=int, default=30, help="max pos and max neg examples")
     parser.add_argument("--threshold", type=float, default=-1.0, help="distance gate (-1 forces structural)")
+    parser.add_argument(
+        "--neg-mode",
+        choices=["identity", "distant"],
+        default="identity",
+        help="negative-pair construction; 'distant' is a stress bucket, not golden",
+    )
     parser.add_argument("--out", type=Path, default=None)
     args = parser.parse_args()
 
-    report = evaluate(args.engine, args.limit, args.threshold)
+    report = evaluate(args.engine, args.limit, args.threshold, args.neg_mode)
     summary = {key: value for key, value in report.items() if key != "details"}
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     out = args.out or (
-        Path(__file__).parent / "data" / "cache" / f"contradoc_eval_{args.engine}_{args.limit}.json"
+        Path(__file__).parent / "data" / "cache" / f"contradoc_eval_{args.engine}_{args.limit}_{args.neg_mode}.json"
     )
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
