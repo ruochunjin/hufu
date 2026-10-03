@@ -50,3 +50,7 @@ logs/
 .e2e-all.log
 .bench-test.log
 .contradoc-probe.log
+
+# Benchmark evaluation data is intentionally tracked (lab-approved release)
+!benchmarks/data/
+!benchmarks/data/**
