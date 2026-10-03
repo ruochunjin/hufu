@@ -39,3 +39,14 @@ Thumbs.db
 
 # Runtime logs
 logs/
+
+# Local install scratch files
+.vs-modify.bat
+.vs-modify.ps1
+.*-install.log
+.vs-*.log
+.l2-test.log
+.l3-test.log
+.e2e-all.log
+.bench-test.log
+.contradoc-probe.log
