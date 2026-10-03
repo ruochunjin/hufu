@@ -105,5 +105,22 @@ class RuleSetLoadToleranceTests(unittest.TestCase):
                 RuleSet.load(path)
 
 
+class UnknownPredicateTests(unittest.TestCase):
+    """Loading passes predicate names through; evaluation raises KeyError."""
+
+    def test_unknown_predicate_loads_but_fails_at_evaluation(self) -> None:
+        from hufu.rules.engine import RuleEngine
+        from hufu.rules.registry import PredicateRegistry
+
+        rule = Rule.from_dict(
+            {"id": "r1", "if": [{"pred": "no_such_predicate"}], "then": {"label": "pass"}}
+        )
+        engine = RuleEngine(PredicateRegistry())
+        with self.assertRaises(KeyError) as ctx:
+            engine.evaluate_condition(rule.if_[0], {}, {})
+        self.assertIn("no_such_predicate", str(ctx.exception))
+        self.assertIn("available", str(ctx.exception))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
