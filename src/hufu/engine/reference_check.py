@@ -36,9 +36,13 @@ def reference_consistent_detection(
 
     from .bridge import bridge_allowed_pairs, bridge_hypergraph
     from .build_hypergraph import text_to_hypergraph
-    from .hyper_simulation import get_distance, run_hypermatch
+    from .embedding import cosine_similarity, get_embedding_batch
+    from .hyper_simulation import run_hypermatch
 
-    distance = get_distance(query_text, data_text)
+    # Distance is computed here rather than via hyper_simulation.get_distance,
+    # which is wrapped to lazy-load the Rust standard path on call.
+    query_embedding, data_embedding = get_embedding_batch([query_text, data_text])
+    distance = 1.0 - cosine_similarity(query_embedding, data_embedding)
     logger.info(f"Compute cosine distance: {distance:.4f}, threshold={distance_threshold}")
     if distance <= distance_threshold:
         return (

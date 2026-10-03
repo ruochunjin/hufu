@@ -28,8 +28,10 @@ HEMINGWAY_SUPPORT = (
     "He was born in Oak Park, Illinois, in 1899."
 )
 # Same entities, but no place mention at all: the ?Where placeholder has no
-# type-compatible match target, so structural coverage must fail.
-HEMINGWAY_NO_PLACE = "Ernest Hemingway wrote The Old Man and the Sea. He was a famous writer."
+# type-compatible match target, so structural coverage must fail.  (Mentioning
+# the book title does not work here: its "Sea" token is WordNet-typed LOC and
+# would spuriously cover the placeholder — recorded as finding F3.)
+HEMINGWAY_NO_PLACE = "Ernest Hemingway was a famous writer. He wrote many novels."
 
 RACE_QUERY = "How many meters is the marathon race?"
 RACE_SUPPORT = "The marathon race is 42195 meters."
