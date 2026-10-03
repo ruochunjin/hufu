@@ -24,12 +24,17 @@ def reference_consistent_detection(
     hv_strategy: Literal["typed", "domain", "denial"] = "typed",
     hc_backend=None,
     role_scorer=None,
+    query_local=None,
+    data_local=None,
 ) -> tuple[bool, float, str]:
     """Return ``(has_contradiction, distance, evidence)`` for one text pair.
 
     The contract matches ``consistent_detection`` except that the embedding
     distance is also returned (the standard path recomputes it in the API
     layer; here one computation serves both the gate and the verdict).
+    ``query_local`` / ``data_local`` optionally supply pre-built production
+    hypergraphs (e.g. from the benchmark pickle cache) so long documents do
+    not have to be re-parsed on every evaluation run.
     """
 
     from hufu.backends import EmbeddingRoleCellScorer, SentenceTransformerBackend
@@ -51,8 +56,8 @@ def reference_consistent_detection(
             f"[CONSISTENT] Distance={distance:.4f} ≤ threshold={distance_threshold}",
         )
 
-    query_local = text_to_hypergraph(query_text, is_query=True)
-    data_local = text_to_hypergraph(data_text)
+    query_local = query_local if query_local is not None else text_to_hypergraph(query_text, is_query=True)
+    data_local = data_local if data_local is not None else text_to_hypergraph(data_text)
     query_core = bridge_hypergraph(query_local, side="query").hypergraph
     data_core = bridge_hypergraph(data_local, side="data").hypergraph
 
