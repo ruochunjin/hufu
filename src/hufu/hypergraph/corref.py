@@ -48,6 +48,10 @@ class CorrefCluster:
         """Convert fastcoref character ranges into spaCy token-span clusters."""
 
         clusters: list['CorrefCluster'] = []
+        # Both extensions only exist when the fastcoref pipe ran; plain spaCy
+        # docs (the supported no-coref fallback) have neither registered.
+        if not hasattr(doc._, "resolved_text") or not hasattr(doc._, "coref_clusters"):
+            return clusters
         resolved_text = doc._.resolved_text
         coref_clusters = doc._.coref_clusters
         if not coref_clusters or len(coref_clusters) == 0 or not resolved_text:

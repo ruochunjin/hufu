@@ -101,7 +101,7 @@ def doc_to_hypergraph(doc: Doc, text: str, is_query: bool = False) -> LocalHyper
     """Convert a parsed document into the production linguistic hypergraph."""
 
     correfs = calc_correfs_str(doc) if hasattr(doc._, "coref_clusters") else set()
-    abstractor = TokenEntityAdder("qwen_ontology_mapping.json")
+    abstractor = TokenEntityAdder()
     t1 = time()
     # Retokenization must precede dependency conversion so every selected span
     # becomes exactly one node in the downstream graph representation.

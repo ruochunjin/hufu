@@ -1,12 +1,55 @@
 """Map spaCy spans and tokens onto the project's coarse entity ontology."""
 
 import json
+import os
+from functools import lru_cache
+from importlib.resources import files as resource_files
 
-from nltk.corpus import wordnet as wn
 from spacy.tokens import Span, Token
 
+from hufu.core.log import getLogger
 from hufu.hypergraph.entity import ENT
 from hufu.hypergraph.linguistic import Entity
+
+logger = getLogger(__name__)
+
+
+@lru_cache(maxsize=1)
+def _wordnet():
+    """Import WordNet lazily so minimal installs stay nltk-free.
+
+    Returns ``None`` when nltk (or its wordnet corpus) is unavailable; callers
+    then simply skip the hypernym fallback and rely on NER labels only.
+    """
+
+    try:
+        from nltk.corpus import wordnet as wn
+    except ImportError:
+        logger.warning("nltk not installed; WordNet entity abstraction disabled")
+        return None
+    try:
+        wn.ensure_loaded()
+    except LookupError:
+        logger.warning(
+            "nltk wordnet corpus missing; run `python -m nltk.downloader wordnet`. "
+            "WordNet entity abstraction disabled"
+        )
+        return None
+    return wn
+
+
+def default_mapping_path() -> str:
+    """Resolve the synset-to-ENT mapping path.
+
+    ``HUFU_ONTOLOGY_MAPPING`` wins; otherwise the bundled seed mapping is
+    used.  The upstream LLM-generated ``qwen_ontology_mapping.json`` is not
+    redistributable, so the seed (top-level WordNet synsets) ships instead.
+    """
+
+    override = os.environ.get("HUFU_ONTOLOGY_MAPPING")
+    if override:
+        return override
+    return str(resource_files("hufu.hypergraph").joinpath("ontology_mapping_seed.json"))
 
 
 def _cosine_lesk(context: str, word: str, *, pos):
@@ -25,12 +68,25 @@ def _cosine_lesk(context: str, word: str, *, pos):
 class TokenEntityAdder:
     """Assign coarse entity types using NER labels and WordNet hypernyms."""
 
-    def __init__(self, path: str):
+    def __init__(self, path: str | None = None):
         self.char_index_to_entity: dict[int, ENT] = {}
         self.mapping = {}
-        with open(path, "r", encoding="utf-8") as f:
-            self.mapping = json.load(f)
+        resolved = path or default_mapping_path()
+        try:
+            with open(resolved, "r", encoding="utf-8") as f:
+                self.mapping = {
+                    key: value
+                    for key, value in json.load(f).items()
+                    if not key.startswith("_")
+                }
+        except FileNotFoundError:
+            logger.warning(
+                f"ontology mapping {resolved!r} not found; WordNet typing disabled"
+            )
     def _spacy_to_wn_pos(self, spacy_pos):
+        wn = _wordnet()
+        if wn is None:
+            return None
         if spacy_pos in ['NOUN', 'PROPN']: return wn.NOUN
         if spacy_pos == 'VERB': return wn.VERB
         if spacy_pos == 'ADJ': return wn.ADJ
@@ -45,7 +101,8 @@ class TokenEntityAdder:
         except Exception:
             synset = None
         if not synset:
-            synsets = wn.synsets(span.text.lower().strip(), pos=wn_pos)
+            wn = _wordnet()
+            synsets = wn.synsets(span.text.lower().strip(), pos=wn_pos) if wn else []
             if synsets:
                 synset = synsets[0]
         if not synset:
@@ -63,7 +120,8 @@ class TokenEntityAdder:
         except Exception:
             synset = None
         if not synset:
-            synsets = wn.synsets(token.lemma_, pos=wn_pos)
+            wn = _wordnet()
+            synsets = wn.synsets(token.lemma_, pos=wn_pos) if wn else []
             if synsets:
                 synset = synsets[0]
         if not synset:

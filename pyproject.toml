@@ -31,6 +31,7 @@ models = [
     "tqdm>=4.60",
     "sentence-transformers>=2.7",
     "fastcoref>=2.1.6",
+    "nltk>=3.8",
 ]
 # LLM-assisted rule discovery and graph enrichment (optional features).
 llm = ["openai>=1.30"]

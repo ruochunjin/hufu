@@ -32,3 +32,10 @@ output/
 Thumbs.db
 .idea/
 .vscode/
+
+# Local e2e environment (machine-specific)
+.venv-e2e/
+.e2e-setup.log
+
+# Runtime logs
+logs/

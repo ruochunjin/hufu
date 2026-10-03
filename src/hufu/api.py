@@ -49,15 +49,36 @@ def check_pair(
     *,
     distance_threshold: float = 0.25,
     use_gpu: bool = False,
+    engine: str = "standard",
 ) -> ConsistencyVerdict:
     """Check whether one retrieved document is consistent with the query.
 
     High cosine similarity does not imply semantic consistency: this runs the
     hyper-simulation structural check and returns an explainable verdict.
 
-    Requires the ``models`` extra (spaCy ``en_core_web_trf``, fastcoref,
-    sentence-transformers) and the ``simulation-alg`` Rust extension.
+    ``engine='standard'`` requires the ``models`` extra (spaCy
+    ``en_core_web_trf``, fastcoref, sentence-transformers) and the
+    ``simulation-alg`` Rust extension.  ``engine='reference'`` runs the
+    pure-Python reference core over bridged hypergraphs — no Rust toolchain
+    needed — and is validated against the standard path by the L3 dual-track
+    tests.
     """
+
+    if engine == "reference":
+        from hufu.engine.reference_check import reference_consistent_detection
+
+        has_contradiction, distance, evidence = reference_consistent_detection(
+            query_text, document_text, distance_threshold=distance_threshold
+        )
+        return ConsistencyVerdict(
+            query=query_text,
+            document=document_text,
+            consistent=not has_contradiction,
+            distance=distance,
+            evidence=evidence,
+        )
+    if engine != "standard":
+        raise ValueError(f"unknown engine {engine!r}; expected 'standard' or 'reference'")
 
     from hufu.engine.build_hypergraph import get_nlp, text_to_hypergraph
     from hufu.engine.embedding import cosine_similarity, get_embedding_batch
@@ -102,6 +123,7 @@ def check_retrieval(
     *,
     distance_threshold: float = 0.25,
     use_gpu: bool = False,
+    engine: str = "standard",
 ) -> list[ConsistencyVerdict]:
     """Check every retrieved document against the query, in input order.
 
@@ -118,6 +140,7 @@ def check_retrieval(
                 document,
                 distance_threshold=distance_threshold,
                 use_gpu=use_gpu,
+                engine=engine,
             )
         )
     return verdicts
