@@ -43,7 +43,7 @@ def reference_consistent_detection(
     ContraDoc harness hit exactly this).
     """
 
-    from hufu.backends import EmbeddingRoleCellScorer, SentenceTransformerBackend
+    from hufu.backends import SentenceTransformerBackend
 
     from .bridge import bridge_allowed_pairs, bridge_hypergraph
     from .build_hypergraph import text_to_hypergraph
@@ -82,12 +82,22 @@ def reference_consistent_detection(
     hv_pairs = bridge_allowed_pairs(query_local, data_local, strategy=hv_strategy)
     logger.info(f"h_v allowed pairs ({hv_strategy}): {len(hv_pairs)}")
 
+    backend = hc_backend or SentenceTransformerBackend()
+    if role_scorer is None:
+        from hufu.backends import EmbeddingRoleCellScorer
+
+        # Default stays with the bare-target baseline: on the golden suites it
+        # outperforms the production two-view scorer (whose masked structural
+        # view is *too* strict for title-laden queries — see working record
+        # F9/scorer-calibration).  Pass role_scorer=EmbeddingRoleScorer(backend)
+        # to opt into the two-view variant.
+        role_scorer = EmbeddingRoleCellScorer(backend)
     output = run_hypermatch(
         query_core,
         data_core,
         hv_allowed_pairs=hv_pairs,
-        hc_backend=hc_backend or SentenceTransformerBackend(),
-        role_scorer=role_scorer or EmbeddingRoleCellScorer(),
+        hc_backend=backend,
+        role_scorer=role_scorer,
     )
     consistency = output.query_consistency
     if consistency.consistent:
