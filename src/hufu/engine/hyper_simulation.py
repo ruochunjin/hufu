@@ -2586,6 +2586,11 @@ def load_hypergraphs_for_instance(
 def is_critical_vertex(vertex: Vertex) -> bool:
     """Identify vertices required by the binary consistency check."""
 
+    # Query placeholders are the point of the question; an SCONJ '?Where'
+    # carries no entity/POS signal and would otherwise escape the critical
+    # set, letting place-free documents pass as consistent (L3 finding F5).
+    if vertex.is_query():
+        return True
     if any(e != Entity.NOT_ENTITY for e in vertex.ents):
         return True
     dep = vertex.dep()

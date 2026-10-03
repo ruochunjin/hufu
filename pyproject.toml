@@ -29,7 +29,11 @@ models = [
     "spacy>=3.7,<4",
     "numpy>=1.26,<3",
     "tqdm>=4.60",
-    "sentence-transformers>=2.7",
+    # fastcoref's LingMess is incompatible with transformers 5.x
+    # (SDPA default + tied-weights API), so stay on the 4.x line,
+    # which pins sentence-transformers to the 5.x series.
+    "sentence-transformers>=5.0,<6",
+    "transformers>=4.51,<5",
     "fastcoref>=2.1.6",
     "nltk>=3.8",
 ]
@@ -40,9 +44,9 @@ graph = ["langchain-core>=0.3", "networkx>=3.0", "pydantic>=2.0", "tenacity>=8.0
 dev = ["pytest>=8.0", "ruff>=0.6"]
 
 [project.urls]
-Homepage = "https://github.com/REPLACE-ORG/hufu"
-Documentation = "https://github.com/REPLACE-ORG/hufu#readme"
-Issues = "https://github.com/REPLACE-ORG/hufu/issues"
+Homepage = "https://github.com/ruochunjin/hufu"
+Documentation = "https://github.com/ruochunjin/hufu#readme"
+Issues = "https://github.com/ruochunjin/hufu/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/hufu"]

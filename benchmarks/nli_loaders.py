@@ -96,6 +96,7 @@ def load_contradoc(path: Path | None = None) -> Iterator[NLIExample]:
 _HF_DATASETS: dict[str, dict] = {
     "contract_nli": {
         "hf_id": "kiddothe2b/contract-nli",
+        "config": "contractnli_a",
         "premise_key": "premise",
         "hypothesis_key": "hypothesis",
         "label_key": "label",
@@ -119,6 +120,61 @@ _HF_DATASETS: dict[str, dict] = {
 }
 
 
+def _load_rows(hf_id: str, config: str | None, split: str):
+    """Load a dataset split, falling back to the parquet API for script datasets.
+
+    ``kiddothe2b/contract-nli`` still ships a legacy loader script, which
+    ``datasets>=3`` rejects; every such dataset also has an automatic parquet
+    conversion served from the hub API.  URLs are rewritten onto
+    ``HF_ENDPOINT`` so mirrors keep working.
+    """
+
+    from datasets import load_dataset
+
+    try:
+        return load_dataset(hf_id, config, split=split) if config else load_dataset(hf_id, split=split)
+    except RuntimeError as exc:
+        if "Dataset scripts are no longer supported" not in str(exc):
+            raise
+    import json
+    import urllib.request
+
+    endpoint = os.environ.get("HF_ENDPOINT", "https://huggingface.co").rstrip("/")
+    api_url = f"{endpoint}/api/datasets/{hf_id}/parquet"
+    request = urllib.request.Request(
+        api_url, headers={"User-Agent": "hufu-benchmarks/0.4 (datasets)"}
+    )
+    with urllib.request.urlopen(request) as response:  # noqa: S310 - hub API
+        catalog = json.load(response)
+    configs = catalog if config is None else {config: catalog[config]}
+    urls = []
+    for config_name, splits in configs.items():
+        if split in splits:
+            urls.extend(splits[split])
+    if not urls:
+        raise ValueError(f"no parquet files for {hf_id} config={config} split={split}")
+    urls = [
+        url.replace("https://huggingface.co", endpoint, 1) if url.startswith("https://huggingface.co") else url
+        for url in urls
+    ]
+    # The parquet-API URLs redirect to the real files; the ``datasets`` hub
+    # filesystem cannot resolve them through mirrors, so download to a local
+    # cache (which also makes reruns fully offline).
+    cache_dir = DATA_DIR / "cache" / hf_id.replace("/", "--") / (config or "default") / split
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    local_files = []
+    for url in urls:
+        target = cache_dir / url.rsplit("/", 1)[-1]
+        if not target.exists():
+            request = urllib.request.Request(
+                url, headers={"User-Agent": "hufu-benchmarks/0.4 (datasets)"}
+            )
+            with urllib.request.urlopen(request) as response, open(target, "wb") as out:  # noqa: S310
+                out.write(response.read())
+        local_files.append(str(target))
+    return load_dataset("parquet", data_files={split: local_files}, split=split)
+
+
 def load_hf_nli(
     name: str,
     *,
@@ -133,10 +189,8 @@ def load_hf_nli(
 
     if name not in _HF_DATASETS:
         raise ValueError(f"unknown dataset {name!r}; expected one of {sorted(_HF_DATASETS)}")
-    from datasets import load_dataset
-
     spec = _HF_DATASETS[name]
-    rows = load_dataset(spec["hf_id"], split=split)
+    rows = _load_rows(spec["hf_id"], spec.get("config"), split)
     label_map = spec["label_map"]
     for index, row in enumerate(rows):
         if limit is not None and index >= limit:

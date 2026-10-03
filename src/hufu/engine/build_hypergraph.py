@@ -59,7 +59,9 @@ def get_nlp(use_gpu: bool = False) -> spacy.Language:
             spacy.require_gpu()
         _NLP = spacy.load(os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf"))
         try:
-            import fastcoref  # noqa: F401 - registers the spaCy factory.
+            from fastcoref import (
+                spacy_component,  # noqa: F401 - registers the spaCy factory.
+            )
         except ImportError:
             fastcoref_available = False
         else:
@@ -67,7 +69,23 @@ def get_nlp(use_gpu: bool = False) -> spacy.Language:
         if fastcoref_available and 'fastcoref' not in _NLP.pipe_names:
             model_path = os.environ.get("HUFU_COREF_MODEL", "biu-nlp/lingmess-coref")
             device = 'cuda' if use_gpu else 'cpu'
-            _NLP.add_pipe('fastcoref', config={ 'model_architecture': 'LingMessCoref', 'model_path': model_path, 'device': device})
+            # LingMess is Longformer-based; transformers (4.36+ and 5.x alike)
+            # defaults to SDPA attention, which Longformer does not implement.
+            # Force eager attention for the duration of model construction.
+            from transformers import AutoConfig
+
+            original_from_pretrained = AutoConfig.from_pretrained
+
+            def _eager_from_pretrained(*args, **kwargs):
+                config = original_from_pretrained(*args, **kwargs)
+                config._attn_implementation = "eager"
+                return config
+
+            AutoConfig.from_pretrained = _eager_from_pretrained
+            try:
+                _NLP.add_pipe('fastcoref', config={ 'model_architecture': 'LingMessCoref', 'model_path': model_path, 'device': device})
+            finally:
+                AutoConfig.from_pretrained = original_from_pretrained
     _NLP.tokenizer.add_special_case("I.", [{ORTH: "I"}, {ORTH: "."}])
     ROMAN_NUMERALS = ["II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII"]
     for numeral in ROMAN_NUMERALS:
