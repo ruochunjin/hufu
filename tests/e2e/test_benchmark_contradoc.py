@@ -69,8 +69,11 @@ class ContraDocSmokeTests(unittest.TestCase):
         flagged = 0
         verdicts = []
         for ref, evidence in pairs:
+            # ContraDoc refs/evidence are declarative claims: build without
+            # query placeholders (F8) and engage the NLI polarity gate, which
+            # is what catches "mourn" vs "celebrate" style conflicts.
             has_contradiction, distance, evidence_text = reference_consistent_detection(
-                ref, evidence, distance_threshold=-1.0
+                ref, evidence, distance_threshold=-1.0, query_is_question=False
             )
             verdicts.append((ref, evidence, has_contradiction, evidence_text))
             flagged += int(has_contradiction)

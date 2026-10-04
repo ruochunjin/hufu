@@ -14,6 +14,7 @@ the dependency labels of the participant nodes — no invented vocabulary.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from typing import Literal
 
@@ -24,6 +25,19 @@ from hufu.hypergraph.hypergraph import Vertex as LocalVertex
 from .contracts import Hyperedge, Hypergraph, Role, Vertex
 
 logger = getLogger(__name__)
+
+# Leading digit run ("8 planets", "1,000,000 residents", "42.") — merged
+# quantity phrases lose their NUM token in retokenization, so the digit test
+# on the surface text reproduces the production ``pos_range(Pos.NUM)`` rule.
+_NUMBER_PREFIX = re.compile(r"^\d[\d,.\s]*")
+
+
+def _contains_number(vertex: LocalVertex) -> bool:
+    """Whether the vertex carries a quantity (NUM node or digit-led text)."""
+
+    return any(p.name == "NUM" for p in vertex.poses) or bool(
+        _NUMBER_PREFIX.match(vertex.text())
+    )
 
 Side = Literal["query", "data"]
 
@@ -39,6 +53,14 @@ def local_vertex_kind(vertex: LocalVertex, *, is_edge_root: bool = False) -> str
     Priority follows the author's method-family rule.  ``is_edge_root`` forces
     ``predicate`` because contracts require every hyperedge predicate to be a
     predicate-kind vertex even when the root is nominal (copular clauses).
+    Quantity-bearing vertices ("8 planets", "1200 employees") are ``value``:
+    the production denial rule accepts them via ``pos_range(NUM)`` regardless
+    of the head noun's entity type (golden100 C-family); retokenization merges
+    drop the NUM token, so the signal is digit-prefix on the surface text.
+
+    Note: a synthetic-predicate alternative (keeping nominal roots matchable)
+    was A/B-tested on golden100 and regressed the number family — the forced
+    predicate root is the pinned behavior (2026-10-04).
     """
 
     if is_edge_root:
@@ -57,13 +79,25 @@ def local_vertex_kind(vertex: LocalVertex, *, is_edge_root: bool = False) -> str
             return "value"
         if ent_type.name in _EVENT_TYPES:
             return "event"
+    if _contains_number(vertex):
+        return "value"
     return "entity"
 
 
 def local_semantic_type(vertex: LocalVertex) -> str:
-    """Coarse type string used by feature_type / type_compatible."""
+    """Coarse type string used by feature_type / type_compatible.
+
+    A quantity-bearing vertex ("8 planets") reports NUMBER even when its head
+    noun carries an entity type, mirroring the production ``pos_range(NUM)``
+    acceptance in the denial rule.  TEMPORAL/NUMBER entity types win over the
+    digit heuristic so dates never become quantities.
+    """
 
     ent_type = vertex.type()
+    if ent_type is not None and ent_type.name in _VALUE_TYPES:
+        return ent_type.name
+    if _contains_number(vertex):
+        return "NUMBER"
     if ent_type is not None:
         return ent_type.name
     if vertex.poses:
@@ -155,6 +189,58 @@ def bridge_hypergraph(local: LocalHypergraph, *, side: Side) -> BridgeResult:
     )
 
 
+def bridge_type_compatible(qv: Vertex, dv: Vertex) -> bool:
+    """Type-compatibility gate mirroring the production denial query branch.
+
+    ``default_type_compatible`` requires feature_type equality or a shared
+    TYPE_GROUPS family, which leaves several QueryType values unreachable:
+    ``WHAT``/``WHICH`` have no data-side feature_type at all, so a typed hv
+    built on the default gate can never match them (golden100 E-family).
+    The production ``denial_comment`` query branch defines the intended
+    acceptance sets; this gate encodes them in contracts space:
+
+    - PERSON → AGENT family, or untyped nouns (NER misses like "José
+      Saramago" fall back to PROPN; the production rule then asks NLI, which
+      is lenient — approximate that with acceptance)
+    - BELONGS → AGENT/ORGANIZATION/LOCATION families
+    - WHAT / WHICH / REASON / untyped placeholder → any matchable data vertex
+    - ATTRIBUTE → adjective/adverb kinds
+
+    Non-query pairs fall back to ``default_type_compatible``.
+    """
+
+    from .d_match import default_type_compatible
+    from .scoring import TYPE_GROUPS
+
+    family = TYPE_GROUPS.get(dv.feature_type, dv.feature_type)
+    if qv.kind != "query":
+        return default_type_compatible(qv, dv)
+    expected = (qv.expected_type or "").upper() or qv.feature_type
+    if expected in {"", "UNKNOWN", "WHAT", "WHICH", "REASON"}:
+        return dv.matchable
+    if expected == "LOCATION":
+        # Production ent_range groups GPE/LOC/FAC/ORG/NORP together for
+        # locations — ORG covers NER-mistyped places ("Kyōto" → ORG).
+        return family in {"LOCATION", "ORGANIZATION"} or dv.feature_type in {"COUNTRY", "NORP"}
+    if expected == "TIME":
+        return family == "TEMPORAL"
+    if expected == "NUMBER":
+        return family == "QUANTITY" or dv.feature_type == "NUMBER"
+    if expected == "PERSON":
+        # "Who" is legitimately answered by organizations ("The startup
+        # hired..."); untyped nouns/proper nouns stand in for the production
+        # NLI fallback when NER misses ("José Saramago").
+        return (
+            family in {"AGENT", "ORGANIZATION"}
+            or dv.feature_type in {"PROPN", "NOUN", "CONCEPT", "UNKNOWN"}
+        )
+    if expected == "BELONGS":
+        return family in {"AGENT", "ORGANIZATION", "LOCATION"}
+    if expected == "ATTRIBUTE":
+        return dv.kind in {"adjective", "adverb"}
+    return default_type_compatible(qv, dv)
+
+
 def whole_query_clusters(query_core: Hypergraph) -> tuple:
     """One cluster per connected edge component of each query context.
 
@@ -221,7 +307,6 @@ def bridge_allowed_pairs(
             for d_id, d_vertex in data_vertices.items()
             if q_vertex.is_domain(d_vertex) or q_vertex.ent_same(d_vertex)
         }
-    from .d_match import default_type_compatible
 
     query_core = bridge_hypergraph(query, side="query").hypergraph
     data_core = bridge_hypergraph(data, side="data").hypergraph
@@ -230,5 +315,5 @@ def bridge_allowed_pairs(
         for qv in query_core.vertices
         if qv.matchable
         for dv in data_core.vertices
-        if dv.matchable and default_type_compatible(qv, dv)
+        if dv.matchable and bridge_type_compatible(qv, dv)
     }

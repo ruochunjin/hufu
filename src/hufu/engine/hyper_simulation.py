@@ -54,6 +54,7 @@ from .contracts import (
     Vertex as CoreVertex,
 )
 from .d_match import RoleCellScorer, compute_dmatch, default_type_compatible
+from .fixed_point import FixedPointMode
 from .fixed_point import compute_hyper_simulation as compute_fixed_point
 from .registration import HCRegistrationDecision, decide_hc_registration
 from .scoring import (
@@ -99,12 +100,20 @@ def run_hypermatch(
     config: FancyHyperMatchConfig = FANCY_CONFIG,
     query_clusters: Sequence[Cluster] | None = None,
     type_compatible: Callable[[CoreVertex, CoreVertex], bool] = default_type_compatible,
+    fixed_point_mode: "FixedPointMode | None" = None,
 ) -> HyperMatchOutput:
     """Execute the compact HyperMatch reference pipeline.
 
     The function is intentionally deterministic.  Model backends may batch on
     GPU internally, but their outputs are converted into immutable decisions
     before the monotone fixed-point calculation begins.
+
+    ``fixed_point_mode`` selects the quantification over HCs anchored on a
+    pair: ``ALL_HC`` (default, every anchored HC must endorse the pair) or
+    ``WITNESS_OR`` (existential: some closed witness per query cluster
+    suffices).  The existential reading matches the production solver's
+    behaviour on highly-similar graphs where rival alignments otherwise
+    annihilate correct pairs (golden100 finding F9).
     """
 
     allowed = _validate_hv(
@@ -241,7 +250,18 @@ def run_hypermatch(
         )
 
     dependencies = registry.dependencies
-    fixed_point = compute_fixed_point(allowed, dependencies)
+    if fixed_point_mode is None or fixed_point_mode == FixedPointMode.ALL_HC:
+        fixed_point = compute_fixed_point(allowed, dependencies)
+        marking_fixed_point = fixed_point
+    else:
+        fixed_point = compute_fixed_point(allowed, dependencies, mode=fixed_point_mode)
+        # Conflict attribution in document marking is defined over all-HC
+        # removal records; compute it alongside the requested mode.  The
+        # second pass is pure Python over the same frozen candidate set and
+        # costs milliseconds.
+        marking_fixed_point = compute_fixed_point(
+            allowed, dependencies, mode=FixedPointMode.ALL_HC
+        )
     witnesses = _surviving_witnesses(
         data,
         dependencies,
@@ -269,7 +289,7 @@ def run_hypermatch(
     document_marks = mark_documents(
         data.context_ids,
         context_vertex_ids=context_vertices,
-        fixed_point=fixed_point,
+        fixed_point=marking_fixed_point,
         complete_cores=complete_cores,
         dependencies=dependencies,
     )

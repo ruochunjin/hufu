@@ -37,7 +37,7 @@ CASES = [
 def _filtered(pairs, query_core, data_core) -> set[tuple[str, str]]:
     """Apply the reference core's own h_v validation gates."""
 
-    from hufu.engine.d_match import default_type_compatible
+    from hufu.engine.bridge import bridge_type_compatible
 
     result = set()
     for q_id, d_id in pairs:
@@ -45,7 +45,7 @@ def _filtered(pairs, query_core, data_core) -> set[tuple[str, str]]:
         d_vertex = data_core.vertex(d_id)
         if not q_vertex.matchable or not d_vertex.matchable:
             continue
-        if default_type_compatible(q_vertex, d_vertex):
+        if bridge_type_compatible(q_vertex, d_vertex):
             result.add((q_id, d_id))
     return result
 
