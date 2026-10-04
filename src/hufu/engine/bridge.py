@@ -246,17 +246,23 @@ def bridge_type_compatible(qv: Vertex, dv: Vertex) -> bool:
     if qv.kind != "query":
         if default_type_compatible(qv, dv):
             return True
+        # Exact surface identity is the strongest anchor: NER can type the
+        # same mention differently across sides ("Emma" as PERSON in the
+        # query but WORK_OF_ART in the document) and must not break the pair
+        # (golden100 D01).
+        q_text, d_text = qv.text.strip().casefold(), dv.text.strip().casefold()
+        if not q_text or not d_text:
+            return False
+        if q_text == d_text:
+            return True
         # Lexical containment: retokenization merges noun compounds into one
         # vertex ("striker score"), hiding the head noun from typed matching.
         # A word-boundary containment pair approximates the production NLI
         # fallback, which accepts such fragment pairs as entailments
         # (golden100 C12/J03).
-        q_text, d_text = qv.text.strip().casefold(), dv.text.strip().casefold()
-        if not q_text or not d_text or q_text == d_text:
-            return False
-        shorter, longer = (qv.text, dv.text) if len(q_text) <= len(d_text) else (dv.text, qv.text)
-        pattern = r"\b" + re.escape(shorter.strip().casefold()) + r"\b"
-        return bool(re.search(pattern, longer.strip().casefold()))
+        shorter, longer = (q_text, d_text) if len(q_text) <= len(d_text) else (d_text, q_text)
+        pattern = r"\b" + re.escape(shorter) + r"\b"
+        return bool(re.search(pattern, longer))
     expected = (qv.expected_type or "").upper() or qv.feature_type
     if expected in {"", "UNKNOWN", "WHAT", "WHICH", "REASON"}:
         return dv.matchable
@@ -270,12 +276,10 @@ def bridge_type_compatible(qv: Vertex, dv: Vertex) -> bool:
         return family == "QUANTITY" or dv.feature_type == "NUMBER"
     if expected == "PERSON":
         # "Who" is legitimately answered by organizations ("The startup
-        # hired..."); untyped nouns/proper nouns stand in for the production
-        # NLI fallback when NER misses ("José Saramago").
-        return (
-            family in {"AGENT", "ORGANIZATION"}
-            or dv.feature_type in {"PROPN", "NOUN", "CONCEPT", "UNKNOWN"}
-        )
+        # hired..."); PROPN stands in for the production NLI fallback when
+        # NER misses a name ("José Saramago").  Abstract/common nouns are
+        # NOT persons ("medicine" must not answer ?Who — golden100 D04).
+        return family in {"AGENT", "ORGANIZATION"} or dv.feature_type == "PROPN"
     if expected == "BELONGS":
         return family in {"AGENT", "ORGANIZATION", "LOCATION"}
     if expected == "ATTRIBUTE":

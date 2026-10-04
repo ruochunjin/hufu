@@ -485,6 +485,24 @@ class Dependency:
                         node.is_query = True
                         node.query_type = QueryType.ATTRIBUTE
                         node.query_attribute = how_tail or None
+                    elif not how_tail and node.head and node.head.text.lower() in how_quantifiers:
+                        # Split "how much/many" (trf keeps the two tokens
+                        # separate and the merge step may not fire): the bare
+                        # 'how' modifies a quantifier head, which becomes the
+                        # NUMBER placeholder (golden100 C09/C10).
+                        node.head.is_query = True
+                        node.head.query_type = QueryType.NUMBER
+                # Merged wh-spans ("What language", "Which planet") escape
+                # both the det-marking in solve_conjunctions and the PRON
+                # branch below: mark by surface prefix (relative pronouns
+                # excluded via their antecedent link, mirroring F8).
+                if not node.is_query and node.pronoun_antecedent is None:
+                    lowered = node.text.lower()
+                    for wh_word, wh_type in (("what", QueryType.WHAT), ("which", QueryType.WHICH)):
+                        if lowered == wh_word or lowered.startswith(wh_word + " "):
+                            node.is_query = True
+                            node.query_type = wh_type
+                            break
             def is_relative_pronoun(node: Node) -> bool:
                 return node.pronoun_antecedent is not None
             if self.is_query and node.pos == Pos.PRON and (not is_relative_pronoun(node)):

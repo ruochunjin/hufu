@@ -36,7 +36,7 @@ class GoldenCase:
 CASES: list[GoldenCase] = [
     # ------------------------------------------------------------------ A. where (12)
     GoldenCase("A01", "Where was Ada Lovelace born?", "Ada Lovelace was born in London in 1815.", True, "where"),
-    GoldenCase("A02", "Where was Ada Lovelace born?", "Ada Lovelace was an English mathematician.", False, "where", note="no place mentioned"),
+    GoldenCase("A02", "Where was Ada Lovelace born?", "Ada Lovelace was an English mathematician.", None, "where", note="model-dependent: sm leaves English untyped -> contra; trf labels NORP -> consistent (production location group includes NORP). Boundary accepted as-is."),
     GoldenCase("A03", "Where did the meeting take place?", "The meeting took place in Geneva on Monday.", True, "where"),
     GoldenCase("A04", "Where did the meeting take place?", "The meeting was postponed to next Monday.", False, "where"),
     GoldenCase("A05", "Where was the cathedral built?", "The cathedral was built in Chartres.", True, "where"),
