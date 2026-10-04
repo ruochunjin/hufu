@@ -63,6 +63,22 @@ def get_nli_labels_with_score_batch(pairs: list[tuple[str, str]]) -> list[tuple[
     ]
 
 
+def get_nli_contradiction_probs_batch(pairs: list[tuple[str, str]]) -> list[float]:
+    """Softmax probability of the contradiction class for ordered pairs.
+
+    Document-level self-contradiction detection thresholds this probability:
+    the raw label alone fires on narrative tension in clean documents.
+    """
+
+    import numpy as np
+
+    model = _get_nli_model()
+    scores = model.predict(pairs, batch_size=BATCH_SIZE)
+    exp = np.exp(scores - scores.max(axis=1, keepdims=True))
+    probs = exp / exp.sum(axis=1, keepdims=True)
+    return [float(prob[0]) for prob in probs]
+
+
 def get_nli_label(text1: str, text2: str) -> str:
     """Predict one ordered text pair's NLI label."""
 

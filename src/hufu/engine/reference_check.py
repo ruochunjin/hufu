@@ -14,6 +14,7 @@ otherwise inflate the required set (golden100 calibration, 2026-10-04).
 
 from __future__ import annotations
 
+import re
 from typing import Literal
 
 from hufu.core.log import getLogger
@@ -21,6 +22,84 @@ from hufu.core.log import getLogger
 logger = getLogger(__name__)
 
 _CRITICAL_DEPS = {"nsubj", "nsubjpass", "dobj", "iobj", "pobj"}
+
+# (value, unit) extraction for the declarative numeric rule: first number in
+# the text plus the 1-2 word token(s) right after it.
+_NUM_UNIT = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*([A-Za-zÀ-ÿ]+)?")
+# SI-style unit families with conversion factors to the base unit.
+_UNIT_TABLE = {
+    "kilometers": ("m", 1000.0), "kilometer": ("m", 1000.0), "km": ("m", 1000.0),
+    "meters": ("m", 1.0), "meter": ("m", 1.0), "m": ("m", 1.0),
+    "centimeters": ("m", 0.01), "centimeter": ("m", 0.01), "cm": ("m", 0.01),
+    "millimeters": ("m", 0.001), "millimeter": ("m", 0.001), "mm": ("m", 0.001),
+    "kilograms": ("g", 1000.0), "kilogram": ("g", 1000.0), "kg": ("g", 1000.0),
+    "grams": ("g", 1.0), "gram": ("g", 1.0), "g": ("g", 1.0),
+    "milligrams": ("g", 0.001), "milligram": ("g", 0.001), "mg": ("g", 0.001),
+    "hours": ("s", 3600.0), "hour": ("s", 3600.0), "h": ("s", 3600.0),
+    "minutes": ("s", 60.0), "minute": ("s", 60.0), "min": ("s", 60.0),
+    "seconds": ("s", 1.0), "second": ("s", 1.0), "s": ("s", 1.0),
+}
+
+
+def _first_number_unit(text: str) -> tuple[float, str | None] | None:
+    """Extract the first (value, unit) pair from a claim text."""
+
+    match = _NUM_UNIT.search(text)
+    if not match:
+        return None
+    value = float(match.group(1).replace(",", ""))
+    unit = match.group(2).lower() if match.group(2) else None
+    return value, unit
+
+
+def numeric_conflict(query_text: str, data_text: str) -> bool:
+    """Rule-skeleton numeric check for declarative pairs.
+
+    Weak NLI models miss magnitude conflicts (42.195 vs 42195 km) and flag
+    unit-converted truths (42.195 km == 42195 m).  When both claims state a
+    number with units in the same dimension, compare after conversion with a
+    small tolerance; different values mean a genuine numeric conflict.
+    Returns False when either side lacks a comparable number+unit (the NLI
+    verdict then stands alone).
+    """
+
+    left = _first_number_unit(query_text)
+    right = _first_number_unit(data_text)
+    if left is None or right is None:
+        return False
+    (lv, lu), (rv, ru) = left, right
+    if not lu or not ru:
+        return False
+    left_dim = _UNIT_TABLE.get(lu)
+    right_dim = _UNIT_TABLE.get(ru)
+    if left_dim is None or right_dim is None or left_dim[0] != right_dim[0]:
+        return False
+    lv_base = lv * left_dim[1]
+    rv_base = rv * right_dim[1]
+    magnitude = max(abs(lv_base), abs(rv_base), 1e-9)
+    return abs(lv_base - rv_base) / magnitude > 1e-3
+
+
+def _numeric_equal(query_text: str, data_text: str) -> bool:
+    """True when both claims carry same-dimension numbers that agree after
+    unit conversion (e.g. 42.195 km == 42195 m) — NLI's contradiction label
+    on such pairs is a false positive the rule overrides (golden250 M46)."""
+
+    left = _first_number_unit(query_text)
+    right = _first_number_unit(data_text)
+    if left is None or right is None:
+        return False
+    (lv, lu), (rv, ru) = left, right
+    if not lu or not ru:
+        return False
+    left_dim = _UNIT_TABLE.get(lu)
+    right_dim = _UNIT_TABLE.get(ru)
+    if left_dim is None or right_dim is None or left_dim[0] != right_dim[0]:
+        return False
+    lv_base = lv * left_dim[1]
+    rv_base = rv * right_dim[1]
+    magnitude = max(abs(lv_base), abs(rv_base), 1e-9)
+    return abs(lv_base - rv_base) / magnitude <= 1e-3
 
 
 def is_critical_local_vertex(vertex) -> bool:
@@ -159,8 +238,23 @@ def reference_consistent_detection(
         if not query_is_question:
             # Declarative claims need a polarity channel: vertex coverage
             # cannot see negation/antonymy ("recognizes" vs "does not
-            # recognize").  Cross-encoder NLI over the two claim texts adds
-            # it; questions are OOD for the NLI model and skip this gate.
+            # recognize").  The numeric rule runs first: it catches
+            # magnitude conflicts weak NLI models miss and forgives
+            # unit-converted truths they flag.  NLI decides otherwise.
+            if numeric_conflict(query_text, data_text):
+                evidence = (
+                    f"[CONTRADICTION] Distance={distance:.4f} > threshold; "
+                    "numeric conflict between the claims (rule check)"
+                )
+                logger.info(evidence)
+                return True, distance, evidence
+            if _numeric_equal(query_text, data_text):
+                evidence = (
+                    f"[CONSISTENT] Distance={distance:.4f} > threshold; "
+                    "numbers agree after unit conversion (rule check)"
+                )
+                logger.info(evidence)
+                return False, distance, evidence
             from .nli import get_nli_label
 
             nli_label = get_nli_label(query_text, data_text)

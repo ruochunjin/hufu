@@ -30,14 +30,31 @@ logger = getLogger(__name__)
 # quantity phrases lose their NUM token in retokenization, so the digit test
 # on the surface text reproduces the production ``pos_range(Pos.NUM)`` rule.
 _NUMBER_PREFIX = re.compile(r"^\d[\d,.\s]*")
+# Number-as-word forms ("Twelve satellites", "nine symphonies"): spaCy tags
+# them NUM pre-merge, but the merged vertex keeps only the head's POS.  The
+# word list mirrors the digit test (golden250 P04/C03/L08 family).
+_NUMBER_WORDS = {
+    "two", "three", "four", "five", "six", "seven", "eight", "nine",
+    "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+    "seventeen", "eighteen", "nineteen", "twenty", "thirty", "forty", "fifty",
+    "sixty", "seventy", "eighty", "ninety", "hundred", "thousand", "million",
+    "billion", "dozen",
+}
+# 'one' is deliberately absent: as a leading word it is more often a pronoun
+# ("the one") than a cardinal, and false NUMBER-typing costs more than the
+# rare miss.
+_NUMBER_WORD_PREFIX = re.compile(
+    r"^(?:" + "|".join(sorted(_NUMBER_WORDS, key=len, reverse=True)) + r")\b", re.IGNORECASE
+)
 
 
 def _contains_number(vertex: LocalVertex) -> bool:
-    """Whether the vertex carries a quantity (NUM node or digit-led text)."""
+    """Whether the vertex carries a quantity (NUM node, digit- or word-led)."""
 
-    return any(p.name == "NUM" for p in vertex.poses) or bool(
-        _NUMBER_PREFIX.match(vertex.text())
-    )
+    if any(p.name == "NUM" for p in vertex.poses):
+        return True
+    text = vertex.text()
+    return bool(_NUMBER_PREFIX.match(text) or _NUMBER_WORD_PREFIX.match(text.strip()))
 
 Side = Literal["query", "data"]
 

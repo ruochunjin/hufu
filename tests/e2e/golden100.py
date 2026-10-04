@@ -61,7 +61,7 @@ CASES: list[GoldenCase] = [
     # ------------------------------------------------------------------ C. how many / number (12)
     GoldenCase("C01", "How many meters is the marathon race?", "The marathon race is 42195 meters.", True, "number"),
     GoldenCase("C02", "How many meters is the marathon race?", "The marathon race is very long.", False, "number"),
-    GoldenCase("C03", "How many planets are in the solar system?", "There are eight planets in the solar system.", None, "number", note="observation: number as word"),
+    GoldenCase("C03", "How many planets are in the solar system?", "There are eight planets in the solar system.", True, "number", note="fixed: word-number prefix typing"),
     GoldenCase("C04", "How many planets are in the solar system?", "The solar system contains 8 planets.", True, "number"),
     GoldenCase("C05", "How many employees does the company have?", "The company has 1200 employees.", True, "number"),
     GoldenCase("C06", "How many employees does the company have?", "The company is hiring aggressively.", False, "number"),
@@ -145,7 +145,7 @@ CASES: list[GoldenCase] = [
     GoldenCase("L05", "Who won the race?", "The race.", None, "edge", note="degenerate doc: no answer"),
     GoldenCase("L06", "When was the library built?", "The library was built in 1997 and renovated in 2015.", True, "edge", note="two years, first is the answer"),
     GoldenCase("L07", "Who painted the ceiling?", "The ceiling of the chapel was painted by Michelangelo.", True, "edge", note="fixed: data-side synthesis; passive by-phrase answer"),
-    GoldenCase("L08", "How many symphonies did Beethoven write?", "Beethoven wrote nine symphonies.", None, "edge", note="observation: number as word 'nine'"),
+    GoldenCase("L08", "How many symphonies did Beethoven write?", "Beethoven wrote nine symphonies.", True, "edge", note="fixed: word-number prefix typing"),
 ]
 
 assert len(CASES) == 100, f"corpus should hold exactly 100 cases, got {len(CASES)}"
