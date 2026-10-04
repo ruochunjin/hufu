@@ -23,6 +23,10 @@ if TYPE_CHECKING:  # pragma: no cover - typing only
 DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 _model_cache: dict[str, "SentenceTransformer"] = {}
+# Process-wide text->vector cache shared by ALL get_embedding_batch callers
+# (HC scoring, D-match cells, distance gates): the same role/cluster texts
+# recur across call sites within one pair and across pairs in a batch.
+_default_text_cache: dict = {}
 
 
 def _get_sentence_transformer() -> "SentenceTransformer":
@@ -58,7 +62,7 @@ def get_embedding_batch(
 
     model = _get_sentence_transformer()
     if cache is None:
-        cache = {}
+        cache = _default_text_cache
     disk_dir = os.environ.get("HUFU_EMBED_CACHE")
     model_name = os.environ.get("HUFU_EMBED_MODEL", DEFAULT_EMBED_MODEL)
     unique_texts = list(set(texts))

@@ -14,7 +14,10 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:  # pragma: no cover - typing only
     from sentence_transformers import CrossEncoder
 
-DEFAULT_NLI_MODEL = "cross-encoder/nli-deberta-v3-base"
+# 2026-10-04 A/B on the declarative polarity channel (golden100 I-family +
+# ContraDoc smoke): xsmall keeps identical verdicts at ~4x lower latency
+# (0.11s vs 0.40s per call on CPU).  HUFU_NLI_MODEL overrides.
+DEFAULT_NLI_MODEL = "cross-encoder/nli-deberta-v3-xsmall"
 BATCH_SIZE = 1024
 
 _LABELS = ["contradiction", "entailment", "neutral"]

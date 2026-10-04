@@ -98,11 +98,19 @@ def get_nlp(use_gpu: bool = False) -> spacy.Language:
         _NLP.tokenizer.add_special_case(f"{numeral}.", [{ORTH: numeral}, {ORTH: "."}])
     return _NLP
 def text_to_doc(text: str) -> Doc:
-    """Parse text with coreference resolution and fall back to plain spaCy."""
+    """Parse text with coreference resolution and fall back to plain spaCy.
+
+    Coreference (LingMess, ~590M Longformer) dominates build time on CPU.
+    It only pays off when the text actually contains anaphoric pronouns, so
+    a cheap pronoun scan skips the pipe for the majority of short factual
+    documents; accuracy-bearing pronoun chains ("He was born ...") still go
+    through coref.
+    """
 
     logger = getLogger(__name__)
     nlp = get_nlp()
-    if "fastcoref" in nlp.pipe_names:
+    has_coref = "fastcoref" in nlp.pipe_names
+    if has_coref and _has_anaphoric_pronoun(text):
         try:
             cfg = {"fastcoref": {'resolve_text': True}}
             doc = nlp(text, component_cfg=cfg)
@@ -119,8 +127,27 @@ def text_to_doc(text: str) -> Doc:
                 f"[text_to_doc] fastcoref failed for text (len={len(text)}): {type(e).__name__}: {e}, "
                 f"falling back to no coref"
             )
-    doc = nlp(text)
+    # fastcoref is a pipeline component: a plain nlp(text) still runs it.
+    # Disable the pipe explicitly when the pronoun scan says it is unused.
+    if has_coref:
+        doc = nlp(text, disable=["fastcoref"])
+    else:
+        doc = nlp(text)
     return doc
+
+
+# Anaphoric third-person pronouns (lowercase scan; sentence-initial capitals
+# are covered by casefold).  Possessives included: "his campaign" also chains.
+_PRONOUN_SCAN = re.compile(
+    r"\b(he|she|him|her|his|hers|himself|herself|they|them|their|theirs|themselves|it|its|itself)\b",
+    re.IGNORECASE,
+)
+
+
+def _has_anaphoric_pronoun(text: str) -> bool:
+    """Cheap gate: does the text contain candidate anaphoric pronouns?"""
+
+    return bool(_PRONOUN_SCAN.search(text))
 def doc_to_hypergraph(doc: Doc, text: str, is_query: bool = False) -> LocalHypergraph:
     """Convert a parsed document into the production linguistic hypergraph."""
 
