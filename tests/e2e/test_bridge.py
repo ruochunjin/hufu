@@ -39,7 +39,21 @@ class BridgeStructuralTests(unittest.TestCase):
     def test_all_local_vertices_convert(self) -> None:
         local, result = _bridge(DOC, side="data")
         self.assertEqual(len(result.local_to_core_vertex), len(local.vertices))
-        self.assertEqual(len(result.hypergraph.vertices), len(local.vertices))
+        # Data-side nominal roots synthesize predicate vertices (H05/L07 fix),
+        # so the contracts graph may hold MORE vertices than the local graph.
+        self.assertGreaterEqual(len(result.hypergraph.vertices), len(local.vertices))
+        local_ids = set(result.local_to_core_vertex.values())
+        for vertex in result.hypergraph.vertices:
+            if vertex.id not in local_ids:
+                self.assertEqual(vertex.kind, "predicate")
+                self.assertTrue(vertex.id.endswith("-pred"), vertex.id)
+
+    def test_query_side_has_no_synthetic_predicates(self) -> None:
+        # Query-side roots stay forced-predicate: synthesizing them would
+        # bloat the critical coverage set (golden100 A/B regression).
+        _local, result = _bridge(QUERY, side="query", is_query=True)
+        for vertex in result.hypergraph.vertices:
+            self.assertFalse(vertex.id.endswith("-pred"), vertex.id)
 
     def test_contracts_validation_passes(self) -> None:
         # Hypergraph construction itself validates: unique ids, known vertex

@@ -50,17 +50,14 @@ _EVENT_TYPES = {"EVENT"}
 def local_vertex_kind(vertex: LocalVertex, *, is_edge_root: bool = False) -> str:
     """Map a production vertex onto a contracts VertexKind.
 
-    Priority follows the author's method-family rule.  ``is_edge_root`` forces
-    ``predicate`` because contracts require every hyperedge predicate to be a
-    predicate-kind vertex even when the root is nominal (copular clauses).
-    Quantity-bearing vertices ("8 planets", "1200 employees") are ``value``:
-    the production denial rule accepts them via ``pos_range(NUM)`` regardless
-    of the head noun's entity type (golden100 C-family); retokenization merges
-    drop the NUM token, so the signal is digit-prefix on the surface text.
-
-    Note: a synthetic-predicate alternative (keeping nominal roots matchable)
-    was A/B-tested on golden100 and regressed the number family — the forced
-    predicate root is the pinned behavior (2026-10-04).
+    Priority follows the author's method-family rule.  On the QUERY side a
+    root is forced to ``predicate`` (contracts require predicate-kind edge
+    heads; and query-side nominals becoming matchable bloat the critical
+    coverage set — A/B regression on golden100).  On the DATA side
+    ``bridge_hypergraph`` instead synthesizes an implicit predicate for
+    non-verb roots, keeping the nominal matchable: data vertices only serve
+    as match targets, so there is no coverage bloat (fixes H05/L07 where the
+    answer phrase was a nominal root and thus unmatchable).
     """
 
     if is_edge_root:
@@ -122,25 +119,39 @@ class BridgeResult:
 
 
 def bridge_hypergraph(local: LocalHypergraph, *, side: Side) -> BridgeResult:
-    """Convert one production hypergraph into a validated contracts graph."""
+    """Convert one production hypergraph into a validated contracts graph.
+
+    Root handling is asymmetric by side (golden100 A/B, 2026-10-04): query
+    roots are forced to predicate kind; on the data side a non-verb root
+    instead gets a synthesized implicit predicate vertex and joins the roles
+    as the head participant, so answer phrases that head nominal relations
+    ("42 chapters", "ceiling of the chapel") stay matchable.
+    """
 
     root_ids = {edge.root.id for edge in local.hyperedges}
+    synthesize_root = side == "data"
     vertices: list[Vertex] = []
     local_to_core: dict[int, str] = {}
     for local_vertex in local.vertices:
         core_id = f"v{local_vertex.id}"
         local_to_core[local_vertex.id] = core_id
+        is_root = local_vertex.id in root_ids
+        natural_kind = local_vertex_kind(local_vertex, is_edge_root=False)
+        kind = (
+            "predicate"
+            if is_root and not (synthesize_root and natural_kind != "predicate")
+            else natural_kind
+        )
         vertices.append(
             Vertex(
                 id=core_id,
                 text=local_vertex.text(),
                 semantic_type=local_semantic_type(local_vertex),
-                kind=local_vertex_kind(
-                    local_vertex, is_edge_root=local_vertex.id in root_ids
-                ),
+                kind=kind,
                 expected_type=local_expected_type(local_vertex),
             )
         )
+    kinds = {v.id: v.kind for v in vertices}
 
     father_index: dict[int, int] = {}
     edges: list[Hyperedge] = []
@@ -148,6 +159,25 @@ def bridge_hypergraph(local: LocalHypergraph, *, side: Side) -> BridgeResult:
     for index, local_edge in enumerate(local.hyperedges):
         roles: list[Role] = []
         seen_incidences: set[tuple[str, str]] = set()
+        root_core_id = local_to_core[local_edge.root.id]
+        predicate_id = root_core_id
+        if synthesize_root and kinds[root_core_id] != "predicate":
+            # Nominal data root: implicit predicate, root joins as head role.
+            predicate_id = f"e{len(edges)}-pred"
+            root_node = local_edge.current_node(local_edge.root)
+            head_role = root_node.dep.name or "head"
+            incidence = (head_role, root_core_id)
+            if incidence not in seen_incidences:
+                seen_incidences.add(incidence)
+                roles.append(Role(name=head_role, vertex_id=root_core_id))
+            vertices.append(
+                Vertex(
+                    id=predicate_id,
+                    text=local_edge.root.text(),
+                    semantic_type="PREDICATE",
+                    kind="predicate",
+                )
+            )
         for participant in local_edge.vertices:
             if participant == local_edge.root:
                 continue
@@ -174,7 +204,7 @@ def bridge_hypergraph(local: LocalHypergraph, *, side: Side) -> BridgeResult:
         edges.append(
             Hyperedge(
                 id=f"e{edge_index}",
-                predicate_id=local_to_core[local_edge.root.id],
+                predicate_id=predicate_id,
                 roles=tuple(roles),
                 context_id=context_id,
                 father_id=father_id,
@@ -214,7 +244,19 @@ def bridge_type_compatible(qv: Vertex, dv: Vertex) -> bool:
 
     family = TYPE_GROUPS.get(dv.feature_type, dv.feature_type)
     if qv.kind != "query":
-        return default_type_compatible(qv, dv)
+        if default_type_compatible(qv, dv):
+            return True
+        # Lexical containment: retokenization merges noun compounds into one
+        # vertex ("striker score"), hiding the head noun from typed matching.
+        # A word-boundary containment pair approximates the production NLI
+        # fallback, which accepts such fragment pairs as entailments
+        # (golden100 C12/J03).
+        q_text, d_text = qv.text.strip().casefold(), dv.text.strip().casefold()
+        if not q_text or not d_text or q_text == d_text:
+            return False
+        shorter, longer = (qv.text, dv.text) if len(q_text) <= len(d_text) else (dv.text, qv.text)
+        pattern = r"\b" + re.escape(shorter.strip().casefold()) + r"\b"
+        return bool(re.search(pattern, longer.strip().casefold()))
     expected = (qv.expected_type or "").upper() or qv.feature_type
     if expected in {"", "UNKNOWN", "WHAT", "WHICH", "REASON"}:
         return dv.matchable

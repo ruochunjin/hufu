@@ -70,7 +70,7 @@ CASES: list[GoldenCase] = [
     GoldenCase("C09", "How much does the book cost?", "The book costs 25 dollars.", True, "number"),
     GoldenCase("C10", "How much does the book cost?", "The book is available in bookstores.", False, "number"),
     GoldenCase("C11", "What percentage of students passed the exam?", "92% of students passed the exam.", True, "number"),
-    GoldenCase("C12", "How many goals did the striker score?", "The striker scored 23 goals this season.", None, "number", note="builder artifact (sm): query merges striker+score into one vertex; verify under trf"),
+    GoldenCase("C12", "How many goals did the striker score?", "The striker scored 23 goals this season.", True, "number", note="fixed: lexical containment hv rule for merged compounds"),
     # ------------------------------------------------------------------ D. who / person (10)
     GoldenCase("D01", "Who wrote the novel Emma?", "Jane Austen wrote the novel Emma.", True, "who"),
     GoldenCase("D02", "Who wrote the novel Emma?", "The novel Emma was published in 1815.", False, "who"),
@@ -112,7 +112,7 @@ CASES: list[GoldenCase] = [
     GoldenCase("H02", "How many points did the team score?", "The team scored fewer than 60 points.", None, "comparison"),
     GoldenCase("H03", "How many residents does the town have?", "The town has about 12000 residents.", True, "comparison"),
     GoldenCase("H04", "How old is the bridge?", "The bridge is over 140 years old.", None, "comparison", note="observation: age as duration"),
-    GoldenCase("H05", "How many chapters does the book have?", "The book has exactly 42 chapters.", None, "comparison", note="quantity phrase is a nominal edge root -> predicate kind -> unmatchable (F2 data-side)"),
+    GoldenCase("H05", "How many chapters does the book have?", "The book has exactly 42 chapters.", True, "comparison", note="fixed: data-side nominal roots get synthesized predicates"),
     GoldenCase("H06", "How many tickets were sold?", "Nearly 8000 tickets were sold.", True, "comparison"),
     # ------------------------------------------------------------------ I. declarative claims (8, is_question=False)
     GoldenCase("I01", "The reservoir holds 3.2 million cubic meters of water.", "The reservoir holds 3.2 million cubic meters of water.", True, "declarative", is_question=False, note="identity control"),
@@ -126,7 +126,7 @@ CASES: list[GoldenCase] = [
     # ------------------------------------------------------------------ J. distractors / multi-sentence docs (8)
     GoldenCase("J01", "Where was the violinist born?", "The violinist grew up in Vienna. She was born in Salzburg.", True, "distractor", note="two places; birthplace is second"),
     GoldenCase("J02", "Where was the violinist born?", "The violinist grew up in Vienna. She performed in Salzburg.", True, "distractor", note="coverage-semantics: Vienna/Salzburg are GPE targets for ?Where"),
-    GoldenCase("J03", "How many goals did the striker score?", "The midfielder scored 4 goals. The striker scored 23 goals.", None, "distractor", note="same builder merge as C12"),
+    GoldenCase("J03", "How many goals did the striker score?", "The midfielder scored 4 goals. The striker scored 23 goals.", True, "distractor", note="fixed: containment rule picks striker over midfielder distractor"),
     GoldenCase("J04", "When did the war end?", "The war began in 1939. The war ended in 1945.", True, "distractor"),
     GoldenCase("J05", "When did the war end?", "The war began in 1939. Millions fled their homes.", True, "distractor", note="coverage-semantics: 1939 is a TEMPORAL target for ?When"),
     GoldenCase("J06", "Who painted the mural?", "The sculptor donated funds. Rivera painted the mural.", True, "distractor"),
@@ -144,7 +144,7 @@ CASES: list[GoldenCase] = [
     GoldenCase("L04", "How many people live in the city?", "The city has 1,000,000 residents.", True, "edge", note="comma number"),
     GoldenCase("L05", "Who won the race?", "The race.", None, "edge", note="degenerate doc: no answer"),
     GoldenCase("L06", "When was the library built?", "The library was built in 1997 and renovated in 2015.", True, "edge", note="two years, first is the answer"),
-    GoldenCase("L07", "Who painted the ceiling?", "The ceiling of the chapel was painted by Michelangelo.", None, "edge", note="ceiling is nominal edge root on data side -> predicate -> unmatchable (F2 data-side); passive by-phrase otherwise fine"),
+    GoldenCase("L07", "Who painted the ceiling?", "The ceiling of the chapel was painted by Michelangelo.", True, "edge", note="fixed: data-side synthesis; passive by-phrase answer"),
     GoldenCase("L08", "How many symphonies did Beethoven write?", "Beethoven wrote nine symphonies.", None, "edge", note="observation: number as word 'nine'"),
 ]
 
