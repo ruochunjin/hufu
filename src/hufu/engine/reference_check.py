@@ -82,6 +82,17 @@ def reference_consistent_detection(
     hv_pairs = bridge_allowed_pairs(query_local, data_local, strategy=hv_strategy)
     logger.info(f"h_v allowed pairs ({hv_strategy}): {len(hv_pairs)}")
 
+    # Restrict HC enumeration to whole-component query clusters: 28× fewer
+    # candidates on nested queries (measured 426→15), same verdicts on the
+    # golden suites.  Falls back to free enumeration if components cannot
+    # be formed (disconnected multi-sentence queries degrade gracefully).
+    from .bridge import whole_query_clusters
+
+    try:
+        query_clusters = whole_query_clusters(query_core) or None
+    except ValueError:
+        query_clusters = None
+
     backend = hc_backend or SentenceTransformerBackend()
     if role_scorer is None:
         from hufu.backends import EmbeddingRoleCellScorer
@@ -98,6 +109,7 @@ def reference_consistent_detection(
         hv_allowed_pairs=hv_pairs,
         hc_backend=backend,
         role_scorer=role_scorer,
+        query_clusters=query_clusters,
     )
     consistency = output.query_consistency
     if consistency.consistent:
