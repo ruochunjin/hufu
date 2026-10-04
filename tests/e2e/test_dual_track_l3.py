@@ -61,6 +61,20 @@ AGREEMENT_CASES = [
         "Ernest Hemingway was a famous writer. He wrote many novels.",
         False,
     ),
+    # F6/F7 flips (2026-10-05): after the MiniLM embedding + xsmall NLI
+    # defaults, the standard engine covers these correctly too — the
+    # divergences disappeared in the golden direction, so the cases moved
+    # from DocumentedDivergenceTests to the agreement set.
+    (
+        "How many meters is the marathon race?",
+        "The marathon race is 42195 meters.",
+        True,
+    ),
+    (
+        "Where was Ernest Hemingway born?",
+        "Ernest Hemingway was born in Oak Park, Illinois, in 1899.",
+        True,
+    ),
 ]
 
 F4_CASE_QUERY = "Where was the author of 'The Old Man and the Sea' born?"
@@ -68,10 +82,6 @@ F4_CASE_DOC = (
     "Ernest Hemingway wrote The Old Man and the Sea. "
     "He was born in Oak Park, Illinois, in 1899."
 )
-F6_CASE_QUERY = "How many meters is the marathon race?"
-F6_CASE_DOC = "The marathon race is 42195 meters."
-F7_CASE_QUERY = "Where was Ernest Hemingway born?"
-F7_CASE_DOC = "Ernest Hemingway was born in Oak Park, Illinois, in 1899."
 
 
 def _check(query: str, doc: str, *, engine: str):
@@ -131,24 +141,6 @@ class DocumentedDivergenceTests(unittest.TestCase):
         self.assertFalse(standard.consistent, standard.evidence)
         self.assertIn("The Old Man and the Sea", standard.evidence)
         # Reference: title demoted to predicate root, ?Where covered → consistent.
-        self.assertTrue(reference.consistent, reference.evidence)
-
-    def test_f6_unit_noun_strictness_divergence(self) -> None:
-        standard = _check(F6_CASE_QUERY, F6_CASE_DOC, engine="standard")
-        reference = _check(F6_CASE_QUERY, F6_CASE_DOC, engine="reference")
-        # Standard rejects 'meters' ↔ '42195 meters' (over-strict) → contradiction.
-        self.assertFalse(standard.consistent, standard.evidence)
-        # Reference accepts the pair; golden label is consistent.
-        self.assertTrue(reference.consistent, reference.evidence)
-
-    def test_f7_copula_asymmetry_divergence(self) -> None:
-        standard = _check(F7_CASE_QUERY, F7_CASE_DOC, engine="standard")
-        reference = _check(F7_CASE_QUERY, F7_CASE_DOC, engine="reference")
-        # Standard cannot align the copula edge in the minimal supporting
-        # document → ?Where unmatched → contradiction (golden: consistent).
-        self.assertFalse(standard.consistent, standard.evidence)
-        self.assertIn("?Where", standard.evidence)
-        # Reference matches ?Where ↔ Oak Park; golden label is consistent.
         self.assertTrue(reference.consistent, reference.evidence)
 
 
