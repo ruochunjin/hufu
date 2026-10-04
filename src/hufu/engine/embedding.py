@@ -16,7 +16,11 @@ import numpy as np
 if TYPE_CHECKING:  # pragma: no cover - typing only
     from sentence_transformers import SentenceTransformer
 
-DEFAULT_EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B"
+# 2026-10-04 A/B (CPU, golden suites): all-MiniLM-L6-v2 (22M) is 3.7x faster
+# than Qwen/Qwen3-Embedding-0.6B with identical golden verdicts, and 39x on
+# the F9 worst case.  Engineering default per the lab's decision; set
+# HUFU_EMBED_MODEL=Qwen/Qwen3-Embedding-0.6B to reproduce paper-family runs.
+DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 _model_cache: dict[str, "SentenceTransformer"] = {}
 
@@ -45,13 +49,34 @@ def get_embedding_batch(
     batch_size: int = 256,
     cache: None | dict[str, np.ndarray] = None,
 ) -> list[np.ndarray]:
-    """Encode texts in batches, reusing caller-supplied normalized vectors."""
+    """Encode texts in batches, reusing caller-supplied normalized vectors.
+
+    When ``HUFU_EMBED_CACHE`` points at a directory, embeddings are
+    additionally persisted as ``.npy`` files keyed by (model, text) hash —
+    benchmark reruns then skip encoding entirely.
+    """
 
     model = _get_sentence_transformer()
     if cache is None:
         cache = {}
+    disk_dir = os.environ.get("HUFU_EMBED_CACHE")
+    model_name = os.environ.get("HUFU_EMBED_MODEL", DEFAULT_EMBED_MODEL)
     unique_texts = list(set(texts))
     missing_texts = [t for t in unique_texts if t not in cache]
+    disk_hits: dict[str, np.ndarray] = {}
+    if disk_dir and missing_texts:
+        import hashlib
+        from pathlib import Path
+
+        model_dir = Path(disk_dir) / hashlib.sha256(model_name.encode()).hexdigest()[:12]
+        for text in list(missing_texts):
+            key = hashlib.sha256(text.encode("utf-8")).hexdigest()[:24]
+            path = model_dir / f"{key}.npy"
+            if path.exists():
+                disk_hits[text] = np.load(path)
+        if disk_hits:
+            cache.update(disk_hits)
+            missing_texts = [t for t in missing_texts if t not in disk_hits]
     if missing_texts:
         new_embeddings = model.encode(
             missing_texts,
@@ -61,6 +86,15 @@ def get_embedding_batch(
             show_progress_bar=False,
         )
         cache.update(zip(missing_texts, new_embeddings))
+        if disk_dir:
+            import hashlib
+            from pathlib import Path
+
+            model_dir = Path(disk_dir) / hashlib.sha256(model_name.encode()).hexdigest()[:12]
+            model_dir.mkdir(parents=True, exist_ok=True)
+            for text, vector in zip(missing_texts, new_embeddings):
+                key = hashlib.sha256(text.encode("utf-8")).hexdigest()[:24]
+                np.save(model_dir / f"{key}.npy", vector)
     return [cache[t] for t in texts]
 
 

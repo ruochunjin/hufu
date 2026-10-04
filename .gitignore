@@ -54,3 +54,6 @@ logs/
 # Benchmark evaluation data is intentionally tracked (lab-approved release)
 !benchmarks/data/
 !benchmarks/data/**
+
+# Golden100 run report (regenerated each run)
+tests/e2e/golden100_report.json

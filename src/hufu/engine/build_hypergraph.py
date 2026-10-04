@@ -58,14 +58,20 @@ def get_nlp(use_gpu: bool = False) -> spacy.Language:
         if use_gpu:
             spacy.require_gpu()
         _NLP = spacy.load(os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf"))
-        try:
-            from fastcoref import (
-                spacy_component,  # noqa: F401 - registers the spaCy factory.
-            )
-        except ImportError:
+        # HUFU_COREF=off skips coreference entirely: LingMess (590M) dominates
+        # build time on long documents, and the no-coref fallback is already
+        # exercised by the golden suites.
+        if os.environ.get("HUFU_COREF", "").lower() in {"off", "0", "false", "disabled"}:
             fastcoref_available = False
         else:
-            fastcoref_available = True
+            try:
+                from fastcoref import (
+                    spacy_component,  # noqa: F401 - registers the spaCy factory.
+                )
+            except ImportError:
+                fastcoref_available = False
+            else:
+                fastcoref_available = True
         if fastcoref_available and 'fastcoref' not in _NLP.pipe_names:
             model_path = os.environ.get("HUFU_COREF_MODEL", "biu-nlp/lingmess-coref")
             device = 'cuda' if use_gpu else 'cpu'

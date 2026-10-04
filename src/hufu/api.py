@@ -50,6 +50,7 @@ def check_pair(
     distance_threshold: float = 0.25,
     use_gpu: bool = False,
     engine: str = "standard",
+    query_is_question: bool = True,
 ) -> ConsistencyVerdict:
     """Check whether one retrieved document is consistent with the query.
 
@@ -62,13 +63,21 @@ def check_pair(
     pure-Python reference core over bridged hypergraphs — no Rust toolchain
     needed — and is validated against the standard path by the L3 dual-track
     tests.
+
+    ``query_is_question=False`` treats the query as a declarative claim
+    (e.g. a sentence to be checked against the document) instead of an
+    interrogative; wh-words inside relative clauses are then not mistaken
+    for answer placeholders.  Reference engine only.
     """
 
     if engine == "reference":
         from hufu.engine.reference_check import reference_consistent_detection
 
         has_contradiction, distance, evidence = reference_consistent_detection(
-            query_text, document_text, distance_threshold=distance_threshold
+            query_text,
+            document_text,
+            distance_threshold=distance_threshold,
+            query_is_question=query_is_question,
         )
         return ConsistencyVerdict(
             query=query_text,
