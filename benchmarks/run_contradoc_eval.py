@@ -61,6 +61,12 @@ def _cached_hypergraph(text: str, *, is_query: bool, spacy_model: str):
     return graph
 
 
+def _identity_key(text: str) -> str:
+    """Punctuation/whitespace-insensitive key for ref==evidence detection."""
+
+    return "".join(ch for ch in text.lower() if ch.isalnum())
+
+
 def _neg_sentence_pair(text: str, mode: str = "identity") -> tuple[str, str] | None:
     """Pick a sentence pair from a clean document for the negative class.
 
@@ -104,7 +110,21 @@ def evaluate(engine: str, limit: int, threshold: float, neg_mode: str = "identit
             if not refs:
                 results["skip"] += 1
                 continue
-            query_text, doc_text, expected = refs[0], example.hypothesis, False
+            # ref_sentences can include the evidence sentence itself (the
+            # "intra" scope: the conflict lives elsewhere in the document,
+            # not against this ref).  A ref identical to the evidence is
+            # pair-uncheckable by construction — count it as skip, not FN.
+            checkable = [
+                ref
+                for ref in refs
+                if _identity_key(ref) != _identity_key(example.hypothesis)
+            ]
+            if not checkable:
+                results["skip"] += 1
+                continue
+            # Check each remaining ref and flag when ANY conflicts
+            # (golden50 FN analysis: refs[0] is sometimes a restatement).
+            query_text, doc_text, expected = checkable, example.hypothesis, False
             pos_seen += 1
         else:
             pair = _neg_sentence_pair(example.premise, mode=neg_mode)
@@ -116,20 +136,37 @@ def evaluate(engine: str, limit: int, threshold: float, neg_mode: str = "identit
 
         start = time.perf_counter()
         if engine == "reference":
-            # ContraDoc refs/evidence are declarative claims, not questions:
-            # build the query side with is_query=False so relative-clause
-            # wh-words are not mistaken for placeholders (finding F8).
-            query_graph = _cached_hypergraph(query_text, is_query=False, spacy_model=spacy_model)
-            data_graph = _cached_hypergraph(doc_text, is_query=False, spacy_model=spacy_model)
-            has_contradiction, _dist, evidence = reference_consistent_detection(
-                query_text,
-                doc_text,
-                distance_threshold=threshold,
-                query_local=query_graph,
-                data_local=data_graph,
-                query_is_question=False,
-            )
-            consistent = not has_contradiction
+            if isinstance(query_text, list):
+                verdicts = []
+                for ref in query_text[:3]:
+                    query_graph = _cached_hypergraph(ref, is_query=False, spacy_model=spacy_model)
+                    data_graph = _cached_hypergraph(doc_text, is_query=False, spacy_model=spacy_model)
+                    has_contradiction, _dist, evidence = reference_consistent_detection(
+                        ref,
+                        doc_text,
+                        distance_threshold=threshold,
+                        query_local=query_graph,
+                        data_local=data_graph,
+                        query_is_question=False,
+                    )
+                    verdicts.append((has_contradiction, evidence))
+                    if has_contradiction:
+                        break
+                has_contradiction = any(v[0] for v in verdicts)
+                evidence = verdicts[-1][1]
+                consistent = not has_contradiction
+            else:
+                query_graph = _cached_hypergraph(query_text, is_query=False, spacy_model=spacy_model)
+                data_graph = _cached_hypergraph(doc_text, is_query=False, spacy_model=spacy_model)
+                has_contradiction, _dist, evidence = reference_consistent_detection(
+                    query_text,
+                    doc_text,
+                    distance_threshold=threshold,
+                    query_local=query_graph,
+                    data_local=data_graph,
+                    query_is_question=False,
+                )
+                consistent = not has_contradiction
         else:
             import hufu
 
