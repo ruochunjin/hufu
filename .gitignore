@@ -57,3 +57,9 @@ logs/
 
 # Golden100 run report (regenerated each run)
 tests/e2e/golden100_report.json
+tests/e2e/golden250_report.json
+tests/e2e/golden100_report_sm.json
+
+# Regenerable caches (hypergraph pickles, dataset parquet downloads)
+benchmarks/data/cache/hypergraphs/
+benchmarks/data/cache/*--*/
