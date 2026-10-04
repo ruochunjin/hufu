@@ -1,0 +1,178 @@
+{
+  "engine": "reference",
+  "threshold": -1.0,
+  "neg_mode": "identity",
+  "confusion": {
+    "tp": 10,
+    "fn": 0,
+    "tn": 10,
+    "fp": 0,
+    "skip": 26
+  },
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "details": [
+    {
+      "id": "3488771854_6",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 5.64,
+      "evidence_head": "[CONTRADICTION] Distance=0.2306 > threshold; structural coverage satisfied but NLI polarity conflict between the claims"
+    },
+    {
+      "id": "3488771855_1",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 0.35,
+      "evidence_head": "[CONTRADICTION] Distance=0.2476 > threshold=-1.0"
+    },
+    {
+      "id": "3488771855_6",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 0.39,
+      "evidence_head": "[CONTRADICTION] Distance=0.1433 > threshold; structural coverage satisfied but NLI polarity conflict between the claims"
+    },
+    {
+      "id": "3488771836_2",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 0.99,
+      "evidence_head": "[CONTRADICTION] Distance=0.5179 > threshold=-1.0"
+    },
+    {
+      "id": "3488771836_5",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 0.68,
+      "evidence_head": "[CONTRADICTION] Distance=0.4130 > threshold=-1.0"
+    },
+    {
+      "id": "3488771838_4",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 0.43,
+      "evidence_head": "[CONTRADICTION] Distance=0.7200 > threshold=-1.0"
+    },
+    {
+      "id": "3488771839_1",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 6.71,
+      "evidence_head": "[CONTRADICTION] Distance=0.3985 > threshold=-1.0"
+    },
+    {
+      "id": "3488771839_11",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 5.77,
+      "evidence_head": "[CONTRADICTION] Distance=0.5290 > threshold=-1.0"
+    },
+    {
+      "id": "3488771839_3",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 3.34,
+      "evidence_head": "[CONTRADICTION] Distance=0.2820 > threshold=-1.0"
+    },
+    {
+      "id": "3488771839_4",
+      "label": "contradiction",
+      "consistent": false,
+      "expected_consistent": false,
+      "seconds": 4.33,
+      "evidence_head": "[CONTRADICTION] Distance=0.2919 > threshold=-1.0"
+    },
+    {
+      "id": "3488771834_1",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 2.58,
+      "evidence_head": "[CONSISTENT] Distance=-0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771834_4",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 2.68,
+      "evidence_head": "[CONSISTENT] Distance=-0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771835_1",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 0.61,
+      "evidence_head": "[CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771835_2",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 0.55,
+      "evidence_head": "[CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771836_3",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 1.95,
+      "evidence_head": "[CONSISTENT] Distance=-0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771836_6",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 1.93,
+      "evidence_head": "[CONSISTENT] Distance=-0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771838_5",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 6.67,
+      "evidence_head": "[CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771840_6",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 5.47,
+      "evidence_head": "[CONSISTENT] Distance=-0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771842_1",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 13.46,
+      "evidence_head": "[CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied"
+    },
+    {
+      "id": "3488771842_6",
+      "label": "entailment",
+      "consistent": true,
+      "expected_consistent": true,
+      "seconds": 3.96,
+      "evidence_head": "[CONSISTENT] Distance=-0.0000 > threshold but structural coverage satisfied"
+    }
+  ]
+}

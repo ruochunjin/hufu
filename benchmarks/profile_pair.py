@@ -15,11 +15,19 @@ os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 import hufu.engine.embedding as emb  # noqa: E402
-from hufu.engine.bridge import bridge_allowed_pairs, bridge_hypergraph, bridge_type_compatible, whole_query_clusters  # noqa: E402
+from hufu.backends import (  # noqa: E402
+    EmbeddingRoleCellScorer,
+    SentenceTransformerBackend,
+)
+from hufu.engine.bridge import (  # noqa: E402
+    bridge_allowed_pairs,
+    bridge_hypergraph,
+    bridge_type_compatible,
+    whole_query_clusters,
+)
 from hufu.engine.build_hypergraph import get_nlp, text_to_hypergraph  # noqa: E402
 from hufu.engine.fixed_point import FixedPointMode  # noqa: E402
 from hufu.engine.hyper_simulation import run_hypermatch  # noqa: E402
-from hufu.backends import EmbeddingRoleCellScorer, SentenceTransformerBackend  # noqa: E402
 
 _encode = {"calls": 0, "texts": 0, "seconds": 0.0}
 _orig = emb.get_embedding_batch
@@ -69,7 +77,7 @@ def run_case(name: str, query: str, doc: str, is_question: bool) -> None:
     backend = SentenceTransformerBackend()
     scorer = EmbeddingRoleCellScorer(backend)
     clusters = whole_query_clusters(q_core)
-    out = timed(
+    timed(
         lambda: run_hypermatch(
             q_core, d_core,
             hv_allowed_pairs=hv, hc_backend=backend, role_scorer=scorer,
