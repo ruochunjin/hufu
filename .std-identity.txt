@@ -1,0 +1,3 @@
+consistent=True
+[CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied
+  ✓ All 8 critical Q vertices matched in D via hyper simulation

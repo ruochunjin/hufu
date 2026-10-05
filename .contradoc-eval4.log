@@ -1,0 +1,137 @@
+D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[1] 3488771854_6 label=contradiction consistent=False (5.6s)
+[2] 3488771855_1 label=contradiction consistent=False (0.4s)
+[3] 3488771855_6 label=contradiction consistent=False (0.4s)
+[4] 3488771836_2 label=contradiction consistent=False (1.0s)
+[5] 3488771836_5 label=contradiction consistent=False (0.7s)
+[6] 3488771838_4 label=contradiction consistent=False (0.4s)
+10/04/2026 11:03:36 - INFO - 	 missing_keys: []
+10/04/2026 11:03:36 - INFO - 	 unexpected_keys: []
+10/04/2026 11:03:36 - INFO - 	 mismatched_keys: []
+10/04/2026 11:03:36 - INFO - 	 error_msgs: []
+10/04/2026 11:03:36 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
+10/04/2026 11:03:36 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 127.47 examples/s]
+D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+  return options_class(*args, **kwargs)
+10/04/2026 11:03:36 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 2.01 seconds
+Dependency construction took 0.06 seconds
+Dependency processing took 0.00 seconds
+10/04/2026 11:03:40 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 183.52 examples/s]
+10/04/2026 11:03:40 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.11s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.11s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[7] 3488771839_1 label=contradiction consistent=False (6.7s)
+10/04/2026 11:03:42 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 102.29 examples/s]
+10/04/2026 11:03:42 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.72s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.72s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+10/04/2026 11:03:44 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 134.44 examples/s]
+10/04/2026 11:03:44 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.99s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.99s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.02 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.01 seconds
+[8] 3488771839_11 label=contradiction consistent=False (5.8s)
+10/04/2026 11:03:48 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 227.12 examples/s]
+10/04/2026 11:03:48 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.64s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.64s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+[9] 3488771839_3 label=contradiction consistent=False (3.3s)
+10/04/2026 11:03:51 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 113.73 examples/s]
+10/04/2026 11:03:52 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.64s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.64s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[10] 3488771839_4 label=contradiction consistent=False (4.3s)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  4.80it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  4.79it/s]
+[11] 3488771834_1 label=entailment consistent=True (2.6s)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  4.99it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  4.99it/s]
+[12] 3488771834_4 label=entailment consistent=True (2.7s)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  6.42it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  6.39it/s]
+[13] 3488771835_1 label=entailment consistent=True (0.6s)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  6.46it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  6.45it/s]
+[14] 3488771835_2 label=entailment consistent=True (0.5s)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  5.29it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  5.29it/s]
+[15] 3488771836_3 label=entailment consistent=True (2.0s)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  5.22it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  5.21it/s]
+[16] 3488771836_6 label=entailment consistent=True (1.9s)
+10/04/2026 11:04:06 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 98.99 examples/s]
+10/04/2026 11:04:06 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.61s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.61s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  5.52it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  5.51it/s]
+[17] 3488771838_5 label=entailment consistent=True (6.7s)
+10/04/2026 11:04:13 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.07 examples/s]
+10/04/2026 11:04:13 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  4.17it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  4.17it/s]
+[18] 3488771840_6 label=entailment consistent=True (5.5s)
+10/04/2026 11:04:18 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 114.13 examples/s]
+10/04/2026 11:04:18 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.42s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.42s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.03 seconds
+Dependency processing took 0.02 seconds
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  2.82it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  2.82it/s]
+[19] 3488771842_1 label=entailment consistent=True (13.5s)
+10/04/2026 11:04:32 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 146.92 examples/s]
+10/04/2026 11:04:32 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  7.98it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  7.97it/s]
+[20] 3488771842_6 label=entailment consistent=True (4.0s)
+{
+  "engine": "reference",
+  "threshold": -1.0,
+  "neg_mode": "identity",
+  "confusion": {
+    "tp": 10,
+    "fn": 0,
+    "tn": 10,
+    "fp": 0,
+    "skip": 26
+  },
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0
+}
+report written to D:\tools\hufu\benchmarks\data\cache\contradoc_eval_reference_10_identity.json
+EXIT=0

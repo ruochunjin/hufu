@@ -1,0 +1,21 @@
+..........                                                            [100%]
+============================== warnings summary ===============================
+tests/e2e/test_reference_l2.py::ReferenceStructuralTests::test_number_answered_consistent
+tests/e2e/test_dual_track_l3.py::DualTrackAgreementTests::test_verdicts_agree_on_golden_cases
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+tests/e2e/test_reference_l2.py::ReferenceStructuralTests::test_number_answered_consistent
+tests/e2e/test_reference_l2.py::ReferenceStructuralTests::test_number_missing_flags_contradiction
+tests/e2e/test_reference_l2.py::ReferenceStructuralTests::test_place_free_doc_flags_contradiction
+tests/e2e/test_reference_l2.py::ReferenceStructuralTests::test_supporting_doc_covers_placeholder
+tests/e2e/test_dual_track_l3.py::DualTrackAgreementTests::test_verdicts_agree_on_golden_cases
+tests/e2e/test_dual_track_l3.py::DocumentedDivergenceTests::test_f4_title_merge_divergence
+tests/e2e/test_dual_track_l3.py::DocumentedDivergenceTests::test_f6_unit_noun_strictness_divergence
+tests/e2e/test_dual_track_l3.py::DocumentedDivergenceTests::test_f7_copula_asymmetry_divergence
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+    return options_class(*args, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+10 passed, 10 warnings, 3 subtests passed in 147.60s (0:02:27)
+EXIT=0

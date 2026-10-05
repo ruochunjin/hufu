@@ -1,0 +1,1993 @@
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 180.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 1.85 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 231.13 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.07it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.07it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 165.99 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.08it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.08it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.30 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.04it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.04it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 149.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.03it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.03it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 151.82 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.09it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.09it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 159.67 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.03it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.03it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 143.43 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.05s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.05s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+FMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 180.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 207.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:04:20Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 3
+[2026-10-04T02:04:20Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:04:20Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:04:20Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:04:20Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 159.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.63s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.63s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 171.18 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 191.33 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.93s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.93s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 188.62 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.18s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:04:28Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 3
+[2026-10-04T02:04:28Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:04:28Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:04:28Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:04:28Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 222.53 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.10s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.10s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 146.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.21s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 189.19 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.11s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.11s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 38.16 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:04:38Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 2
+[2026-10-04T02:04:38Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:04:38Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:04:38Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:04:38Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 205.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.17s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 192.43 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.17s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 186.21 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.12s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.12s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 204.91 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.22s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:04:49Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 2
+[2026-10-04T02:04:49Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:04:49Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:04:49Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:04:49Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 71.94 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.09s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.09s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 108.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.11s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.11s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+
+engine latency (s), warm:
+  standard   mean=  5.00   4.78  5.10  5.13
+  reference  mean=  5.06   4.90  5.47  4.81
+
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.14s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.14s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.36 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.11s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.11s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 162.17 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.23s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 173.76 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.10s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.10s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 185.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 179.04 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 177.25 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.49s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.49s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 162.11 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.43s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.43s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 172.11 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 99.69 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 157.01 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 150.90 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 162.43 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 156.33 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 152.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 113.16 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 111.37 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+u.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 173.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.06 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 114.64 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 136.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 131.29 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 125.41 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 112.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 170.85 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 170.14 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 177.77 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:05:41Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 1
+[2026-10-04T02:05:41Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:05:41Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:05:41Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:05:41Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.81 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 157.97 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 144.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 110.61 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:05:47Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 3
+[2026-10-04T02:05:47Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:05:47Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:05:47Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:05:47Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 177.54 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.44 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 153.14 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 139.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:05:53Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 2
+[2026-10-04T02:05:53Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:05:53Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:05:53Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:05:53Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 145.69 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 116.14 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+u.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 192.96 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 174.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:05:59Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 4
+[2026-10-04T02:05:59Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:05:59Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:05:59Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:05:59Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 103.93 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 122.21 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 189.61 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:06:06Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 2
+[2026-10-04T02:06:06Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:06:06Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:06:06Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:06:06Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 123.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 115.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 105.08 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+[2026-10-04T02:06:12Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 2
+[2026-10-04T02:06:12Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
+[2026-10-04T02:06:12Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
+[2026-10-04T02:06:12Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
+[2026-10-04T02:06:12Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 193.61 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+..Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 153.88 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 166.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 170.76 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 181.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 174.23 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.41s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.41s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 180.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 117.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 136.01 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 190.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 144.90 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 162.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 153.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 185.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 187.43 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 123.17 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 119.85 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 201.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 167.36 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 142.95 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 159.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 131.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 158.14 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 139.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 118.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 145.11 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 125.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 148.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 197.83 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 175.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 118.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 159.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 166.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 171.12 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 184.71 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 181.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 191.97 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 164.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 133.16 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 125.56 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 165.99 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 154.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 94.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 140.59 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 146.77 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 187.69 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 94.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 124.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 121.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 139.17 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 193.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 123.99 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 119.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 122.41 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 150.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 162.60 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 171.77 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 165.93 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 171.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 187.05 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 167.55 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.30 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 122.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 116.32 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.96 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 196.80 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.54 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 196.18 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 115.33 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 175.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 162.16 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.36 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 148.59 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 122.21 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.28 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 198.77 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 109.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 158.32 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 123.50 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 127.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 135.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 153.96 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 152.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 199.61 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.41 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.64 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 143.98 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 191.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.23 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 167.14 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 202.96 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 205.53 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 130.93 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.40s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.40s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 138.18 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 110.54 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.92 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 148.62 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 173.08 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 166.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 110.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 191.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 150.46 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.06 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.55 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.50s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.50s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 96.11 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.79s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.79s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.56 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 146.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 158.47 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 114.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 149.83 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 170.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 109.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 127.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.40s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.40s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 175.49 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.44s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.44s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 150.28 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 165.21 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 147.46 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 161.74 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.42s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 173.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 161.50 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 173.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 161.95 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 116.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 153.63 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.40s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.40s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 112.43 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.95 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.98 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 165.85 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 164.08 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 149.70 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 171.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 168.47 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.41s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.41s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 119.87 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 144.20 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 144.56 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 160.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 117.63 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 161.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.67s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.67s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 103.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 147.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.51s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.51s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 114.71 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.48s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.48s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 93.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 126.91 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 126.75 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.78s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.78s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 93.01 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.98s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.98s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 128.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 123.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.51s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.51s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 120.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 147.00 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 88.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.68s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.68s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 169.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.76s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.76s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 89.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 102.06 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.89s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.89s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 88.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.64s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.64s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 180.50 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.53s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.53s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 119.01 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 142.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 142.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.43s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.43s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 139.32 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.78s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.78s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 93.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.69s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.69s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 146.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.63s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.63s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 135.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 131.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 135.94 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.16 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 65.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.92s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.92s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 133.11 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 124.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.46s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.46s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 145.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.87 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 131.98 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 135.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.64s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.64s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 128.36 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 139.85 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.68s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.68s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 92.12 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 136.90 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 110.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 129.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.59s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 133.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 127.41 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.64s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.64s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 125.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.67s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.67s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.01 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 107.65 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.72s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.72s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 142.63 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 122.63 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 147.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 148.99 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.49s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.49s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 98.11 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 83.08 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.77s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.77s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 91.47 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.52s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.52s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 129.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+
+golden100: 71/76 pinned correct, 0 errors, 331s total; report ¡ú D:\tools\hufu\tests\e2e\golden100_report.json
+F..Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.63s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.63s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 107.70 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.62s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 159.54 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 119.49 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.71s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.72s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 134.39 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 101.12 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 157.30 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 137.82 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.64 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.23 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 147.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.54s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.54s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 132.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+u.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 137.80 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.57s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 148.25 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 70.23 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.54s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.54s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 127.92 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 141.49 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 124.02 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.61s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 170.81 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.55s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 110.08 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+u.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 136.76 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 133.62 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 136.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.58s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 133.55 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+uMap:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 121.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.60s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 129.97 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.66s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+u.
+================================== FAILURES ===================================
+_____ ContraDocSmokeTests.test_reference_engine_flags_contradiction_pairs _____
+
+self = <test_benchmark_contradoc.ContraDocSmokeTests testMethod=test_reference_engine_flags_contradiction_pairs>
+
+    def test_reference_engine_flags_contradiction_pairs(self) -> None:
+        from hufu.engine.reference_check import reference_consistent_detection
+    
+        pairs = _contradiction_pairs(_SAMPLE_SIZE)
+        self.assertGreaterEqual(
+            len(pairs), _MIN_FLAGGED, "not enough usable ContraDoc pairs"
+        )
+        flagged = 0
+        verdicts = []
+        for ref, evidence in pairs:
+            has_contradiction, distance, evidence_text = reference_consistent_detection(
+                ref, evidence, distance_threshold=-1.0
+            )
+            verdicts.append((ref, evidence, has_contradiction, evidence_text))
+            flagged += int(has_contradiction)
+        details = "\n".join(
+            f"  contra={flag} ref={ref[:60]!r} evi={evi[:60]!r}"
+            for ref, evi, flag, _ in verdicts
+        )
+>       self.assertGreaterEqual(
+            flagged,
+            _MIN_FLAGGED,
+            f"expected ¡Ý{_MIN_FLAGGED}/{len(verdicts)} flagged contradictions:\n{details}",
+        )
+E       AssertionError: 2 not greater than or equal to 3 : expected ¡Ý3/4 flagged contradictions:
+E         contra=False ref="Sylvia leaves her father's house to mourn her brother Owen's" evi="Sylvia celebrates her brother Owen's death."
+E         contra=True ref=' The story opens with Buck, a large and powerful St. Bernard' evi="Buck is living unhappily in California's Santa Clara Valley "
+E         contra=False ref='After Buck is beaten by Hal, Thornton recognizes him to be a' evi='After Buck is beaten by Hal, Thornton does not recognize him'
+E         contra=True ref='Edward leaves the cottage and works as a secretary for Heath' evi='However, they are saved by Jacob Armitage, a local verderer,'
+
+tests\e2e\test_benchmark_contradoc.py:81: AssertionError
+_______________ Golden100Tests.test_reference_engine_on_corpus ________________
+
+self = <test_golden100.Golden100Tests testMethod=test_reference_engine_on_corpus>
+
+    def test_reference_engine_on_corpus(self) -> None:
+        from hufu.engine.reference_check import reference_consistent_detection
+    
+        report: list[dict] = []
+        failures: list[str] = []
+        total_seconds = 0.0
+        for case in CASES:
+            start = time.perf_counter()
+            try:
+                has_contradiction, distance, evidence = reference_consistent_detection(
+                    case.query,
+                    case.document,
+                    distance_threshold=-1.0,
+                    query_is_question=case.is_question,
+                )
+                consistent = not has_contradiction
+                error = None
+            except Exception as exc:  # noqa: BLE001 - corpus runner records, not raises
+                consistent, distance, evidence, error = None, None, "", f"{type(exc).__name__}: {exc}"
+            elapsed = time.perf_counter() - start
+            total_seconds += elapsed
+            report.append(
+                {
+                    "id": case.id,
+                    "category": case.category,
+                    "expected": case.expected,
+                    "actual": consistent,
+                    "seconds": round(elapsed, 2),
+                    "distance": None if distance is None else round(distance, 4),
+                    "error": error,
+                    "evidence_head": (evidence or "").splitlines()[0][:140] if evidence else "",
+                    "note": case.note,
+                }
+            )
+            if error is not None:
+                failures.append(f"{case.id} raised {error}")
+            elif case.expected is not None and consistent != case.expected:
+                failures.append(
+                    f"{case.id} ({case.category}) expected={case.expected} got={consistent}: "
+                    f"{(evidence or '').splitlines()[0][:120]}"
+                )
+    
+        REPORT_PATH.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        pinned = [r for r in report if r["expected"] is not None]
+        correct = [r for r in pinned if r["actual"] == r["expected"]]
+        print(
+            f"\ngolden100: {len(correct)}/{len(pinned)} pinned correct, "
+            f"{sum(1 for r in report if r['error'])} errors, "
+            f"{total_seconds:.0f}s total; report ¡ú {REPORT_PATH}"
+        )
+>       self.assertFalse(
+            failures,
+            f"{len(failures)} golden failures:\n" + "\n".join(failures[:20]),
+        )
+E       AssertionError: ['C12 (number) expected=True got=False: [CONTRADICTION] Distance=0.1751 > threshold=-1.0', 'G03 (voice) expected=True got=False: [CONTRADICTION] Distance=0.2366 > threshold=-1.0', 'H05 (comparison) expected=True got=False: [CONTRADICTION] Distance=0.1565 > threshold=-1.0', 'J03 (distractor) expected=True got=False: [CONTRADICTION] Distance=0.2059 > threshold=-1.0', 'L07 (edge) expected=True got=False: [CONTRADICTION] Distance=0.3867 > threshold=-1.0'] is not false : 5 golden failures:
+E       C12 (number) expected=True got=False: [CONTRADICTION] Distance=0.1751 > threshold=-1.0
+E       G03 (voice) expected=True got=False: [CONTRADICTION] Distance=0.2366 > threshold=-1.0
+E       H05 (comparison) expected=True got=False: [CONTRADICTION] Distance=0.1565 > threshold=-1.0
+E       J03 (distractor) expected=True got=False: [CONTRADICTION] Distance=0.2059 > threshold=-1.0
+E       L07 (edge) expected=True got=False: [CONTRADICTION] Distance=0.3867 > threshold=-1.0
+
+tests\e2e\test_golden100.py:98: AssertionError
+------------------------------ Captured log call ------------------------------
+INFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1809, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1809 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2666, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2666 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3212, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 5\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3212 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.5137, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.5137 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=1)\n  \u2022 Q vertex unmatched in D: 'place' (ID=4)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2266, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2266 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2657, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2657 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1684, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1684 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3734, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3734 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.6744, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.6744 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2678, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2678 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2969, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2969 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4637, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.4637 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2411, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2411 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3595, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.3595 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?When' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1716, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1716 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1680, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1680 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2040, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2040 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1951, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1951 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4859, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.4859 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?When' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1737, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1737 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3477, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3477 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4891, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.4891 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1516, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1516 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2808, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2808 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?How many' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1773, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.1773 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?How many' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1462, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1462 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2875, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2875 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.5456, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.5456 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?How many' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1720, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1720 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1576, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1576 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1816, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1816 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3503, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.3503 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?How much' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1144, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1144 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1751, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.1751 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'striker score' (ID=4)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1366, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 5\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1366 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1508, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.1508 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'Emma' (ID=4)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1773, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1773 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2530, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2530 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'penicillin' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1409, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1409 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2804, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2804 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3673, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3673 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.6037, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.6037 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3494, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3494 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.0515, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.0515 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Who' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1210, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1210 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2946, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2946 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2701, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2701 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1022, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 5\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1022 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1780, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 5\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1780 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3874, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.3874 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'sun' (ID=4)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3289, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3289 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4834, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.4834 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2565, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2565 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2127, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2127 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3526, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3526 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4826, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.4826 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4730, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.4730 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'championship' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1691, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1691 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1438, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 5\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1438 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1348, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 5\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1348 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2366, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2366 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Who' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2562, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2562 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'engineer' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3930, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.3930 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'dog bite' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3924, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.3924 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'dog bite' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3490, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3490 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3379, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3379 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2489, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2489 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2878, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2878 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2250, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2250 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1736, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1736 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1565, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.1565 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?How many' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2009, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2009 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.0000, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.0981, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.0981 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.0000, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.0000 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.6973, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.6973 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '1200 people' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.0726, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.0726 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2967, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2967 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.0827, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.0827 > threshold but structural coverage satisfied\n  \u2713 All 3 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.7851, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.7851 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'earth' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2383, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2383 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2924, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2924 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2059, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2059 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'striker score' (ID=4)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2717, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2717 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.4113, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.4113 > threshold but structural coverage satisfied\n  \u2713 All 1 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3811, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3811 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3420, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 4\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3420 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2831, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2831 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2469, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2469 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2247, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2247 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3594, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3594 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3165, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3165 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.8392, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.8392 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'Ada Lovelace' (ID=2)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1576, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.1576 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3140, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3140 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2212, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 2\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.2212 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.2644, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.2644 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Who' (ID=1)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3488, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:165 [CONSISTENT] Distance=0.3488 > threshold but structural coverage satisfied\n  \u2713 All 2 critical Q vertices matched in D via reference HyperMatch\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.3867, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.3867 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: 'ceiling' (ID=3)\nINFO     hufu.engine.reference_check:reference_check.py:82 Compute cosine distance: 0.1146, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:117 h_v allowed pairs (typed): 1\nINFO     hufu.engine.reference_check:reference_check.py:176 [CONTRADICTION] Distance=0.1146 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?How many' (ID=1)
+============================== warnings summary ===============================
+tests/e2e/test_benchmark_contradoc.py::ContraDocSmokeTests::test_reference_engine_flags_contradiction_pairs
+tests/e2e/test_benchmark_l4.py::EngineBenchmarkTests::test_engine_latency_comparison
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+tests/e2e/test_benchmark_contradoc.py: 1 warning
+tests/e2e/test_benchmark_l4.py: 1 warning
+tests/e2e/test_bridge.py: 10 warnings
+tests/e2e/test_build_golden.py: 9 warnings
+tests/e2e/test_dual_track_l3.py: 4 warnings
+tests/e2e/test_golden100.py: 1 warning
+tests/e2e/test_reference_l2.py: 4 warnings
+tests/e2e/test_strategy_convergence.py: 4 warnings
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+    return options_class(*args, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/e2e/test_benchmark_contradoc.py::ContraDocSmokeTests::test_reference_engine_flags_contradiction_pairs
+FAILED tests/e2e/test_golden100.py::Golden100Tests::test_reference_engine_on_corpus
+2 failed, 35 passed, 36 warnings, 15 subtests passed in 522.37s (0:08:42)
+EXIT=1

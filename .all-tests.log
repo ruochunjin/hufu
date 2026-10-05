@@ -1,0 +1,21 @@
+......................................................... [ 77%]
+.................                                                        [100%]
+============================== warnings summary ===============================
+tests/e2e/test_benchmark_contradoc.py::ContraDocSmokeTests::test_reference_engine_flags_contradiction_pairs
+tests/e2e/test_dual_track_l3.py::DualTrackAgreementTests::test_verdicts_agree_on_golden_cases
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+tests/e2e/test_benchmark_contradoc.py: 1 warning
+tests/e2e/test_bridge.py: 10 warnings
+tests/e2e/test_build_golden.py: 9 warnings
+tests/e2e/test_dual_track_l3.py: 4 warnings
+tests/e2e/test_reference_l2.py: 4 warnings
+tests/e2e/test_strategy_convergence.py: 4 warnings
+tests/test_text_level_integration.py: 1 warning
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+    return options_class(*args, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+74 passed, 35 warnings, 15 subtests passed in 611.16s (0:10:11)
+EXIT=0

@@ -1,0 +1,1215 @@
+.Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 191.90 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.54s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.54s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 2.02 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 283.36 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.12s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 260.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.14s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 249.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.07 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.55 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 309.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 315.81 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 258.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 309.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 263.98 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 286.40 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.66 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.74 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 277.75 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 299.59 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 311.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 287.26 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 312.98 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 315.31 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 315.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 314.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 314.13 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 297.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.44 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.77 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 293.04 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 317.53 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.41s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.41s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 258.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 290.52 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 246.07 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 289.82 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 309.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 222.99 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.47 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 318.69 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 302.88 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 299.46 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 274.87 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 240.97 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.59 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 246.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.05 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 257.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 322.76 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 278.65 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 281.04 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.69 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 296.29 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 290.04 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 314.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 297.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.29 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.18 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 195.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.14 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.38 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 209.12 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 316.43 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 279.40 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 313.83 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 222.18 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 182.02 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 266.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 316.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.15s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 298.44 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 217.37 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.54 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 282.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 297.95 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 311.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 334.61 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.55 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 300.90 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.46 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 290.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.95 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 237.50 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 200.35 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 272.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 317.46 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 320.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 322.47 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 282.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 312.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 297.26 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.04 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 298.80 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 293.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 293.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 318.06 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 300.49 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.47 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 318.52 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.13 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.38s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 294.15 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 311.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 312.87 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 313.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 298.80 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.51 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.37 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 293.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.77 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.85 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 288.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 177.39 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 245.64 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.21 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 322.64 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 238.79 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.60 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 298.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 258.49 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 202.55 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 284.44 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.93 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.44 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.23 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.80 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 286.95 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.82 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 249.33 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 226.68 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 292.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.46 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 311.94 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.37 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 334.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 297.22 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.06 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.63 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.33 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 253.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.13 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 242.24 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 249.41 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 293.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 311.27 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 312.96 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 292.76 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 211.17 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 280.57 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 230.05 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 241.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 274.89 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.35 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 290.97 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.50 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 278.19 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 265.87 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 207.96 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.84 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 257.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.76 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 312.61 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 274.78 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 301.53 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 298.23 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 235.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 305.73 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 286.40 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 289.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 201.40 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.56s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.56s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.20 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 300.32 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.29 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 260.42 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 290.10 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.44s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 285.85 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 270.09 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 314.39 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 341.83 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 310.67 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 265.48 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 233.72 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 199.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 308.86 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 255.67 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.11s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 251.82 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 231.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.33 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 216.45 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.10s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 307.34 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.13s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.13s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 304.13 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.07s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.07s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 306.58 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.14s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 227.03 examples/s]
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.07s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.07s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+
+golden100: 74/74 pinned correct, 0 errors, 729s total; report → D:\tools\hufu\tests\e2e\golden100_report.json
+.
+============================== warnings summary ===============================
+tests/e2e/test_golden100.py::Golden100Tests::test_reference_engine_on_corpus
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+tests/e2e/test_golden100.py::Golden100Tests::test_reference_engine_on_corpus
+  D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+    return options_class(*args, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2 passed, 2 warnings in 728.83s (0:12:08)
+TRF_EXIT=0

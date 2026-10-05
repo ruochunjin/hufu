@@ -1,0 +1,362 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded colorchoice v1.0.3
+  Downloaded autocfg v1.4.0
+  Downloaded fxhash v0.2.1
+  Downloaded windows-targets v0.52.6
+  Downloaded cfg-if v1.0.0
+  Downloaded memoffset v0.9.1
+  Downloaded unindent v0.2.3
+  Downloaded is_terminal_polyfill v1.70.1
+  Downloaded pyo3-macros v0.27.1
+  Downloaded once_cell_polyfill v1.70.1
+  Downloaded anstyle-parse v0.2.6
+  Downloaded anstyle-query v1.1.2
+  Downloaded itoa v1.0.15
+  Downloaded wit-bindgen-rt v0.39.0
+  Downloaded graph-base v0.1.14
+  Downloaded anstyle-wincon v3.0.8
+  Downloaded lazy_static v1.5.0
+  Downloaded indoc v2.0.5
+  Downloaded heck v0.5.0
+  Downloaded utf8parse v0.2.2
+  Downloaded rand_pcg v0.9.0
+  Downloaded env_filter v0.1.3
+  Downloaded anstyle v1.0.10
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded either v1.14.0
+  Downloaded rand_chacha v0.9.0
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded rand_core v0.9.3
+  Downloaded target-lexicon v0.13.3
+  Downloaded bitflags v2.9.1
+  Downloaded byteorder v1.5.0
+  Downloaded env_logger v0.11.8
+  Downloaded pyo3-build-config v0.27.1
+  Downloaded quote v1.0.38
+  Downloaded bincode v1.3.3
+  Downloaded anstream v0.6.18
+  Downloaded once_cell v1.21.3
+  Downloaded portable-atomic-util v0.2.4
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded log v0.4.27
+  Downloaded unicode-ident v1.0.17
+  Downloaded ryu v1.0.20
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded serde_derive v1.0.219
+  Downloaded getrandom v0.3.3
+  Downloaded proc-macro2 v1.0.95
+  Downloaded r-efi v5.2.0
+  Downloaded jiff-static v0.2.14
+  Downloaded pyo3-macros-backend v0.27.1
+  Downloaded pyo3-ffi v0.27.1
+  Downloaded zerocopy-derive v0.8.25
+  Downloaded serde v1.0.219
+  Downloaded rayon-core v1.12.1
+  Downloaded memchr v2.7.4
+  Downloaded rand v0.9.1
+  Downloaded wasi v0.14.2+wasi-0.2.4
+  Downloaded serde_json v1.0.140
+  Downloaded itertools v0.14.0
+  Downloaded portable-atomic v1.11.0
+  Downloaded rayon v1.10.0
+  Downloaded aho-corasick v1.1.3
+  Downloaded regex v1.11.1
+  Downloaded zerocopy v0.8.25
+  Downloaded syn v2.0.98
+  Downloaded regex-syntax v0.8.5
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+warning: spurious network error (3 tries remaining): transfer too slow: failed to transfer more than 10 bytes in 30s (transferred 0 bytes)
+  Downloaded windows_x86_64_gnullvm v0.52.6
+  Downloaded windows_aarch64_gnullvm v0.52.6
+  Downloaded windows_i686_gnullvm v0.52.6
+  Downloaded regex-automata v0.4.9
+  Downloaded jiff v0.2.14
+  Downloaded libc v0.2.172
+  Downloaded windows_x86_64_msvc v0.52.6
+  Downloaded windows_aarch64_msvc v0.52.6
+  Downloaded windows_x86_64_gnu v0.52.6
+  Downloaded windows_i686_msvc v0.52.6
+  Downloaded windows_i686_gnu v0.52.6
+  Downloaded pyo3 v0.27.1
+  Downloaded windows-sys v0.59.0
+🐍 Found CPython 3.13 at D:\tools\hufu\.venv-e2e\Scripts\python.exe
+🔗 Found pyo3 bindings
+   Compiling target-lexicon v0.13.3
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.17
+   Compiling windows_x86_64_msvc v0.52.6
+   Compiling getrandom v0.3.3
+   Compiling memchr v2.7.4
+   Compiling cfg-if v1.0.0
+   Compiling zerocopy v0.8.25
+   Compiling serde v1.0.219
+   Compiling crossbeam-utils v0.8.21
+   Compiling regex-syntax v0.8.5
+   Compiling utf8parse v0.2.2
+   Compiling anstyle v1.0.10
+   Compiling once_cell_polyfill v1.70.1
+   Compiling libc v0.2.172
+   Compiling autocfg v1.4.0
+   Compiling log v0.4.27
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling rayon-core v1.12.1
+   Compiling colorchoice v1.0.3
+   Compiling either v1.14.0
+   Compiling heck v0.5.0
+   Compiling anstyle-parse v0.2.6
+   Compiling serde_json v1.0.140
+   Compiling ryu v1.0.20
+   Compiling byteorder v1.5.0
+   Compiling jiff v0.2.14
+   Compiling itoa v1.0.15
+   Compiling lazy_static v1.5.0
+   Compiling itertools v0.14.0
+   Compiling indoc v2.0.5
+   Compiling once_cell v1.21.3
+   Compiling unindent v0.2.3
+   Compiling fxhash v0.2.1
+   Compiling aho-corasick v1.1.3
+   Compiling memoffset v0.9.1
+   Compiling regex-automata v0.4.9
+   Compiling windows-targets v0.52.6
+   Compiling windows-sys v0.59.0
+   Compiling rand_core v0.9.3
+   Compiling rand_pcg v0.9.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling pyo3-build-config v0.27.1
+   Compiling quote v1.0.38
+   Compiling syn v2.0.98
+   Compiling crossbeam-deque v0.8.6
+   Compiling anstyle-query v1.1.2
+   Compiling anstyle-wincon v3.0.8
+   Compiling anstream v0.6.18
+   Compiling rayon v1.10.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand_chacha v0.9.0
+   Compiling rand v0.9.1
+   Compiling pyo3-ffi v0.27.1
+   Compiling pyo3-macros-backend v0.27.1
+   Compiling pyo3 v0.27.1
+   Compiling regex v1.11.1
+   Compiling env_filter v0.1.3
+   Compiling env_logger v0.11.8
+   Compiling serde_derive v1.0.219
+   Compiling pyo3-macros v0.27.1
+   Compiling bincode v1.3.3
+   Compiling graph-base v0.1.14
+   Compiling graph-simulation v0.1.30 (D:\tools\hufu\rust\graph-simulation)
+warning: unused import: `rand_pcg::Pcg64`
+ --> D:\tools\hufu\rust\graph-simulation\src\utils\predicate.rs:8:5
+  |
+8 | use rand_pcg::Pcg64;
+  |     ^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `clone`
+ --> D:\tools\hufu\rust\graph-simulation\src\utils\validation.rs:3:11
+  |
+3 | use std::{clone, collections::{HashMap, HashSet}, hash::Hash, ops::{Add, BitXor, Div, Mul, Sub}};
+  |           ^^^^^
+
+warning: unused import: `rand_pcg::Pcg64`
+ --> D:\tools\hufu\rust\graph-simulation\src\utils\validation.rs:8:5
+  |
+8 | use rand_pcg::Pcg64;
+  |     ^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::algorithm::simulation::Simulation`
+  --> D:\tools\hufu\rust\graph-simulation\src\lib.rs:13:5
+   |
+13 | use crate::algorithm::simulation::Simulation;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `Hyperedge` is never constructed
+   --> D:\tools\hufu\rust\graph-simulation\src\utils\validation.rs:191:8
+    |
+191 | struct Hyperedge {
+    |        ^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: struct `DiHyperedge` is never constructed
+   --> D:\tools\hufu\rust\graph-simulation\src\utils\validation.rs:195:8
+    |
+195 | struct DiHyperedge {
+    |        ^^^^^^^^^^^
+
+warning: variable `pre_V` should have a snake case name
+  --> D:\tools\hufu\rust\graph-simulation\src\algorithm\simulation.rs:41:13
+   |
+41 | ...   let pre_V = self.nodes().map(|v| self.get_post(&adj, v).collect::<HashSet<_>>()).reduce(|acc, x| acc.union(&x).cloned().collec...
+   |           ^^^^^ help: convert the identifier to snake case (notice the capitalization): `pre_v`
+   |
+   = note: `#[warn(non_snake_case)]` (part of `#[warn(nonstandard_style)]`) on by default
+
+warning: variable `pre_V` should have a snake case name
+  --> D:\tools\hufu\rust\graph-simulation\src\algorithm\simulation.rs:91:13
+   |
+91 | ...   let pre_V = other.nodes().map(|v| other.get_pre(&adj_inv_other, v).collect::<HashSet<_>>()).reduce(|acc, x| acc.union(&x).clon...
+   |           ^^^^^ help: convert the identifier to snake case (notice the capitalization): `pre_v`
+
+warning: using `.clone()` on a double reference, which returns `&<T as Graph<'_>>::Node` instead of cloning the inner type
+   --> D:\tools\hufu\rust\graph-simulation\src\algorithm\simulation.rs:158:46
+    |
+158 |                         sim_u_remove.insert(v.clone());
+    |                                              ^^^^^^^^
+    |
+    = note: `#[warn(suspicious_double_ref_op)]` on by default
+
+warning: using `.clone()` on a double reference, which returns `&<T as Graph<'_>>::Node` instead of cloning the inner type
+   --> D:\tools\hufu\rust\graph-simulation\src\algorithm\simulation.rs:195:46
+    |
+195 |                         sim_u_remove.insert(v.clone());
+    |                                              ^^^^^^^^
+
+warning: using `.clone()` on a double reference, which returns `&<T as Graph<'_>>::Node` instead of cloning the inner type
+   --> D:\tools\hufu\rust\graph-simulation\src\algorithm\simulation.rs:232:46
+    |
+232 |                         sim_u_remove.insert(v.clone());
+    |                                              ^^^^^^^^
+
+warning: `graph-simulation` (lib) generated 11 warnings (run `cargo fix --lib -p graph-simulation` to apply 4 suggestions)
+   Compiling simulation v0.1.15 (D:\tools\hufu\rust\simulation)
+warning: unused import: `pyo3::prelude::*`
+  --> src\graph\networkx_graph.rs:15:5
+   |
+15 | use pyo3::prelude::*;
+   |     ^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `pyo3::prelude::*`
+ --> src\utils.rs:3:5
+  |
+3 | use pyo3::prelude::*;
+  |     ^^^^^^^^^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:210:73
+    |
+210 |             let id = node.call_method1("__getitem__", (0, ))?.extract::<PyObject>()?;
+    |                                                                         ^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:212:92
+    |
+212 |             let attrs = node.call_method1("__getitem__", (1, ))?.extract::<HashMap<String, PyObject>>()?;
+    |                                                                                            ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:217:77
+    |
+217 |             let source = edge.call_method1("__getitem__", (0, ))?.extract::<PyObject>()?;
+    |                                                                             ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:219:77
+    |
+219 |             let target = edge.call_method1("__getitem__", (1, ))?.extract::<PyObject>()?;
+    |                                                                             ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:221:92
+    |
+221 |             let attrs = edge.call_method1("__getitem__", (2, ))?.extract::<HashMap<String, PyObject>>()?;
+    |                                                                                            ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:229:51
+    |
+229 |     fn to_networkx(&self, py: Python) -> PyResult<PyObject> {
+    |                                                   ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:265:68
+    |
+265 |     fn add_node(&mut self, id: String, attributes: HashMap<String, PyObject>) {
+    |                                                                    ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:276:37
+    |
+276 |         attributes: HashMap<String, PyObject>,
+    |                                     ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:297:76
+    |
+297 |     fn get_node_attributes(&self, node_id: &str) -> Option<HashMap<String, PyObject>> {
+    |                                                                            ^^^^^^^^
+
+warning: use of deprecated type alias `pyo3::PyObject`: use `Py<PyAny>` instead
+   --> src\graph\networkx_graph.rs:312:33
+    |
+312 |     ) -> Option<HashMap<String, PyObject>> {
+    |                                 ^^^^^^^^
+
+warning: use of deprecated associated function `pyo3::Python::<'_>::with_gil`: use `Python::attach` instead
+   --> src\graph\networkx_graph.rs:299:21
+    |
+299 |             Python::with_gil(|py| {
+    |                     ^^^^^^^^
+
+warning: use of deprecated associated function `pyo3::Python::<'_>::with_gil`: use `Python::attach` instead
+   --> src\graph\networkx_graph.rs:317:30
+    |
+317 |             .map(|e| Python::with_gil(|py| {
+    |                              ^^^^^^^^
+
+warning: unused variable: `v`
+   --> src\graph\networkx_graph.rs:691:47
+    |
+691 |     fn get_bound(&'a self, u: &'a Self::Node, v: &'a Self::Node) -> usize {
+    |                                               ^ help: if this is intentional, prefix it with an underscore: `_v`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: using `.clone()` on a double reference, which returns `&networkx_graph::Node` instead of cloning the inner type
+   --> src\graph\networkx_graph.rs:398:72
+    |
+398 | ...   self.edges.iter().map(|edge| (id_map.get(&edge.source).unwrap().clone(), id_map.get(&edge.target).unwrap().clone()) ).collect...
+    |                                                                      ^^^^^^^^
+    |
+    = note: `#[warn(suspicious_double_ref_op)]` on by default
+
+warning: using `.clone()` on a double reference, which returns `&networkx_graph::Node` instead of cloning the inner type
+   --> src\graph\networkx_graph.rs:398:115
+    |
+398 | ...   self.edges.iter().map(|edge| (id_map.get(&edge.source).unwrap().clone(), id_map.get(&edge.target).unwrap().clone()) ).collect...
+    |                                                                                                                 ^^^^^^^^
+
+warning: using `.clone()` on a double reference, which returns `&networkx_graph::Node` instead of cloning the inner type
+   --> src\graph\networkx_graph.rs:458:77
+    |
+458 | ...   self.edges.iter().map(move |edge| (id_map.get(&edge.source).unwrap().clone(), id_map.get(&edge.target).unwrap().clone(), &edg...
+    |                                                                           ^^^^^^^^
+
+warning: using `.clone()` on a double reference, which returns `&networkx_graph::Node` instead of cloning the inner type
+   --> src\graph\networkx_graph.rs:458:120
+    |
+458 | ...   self.edges.iter().map(move |edge| (id_map.get(&edge.source).unwrap().clone(), id_map.get(&edge.target).unwrap().clone(), &edg...
+    |                                                                                                                      ^^^^^^^^
+
+warning: `simulation` (lib) generated 19 warnings (run `cargo fix --lib -p simulation` to apply 3 suggestions)
+    Finished `release` profile [optimized] target(s) in 17.35s
+📖 Found type stub file at simulation.pyi
+📦 Built wheel for CPython 3.13 to D:\tools\hufu\rust\simulation\target\wheels\simulation_alg-0.1.15-cp313-cp313-win_amd64.whl
+MATURIN_EXIT=0

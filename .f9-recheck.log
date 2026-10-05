@@ -1,0 +1,27 @@
+D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+10/04/2026 08:20:49 - INFO - 	 missing_keys: []
+10/04/2026 08:20:49 - INFO - 	 unexpected_keys: []
+10/04/2026 08:20:49 - INFO - 	 mismatched_keys: []
+10/04/2026 08:20:49 - INFO - 	 error_msgs: []
+10/04/2026 08:20:49 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
+10/04/2026 08:20:49 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 158.03 examples/s]
+D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+  return options_class(*args, **kwargs)
+10/04/2026 08:20:49 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.27s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 1.77 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+10/04/2026 08:20:52 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 177.12 examples/s]
+10/04/2026 08:20:52 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.02it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.02it/s]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 0.00 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+identity F9 case: contra=True time=10.3s
+[CONTRADICTION] Distance=-0.0000 > threshold=-1.0

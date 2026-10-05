@@ -1,0 +1,134 @@
+D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[1] 3488771835_6 pos=True max_p=1.000
+[2] 3488771840_2 pos=True max_p=1.000
+[3] 3488771840_5 pos=True max_p=1.000
+[4] 3488771840_7 pos=True max_p=1.000
+[5] 3488771840_9 pos=True max_p=1.000
+[6] 3488771843_7 pos=True max_p=1.000
+[7] 3488771844_8 pos=True max_p=1.000
+[8] 3488771845_6 pos=True max_p=1.000
+[9] 3488771846_3 pos=True max_p=1.000
+[10] 3488771846_6 pos=True max_p=1.000
+[11] 3488771848_8 pos=True max_p=1.000
+[12] 3488771849_5 pos=True max_p=1.000
+[13] 3488771853_2 pos=True max_p=1.000
+[14] 3488771854_1 pos=True max_p=1.000
+[15] 3488771854_6 pos=True max_p=1.000
+[16] 3488771854_8 pos=True max_p=1.000
+[17] 3488771855_1 pos=True max_p=1.000
+[18] 3488771855_6 pos=True max_p=1.000
+[19] 3488771886_8 pos=True max_p=1.000
+[20] 3489825764_2 pos=True max_p=0.999
+[21] 3488771834_1 pos=False max_p=1.000
+[22] 3488771834_4 pos=False max_p=1.000
+[23] 3488771835_1 pos=False max_p=1.000
+[24] 3488771835_2 pos=False max_p=1.000
+[25] 3488771836_3 pos=False max_p=1.000
+[26] 3488771836_6 pos=False max_p=1.000
+[27] 3488771838_5 pos=False max_p=1.000
+[28] 3488771840_6 pos=False max_p=1.000
+[29] 3488771842_1 pos=False max_p=1.000
+[30] 3488771842_6 pos=False max_p=1.000
+[31] 3488771843_6 pos=False max_p=1.000
+[32] 3488771845_3 pos=False max_p=1.000
+[33] 3488771846_1 pos=False max_p=1.000
+[34] 3488771846_2 pos=False max_p=1.000
+[35] 3488771847_7 pos=False max_p=1.000
+[36] 3488771848_1 pos=False max_p=1.000
+[37] 3488771848_2 pos=False max_p=1.000
+[38] 3488771849_3 pos=False max_p=1.000
+[39] 3488771851_4 pos=False max_p=1.000
+[40] 3488771852_1 pos=False max_p=0.043
+[
+  {
+    "threshold": 0.3,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.4,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.5,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.6,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.7,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.8,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.9,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  },
+  {
+    "threshold": 0.95,
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1,
+    "accuracy": 0.525,
+    "precision": 0.5128,
+    "recall": 1.0,
+    "f1": 0.678
+  }
+]
+written to benchmarks\data\cache\doc_threshold_calibration_20_base.json
+EXIT=0

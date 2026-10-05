@@ -1,0 +1,36 @@
+D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+10/04/2026 03:30:20 - INFO - 	 missing_keys: []
+10/04/2026 03:30:20 - INFO - 	 unexpected_keys: []
+10/04/2026 03:30:20 - INFO - 	 mismatched_keys: []
+10/04/2026 03:30:20 - INFO - 	 error_msgs: []
+10/04/2026 03:30:20 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
+10/04/2026 03:30:20 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 149.60 examples/s]
+D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+  return options_class(*args, **kwargs)
+10/04/2026 03:30:20 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 1.86 seconds
+Dependency construction took 0.00 seconds
+Dependency processing took 0.00 seconds
+10/04/2026 03:30:23 - INFO - 	 No device provided, using cpu
+10/04/2026 03:30:23 - INFO - 	 Loading SentenceTransformer model from Qwen/Qwen3-Embedding-0.6B.
+10/04/2026 03:30:24 - INFO - 	 Loaded 1 prompt with these keys: ['query']
+hc-0c413823b21 prob=0.989 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-0fa3ba3a94b prob=0.997 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-141c9bb9368 prob=0.966 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-20e00f6e5d3 prob=0.952 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-2b5be425f9c prob=0.955 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-47491eeaaf0 prob=1.000 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-56b85c9786d prob=0.998 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-594ed94bd4e prob=0.931 accept=True active=True destructive=False support=True reasons=('destructive_threshold_satisfied',)
+hc-5cde333de77 prob=0.957 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-ba9a7d0839a prob=0.990 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-bb506f66a65 prob=0.991 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-c6d0c847ea2 prob=0.964 accept=True active=True destructive=True support=False reasons=('destructive_threshold_satisfied',)
+hc-df31b68b45c prob=0.993 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-f67d2d220fe prob=0.998 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+hc-f75e09350ba prob=0.996 accept=True active=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
+fp type: HyperSimulationResult ['initial_relation', 'iterations', 'mode', 'relation', 'relation_by_query', 'removals']

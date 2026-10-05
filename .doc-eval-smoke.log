@@ -1,0 +1,23 @@
+D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[1] 3488771835_6 label=contradiction flagged=True (19.4s)
+[2] 3488771840_2 label=contradiction flagged=True (5.1s)
+[3] 3488771840_5 label=contradiction flagged=True (3.4s)
+[4] 3488771834_1 label=entailment flagged=True (4.4s)
+[5] 3488771834_4 label=entailment flagged=True (4.2s)
+[6] 3488771835_1 label=entailment flagged=True (6.6s)
+{
+  "protocol": "similarity-top3+nli",
+  "confusion": {
+    "tp": 3,
+    "fn": 0,
+    "tn": 0,
+    "fp": 3,
+    "skip": 0
+  },
+  "accuracy": 0.5,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1": 0.6667
+}
+report written to D:\tools\hufu\benchmarks\data\cache\contradoc_doc_eval_3.json

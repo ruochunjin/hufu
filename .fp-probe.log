@@ -1,0 +1,42 @@
+SENTENCE: The novel begins as the narrator, Jenny, describes her cousin by marriage Kitty Baldry pining in the abandoned nursery where her dead first son would have been raised
+words: 28
+D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+10/04/2026 02:25:05 - INFO - 	 missing_keys: []
+10/04/2026 02:25:05 - INFO - 	 unexpected_keys: []
+10/04/2026 02:25:05 - INFO - 	 mismatched_keys: []
+10/04/2026 02:25:05 - INFO - 	 error_msgs: []
+10/04/2026 02:25:05 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
+10/04/2026 02:25:05 - INFO - 	 Tokenize 1 inputs...
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 52.10 examples/s]
+D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
+  return options_class(*args, **kwargs)
+10/04/2026 02:25:05 - INFO - 	 ***** Running Inference on 1 texts *****
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.46s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:02<00:00,  2.46s/it]
+combine_links and retokenize took 0.00 seconds
+combine and retokenize took 3.73 seconds
+Dependency construction took 0.01 seconds
+Dependency processing took 0.00 seconds
+=== vertices ===
+  id=1 text='novel' type=ENT.WORK_OF_ART is_query=False
+  id=2 text='begins' type=None is_query=False
+  id=12 text='the narrator,' type=ENT.PERSON is_query=False
+  id=3 text='Jenny' type=ENT.PERSON is_query=False
+  id=4 text='describes' type=None is_query=False
+  id=5 text='cousin' type=ENT.PERSON is_query=False
+  id=13 text='marriage Kitty Baldry' type=ENT.PERSON is_query=False
+  id=6 text='pining' type=None is_query=False
+  id=7 text='abandoned nursery' type=ENT.FAC is_query=False
+  id=8 text='?where' type=None is_query=True
+  id=9 text='dead' type=None is_query=False
+  id=10 text='first son' type=ENT.PERSON is_query=False
+  id=11 text='been raised' type=None is_query=False
+=== hyperedges ===
+  root='begins' roles=[('novel', 'nsubj'), ('the narrator,', 'pobj'), ('Jenny', 'pobj')]
+  root='describes' roles=[('cousin', 'dobj'), ('marriage Kitty Baldry', 'pobj'), ('pining', 'advcl'), ('been raised', 'advcl')]
+  root='cousin' roles=[('the narrator,', 'poss')]
+  root='pining' roles=[('abandoned nursery', 'pobj')]
+  root='first son' roles=[('marriage Kitty Baldry', 'poss'), ('dead', 'amod')]
+  root='been raised' roles=[('?where', 'advmod'), ('first son', 'nsubjpass')]
+matchable required: [('v1', 'novel', 'entity', 'WORK_OF_ART'), ('v12', 'the narrator,', 'entity', 'PERSON'), ('v3', 'Jenny', 'entity', 'PERSON'), ('v13', 'marriage Kitty Baldry', 'entity', 'PERSON'), ('v7', 'abandoned nursery', 'entity', 'FAC'), ('v8', '?where', 'query', 'LOCATION'), ('v9', 'dead', 'adjective', 'ADJ')]
+typed self-pairs: 15 of 49 possible
