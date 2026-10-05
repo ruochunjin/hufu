@@ -63,3 +63,4 @@ tests/e2e/golden100_report_sm.json
 # Regenerable caches (hypergraph pickles, dataset parquet downloads)
 benchmarks/data/cache/hypergraphs/
 benchmarks/data/cache/*--*/
+tests/e2e/golden_doc_report.json
