@@ -380,9 +380,21 @@ def check_star(
                             )
                     continue
             # R-NEGATION: same center role (the center sits in the same slot
-            # of both facts), but one fact negates its predicate.
+            # of both facts), one fact negates its predicate, AND the pair
+            # shares a co-value beyond the center ("stayed in Paris" vs
+            # "never visited Paris" anchors on Paris/Yorick; "rats have not
+            # yet ..." vs "regular rats" shares nothing and is narrative).
             if fa.center_role == fb.center_role and fa.negated != fb.negated:
-                cued_pairs.append((fa, fb, "R-NEGATION"))
+                center_surface = star.center.text().strip().casefold()
+                shared_values = {
+                    text.strip().casefold()
+                    for text, _vtype, _role in fa.others
+                } & {
+                    text.strip().casefold()
+                    for text, _vtype, _role in fb.others
+                }
+                if any(value and value != center_surface for value in shared_values):
+                    cued_pairs.append((fa, fb, "R-NEGATION"))
             # R-SIMILAR: nearly-identical edge texts sharing a center but
             # phrased differently — catches antonymy and parse asymmetries
             # ("is open on Mondays" vs "is closed on Mondays") that exact
