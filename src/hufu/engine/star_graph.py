@@ -338,12 +338,14 @@ def check_star(
         nli_pairs.append((fa, fb, rule, cosine))
     if nli_pairs:
         if ***REMOVED***:
-            # DocChecker ***REMOVED*** stage: the ***REMOVED***s each cued pair
-            # with the paper's 7-type taxonomy, replacing shallow NLI.
-            from .***REMOVED*** import ***REMOVED***
+            # DocChecker ***REMOVED*** stage: the local small model judges all
+            # cued pairs of this star in ONE batched generation.
+            from .***REMOVED*** import ***REMOVED***_batch
 
-            for fa, fb, rule, cosine in nli_pairs:
-                is_contra, ctype = ***REMOVED***(fa.sentence, fb.sentence)
+            verdicts = ***REMOVED***_batch(
+                [(fa.sentence, fb.sentence) for fa, fb, _rule, _c in nli_pairs]
+            )
+            for (fa, fb, rule, cosine), (is_contra, ctype) in zip(nli_pairs, verdicts):
                 if is_contra:
                     conflicts.append(
                         StarConflict(
