@@ -73,3 +73,4 @@ tests/e2e/golden_doc_report.json
 .vs-*.log
 .vs-*.bat
 .vs-*.ps1
+tests/e2e/golden_doc300_report.json
