@@ -38,6 +38,34 @@ def _wordnet():
     return wn
 
 
+@lru_cache(maxsize=20000)
+def _cached_synsets(word: str, wn_pos) -> tuple:
+    """WordNet synsets for (word, pos) — the build pipeline asks this per
+    span and per token, and hypernym_paths() below costs ~ms per call."""
+
+    wn = _wordnet()
+    if wn is None:
+        return ()
+    return tuple(wn.synsets(word, pos=wn_pos))
+
+
+@lru_cache(maxsize=20000)
+def _cached_hypernym_path(synset_name: str) -> tuple:
+    """First hypernym path for a synset, as names root→synset."""
+
+    wn = _wordnet()
+    if wn is None:
+        return ()
+    try:
+        synset = wn.synset(synset_name)
+    except Exception:  # noqa: BLE001 - unknown synset name
+        return ()
+    paths = synset.hypernym_paths()
+    if not paths:
+        return (synset.name(),)
+    return tuple(node.name() for node in paths[0])
+
+
 def default_mapping_path() -> str:
     """Resolve the synset-to-ENT mapping path.
 
@@ -101,16 +129,12 @@ class TokenEntityAdder:
         except Exception:
             synset = None
         if not synset:
-            wn = _wordnet()
-            synsets = wn.synsets(span.text.lower().strip(), pos=wn_pos) if wn else []
+            synsets = _cached_synsets(span.text.lower().strip(), wn_pos)
             if synsets:
                 synset = synsets[0]
         if not synset:
             return []
-        paths = synset.hypernym_paths()
-        if not paths:
-            return [synset.name()]
-        return [node.name() for node in paths[0]]
+        return list(_cached_hypernym_path(synset.name()))
     def _get_contextual_synset_path_token(self, token: Token, doc) -> list[str]:
         wn_pos = self._spacy_to_wn_pos(token.pos_)
         if not wn_pos:
@@ -120,16 +144,12 @@ class TokenEntityAdder:
         except Exception:
             synset = None
         if not synset:
-            wn = _wordnet()
-            synsets = wn.synsets(token.lemma_, pos=wn_pos) if wn else []
+            synsets = _cached_synsets(token.lemma_, wn_pos)
             if synsets:
                 synset = synsets[0]
         if not synset:
             return []
-        paths = synset.hypernym_paths()
-        if not paths:
-            return [synset.name()]
-        return [node.name() for node in paths[0]]
+        return list(_cached_hypernym_path(synset.name()))
     def set_entity_from_spans(self, spans: list[Span], doc):
         """Resolve and cache an entity type for every selected span start."""
 
