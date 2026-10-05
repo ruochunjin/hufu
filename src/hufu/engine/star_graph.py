@@ -276,6 +276,14 @@ def check_star(
             same_predicate = (
                 fa.predicate.strip().casefold() == fb.predicate.strip().casefold()
             )
+            # Value-slot rules only apply when the center is the SUBJECT of
+            # both facts: "Hemingway born in X vs Y" is a real conflict;
+            # "Margaret's return vs Chris's return" (center is an event noun
+            # in an object slot) is just two different events (corpus FP
+            # attribution: R-VALUE dominated false flags).
+            center_is_subject = (
+                fa.center_role in _SUBJECT_ROLES and fb.center_role in _SUBJECT_ROLES
+            )
             if same_predicate:
                 # R-ROLE: same predicate, the center sits in subject position
                 # in one fact and object position in the other — a role
@@ -312,27 +320,29 @@ def check_star(
                         )
                     continue
                 # R-NUMERIC: same predicate, numbers differ in a shared role.
-                numeric = _numeric_conflict(fa, fb)
-                if numeric is not None:
-                    role, detail = numeric
-                    conflicts.append(
-                        StarConflict(
-                            rule="R-NUMERIC",
-                            center_text=star.center.text(),
-                            fact_a=fa,
-                            fact_b=fb,
-                            explanation=f"numbers conflict in role {role}: {detail}",
+                # Only when the center is the subject of both facts.
+                if center_is_subject:
+                    numeric = _numeric_conflict(fa, fb)
+                    if numeric is not None:
+                        role, detail = numeric
+                        conflicts.append(
+                            StarConflict(
+                                rule="R-NUMERIC",
+                                center_text=star.center.text(),
+                                fact_a=fa,
+                                fact_b=fb,
+                                explanation=f"numbers conflict in role {role}: {detail}",
+                            )
                         )
-                    )
-                    if chain is not None:
-                        chain.add(
-                            "rule",
-                            f"R-NUMERIC fires: numbers differ in role {role} ({detail})",
-                            rule="R-NUMERIC", role=role, values=detail,
-                        )
-                    continue
+                        if chain is not None:
+                            chain.add(
+                                "rule",
+                                f"R-NUMERIC fires: numbers differ in role {role} ({detail})",
+                                rule="R-NUMERIC", role=role, values=detail,
+                            )
+                        continue
                 # R-VALUE: same predicate slot, typed values differ.
-                value_conflict = _value_conflicts(fa, fb)
+                value_conflict = _value_conflicts(fa, fb) if center_is_subject else None
                 if value_conflict is not None:
                     role, vtype, va, vb = value_conflict
                     if vtype == "NUMBER" and (
