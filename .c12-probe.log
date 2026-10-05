@@ -1,72 +1,0 @@
-========================= How many goals did the striker score?
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-10/04/2026 09:23:02 - INFO - 	 missing_keys: []
-10/04/2026 09:23:02 - INFO - 	 unexpected_keys: []
-10/04/2026 09:23:02 - INFO - 	 mismatched_keys: []
-10/04/2026 09:23:02 - INFO - 	 error_msgs: []
-10/04/2026 09:23:02 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
-10/04/2026 09:23:02 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 114.02 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 09:23:02 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.24s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 1.78 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 09:23:05 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 224.56 examples/s]
-10/04/2026 09:23:05 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.05it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.05it/s]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-  Q v1   query     feat=NUMBER     '?How many'
-  Q v2   predicate feat=CONCEPT    'goals'
-  Q v3   predicate feat=VERB       'did'
-  Q v4   entity    feat=CONCEPT    'striker score'
-  D v1   entity    feat=PERSON     match=True 'striker'
-  D v2   predicate feat=VERB       match=False 'scored'
-  D v3   value     feat=NUMBER     match=True '23 goals'
-  D v4   value     feat=TEMPORAL   match=True 'this season'
-  hv: [('?How many', '23 goals')]
-10/04/2026 09:23:06 - INFO - 	 No device provided, using cpu
-10/04/2026 09:23:06 - INFO - 	 Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
-  consistent: False uncovered: ('v4',)
-  initial: [('v1', 'v3')]
-  final: [('v1', 'v3')]
-========================= Which planet is closest to the sun?
-10/04/2026 09:23:06 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 142.41 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 09:23:06 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.05it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.05it/s]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 09:23:07 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 205.37 examples/s]
-10/04/2026 09:23:07 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.04it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.04it/s]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-  Q v1   query     feat=UNKNOWN    '?planet'
-  Q v2   predicate feat=AUX        'is'
-  Q v3   predicate feat=ADJ        'closest to'
-  Q v4   entity    feat=ASTRO      'sun'
-  D v1   entity    feat=ORG        match=True 'Mercury'
-  D v2   predicate feat=AUX        match=False 'is'
-  D v3   entity    feat=ASTRO      match=True 'planet'
-  D v4   predicate feat=ADJ        match=False 'closest to'
-  D v5   entity    feat=ASTRO      match=True 'sun'
-  hv: [('sun', 'planet'), ('sun', 'sun')]
-  consistent: False uncovered: ('v1',)
-  initial: [('v4', 'v3'), ('v4', 'v5')]
-  final: [('v4', 'v3'), ('v4', 'v5')]

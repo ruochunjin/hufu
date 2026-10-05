@@ -1,50 +1,0 @@
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-10/04/2026 00:57:54 - INFO - 	 missing_keys: []
-10/04/2026 00:57:54 - INFO - 	 unexpected_keys: []
-10/04/2026 00:57:54 - INFO - 	 mismatched_keys: []
-10/04/2026 00:57:54 - INFO - 	 error_msgs: []
-10/04/2026 00:57:54 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
-10/04/2026 00:57:54 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 148.09 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 00:57:54 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 1.73 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 00:57:57 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 226.62 examples/s]
-10/04/2026 00:57:57 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.02it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.02it/s]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 00:57:58 - INFO - 	 No device provided, using cpu
-10/04/2026 00:57:58 - INFO - 	 No modules.json found for cross-encoder/nli-deberta-v3-base, initializing a new CrossEncoder model.
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  6.08it/s]Batches: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  6.07it/s]
-10/04/2026 00:57:59 - INFO - 	 No device provided, using cpu
-10/04/2026 00:57:59 - INFO - 	 Loading SentenceTransformer model from Qwen/Qwen3-Embedding-0.6B.
-10/04/2026 00:57:59 - INFO - 	 Loaded 1 prompt with these keys: ['query']
-[2026-10-03T16:57:59Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 2
-[2026-10-03T16:57:59Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
-[2026-10-03T16:57:59Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
-[2026-10-03T16:57:59Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
-[2026-10-03T16:57:59Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
-=== query vertices ===
-  id=1 text='?How many' poses=['ADJ'] type=None
-  id=2 text='meters' poses=['NOUN'] type=ENT.NUMBER
-  id=3 text='is' poses=['AUX'] type=None
-  id=4 text='marathon race' poses=['NOUN'] type=ENT.EVENT
-=== data vertices ===
-  id=1 text='marathon race' poses=['NOUN'] type=ENT.EVENT
-  id=2 text='is' poses=['AUX'] type=None
-  id=3 text='42195 meters' poses=['NOUN'] type=ENT.NUMBER
-=== simulation relation ===
-  Q3(marathon race) -> D0(marathon race)
-  Q0(?How many) -> D2(42195 meters)

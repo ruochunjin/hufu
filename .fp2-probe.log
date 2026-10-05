@@ -1,30 +1,0 @@
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-10/04/2026 02:51:17 - INFO - 	 missing_keys: []
-10/04/2026 02:51:17 - INFO - 	 unexpected_keys: []
-10/04/2026 02:51:17 - INFO - 	 mismatched_keys: []
-10/04/2026 02:51:17 - INFO - 	 error_msgs: []
-10/04/2026 02:51:17 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
-10/04/2026 02:51:17 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 121.31 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 02:51:17 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.34s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 1.99 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.00 seconds
-matchable: 6 edges: 6 hv pairs: 12
-10/04/2026 02:51:20 - INFO - 	 No device provided, using cpu
-10/04/2026 02:51:20 - INFO - 	 Loading SentenceTransformer model from Qwen/Qwen3-Embedding-0.6B.
-10/04/2026 02:51:21 - INFO - 	 Loaded 1 prompt with these keys: ['query']
-consistent: False
-required: ('v1', 'v11', 'v12', 'v3', 'v7', 'v8')
-uncovered: ('v1', 'v11', 'v12', 'v3', 'v7', 'v8')
-  uncovered: Vertex(id='v1', text='novel', semantic_type='WORK_OF_ART', kind='entity', expected_type=None, referent_id=None)
-  uncovered: Vertex(id='v11', text='the narrator,', semantic_type='PERSON', kind='entity', expected_type=None, referent_id=None)
-  uncovered: Vertex(id='v12', text='marriage Kitty Baldry', semantic_type='PERSON', kind='entity', expected_type=None, referent_id=None)
-  uncovered: Vertex(id='v3', text='Jenny', semantic_type='PERSON', kind='entity', expected_type=None, referent_id=None)
-  uncovered: Vertex(id='v7', text='abandoned nursery', semantic_type='FAC', kind='entity', expected_type=None, referent_id=None)
-  uncovered: Vertex(id='v8', text='dead', semantic_type='ADJ', kind='adjective', expected_type=None, referent_id=None)

@@ -1,3 +1,0 @@
-consistent=False distance=0.23614728450775146
-[CONTRADICTION] Distance=0.2361 > threshold=-1.0
-  • Q vertex unmatched in D: ''The Old Man and the Sea'' (ID=4)

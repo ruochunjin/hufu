@@ -1,307 +1,0 @@
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-[1] 3488771854_6 label=contradiction consistent=False (5.5s)
-[2] 3488771855_1 label=contradiction consistent=False (0.4s)
-[3] 3488771855_6 label=contradiction consistent=False (0.4s)
-[4] 3488771836_2 label=contradiction consistent=False (1.1s)
-[5] 3488771836_5 label=contradiction consistent=False (0.7s)
-[6] 3488771838_4 label=contradiction consistent=False (0.5s)
-[7] 3488771839_1 label=contradiction consistent=False (1.0s)
-[8] 3488771839_11 label=contradiction consistent=False (0.7s)
-[9] 3488771839_3 label=contradiction consistent=False (0.2s)
-[10] 3488771839_4 label=contradiction consistent=False (0.7s)
-[11] 3488771839_8 label=contradiction consistent=True (0.5s)
-[12] 3488771840_10 label=contradiction consistent=False (0.2s)
-[13] 3488771844_6 label=contradiction consistent=False (0.3s)
-[14] 3488771845_4 label=contradiction consistent=True (0.9s)
-[15] 3488771846_9 label=contradiction consistent=False (0.5s)
-[16] 3488771848_6 label=contradiction consistent=True (0.7s)
-[17] 3488771849_4 label=contradiction consistent=False (0.8s)
-[18] 3488771849_6 label=contradiction consistent=True (1.3s)
-[19] 3488771850_1 label=contradiction consistent=False (0.5s)
-[20] 3488771850_5 label=contradiction consistent=False (2.0s)
-[21] 3488771853_5 label=contradiction consistent=False (1.2s)
-[22] 3488771854_10 label=contradiction consistent=False (0.6s)
-[23] 3488771854_5 label=contradiction consistent=False (0.9s)
-[24] 3488771854_7 label=contradiction consistent=False (0.6s)
-[25] 3488771855_2 label=contradiction consistent=False (1.8s)
-[26] 3488771855_4 label=contradiction consistent=False (0.9s)
-[27] 3488771857_5 label=contradiction consistent=False (0.5s)
-[28] 3488771860_5 label=contradiction consistent=False (0.5s)
-[29] 3488771868_7 label=contradiction consistent=False (2.8s)
-[30] 3488771873_1 label=contradiction consistent=False (2.2s)
-[31] 3488771875_7 label=contradiction consistent=False (0.8s)
-[32] 3488771875_8 label=contradiction consistent=True (2.1s)
-[33] 3488771876_2 label=contradiction consistent=False (2.2s)
-[34] 3488771876_8 label=contradiction consistent=False (3.0s)
-[35] 3488771877_4 label=contradiction consistent=False (1.9s)
-[36] 3488771878_4 label=contradiction consistent=False (0.3s)
-[37] 3488771880_9 label=contradiction consistent=False (1.1s)
-[38] 3488771884_2 label=contradiction consistent=False (0.5s)
-[39] 3488771888_8 label=contradiction consistent=False (1.8s)
-[40] 3488771889_1 label=contradiction consistent=False (2.3s)
-[41] 3488771890_2 label=contradiction consistent=False (0.8s)
-[42] 3488771891_7 label=contradiction consistent=False (3.6s)
-10/04/2026 22:31:54 - INFO - 	 missing_keys: []
-10/04/2026 22:31:54 - INFO - 	 unexpected_keys: []
-10/04/2026 22:31:54 - INFO - 	 mismatched_keys: []
-10/04/2026 22:31:54 - INFO - 	 error_msgs: []
-10/04/2026 22:31:54 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
-10/04/2026 22:31:54 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 145.93 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 22:31:55 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.70s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.70s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 2.39 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 22:32:00 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 139.14 examples/s]
-10/04/2026 22:32:00 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.08s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.08s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-[43] 3488771897_2 label=contradiction consistent=False (10.3s)
-10/04/2026 22:32:04 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 141.44 examples/s]
-10/04/2026 22:32:04 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.01 seconds
-10/04/2026 22:32:06 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 173.07 examples/s]
-10/04/2026 22:32:06 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.00 seconds
-[44] 3488771897_3 label=contradiction consistent=False (5.9s)
-10/04/2026 22:32:10 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 125.29 examples/s]
-10/04/2026 22:32:10 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.03 seconds
-Dependency processing took 0.01 seconds
-10/04/2026 22:32:12 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 117.04 examples/s]
-10/04/2026 22:32:13 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-[45] 3488771900_6 label=contradiction consistent=False (5.3s)
-10/04/2026 22:32:15 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 209.39 examples/s]
-10/04/2026 22:32:15 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 22:32:18 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 151.27 examples/s]
-10/04/2026 22:32:18 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.31s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.31s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.02 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.01 seconds
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.22it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.21it/s]
-[46] 3488771902_7 label=contradiction consistent=True (8.1s)
-10/04/2026 22:32:23 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 123.29 examples/s]
-10/04/2026 22:32:23 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.36s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.04 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.01 seconds
-10/04/2026 22:32:26 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 181.48 examples/s]
-10/04/2026 22:32:26 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]Inference: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.01 seconds
-Dependency processing took 0.00 seconds
-[47] 3488771903_4 label=contradiction consistent=False (8.2s)
-10/04/2026 22:32:31 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 115.22 examples/s]
-10/04/2026 22:32:32 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 22:32:33 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 165.07 examples/s]
-10/04/2026 22:32:33 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.54it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.52it/s]
-[48] 3488771907_2 label=contradiction consistent=False (4.2s)
-10/04/2026 22:32:36 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 131.85 examples/s]
-10/04/2026 22:32:36 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 22:32:37 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 148.67 examples/s]
-10/04/2026 22:32:37 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-[49] 3488771908_5 label=contradiction consistent=False (3.7s)
-10/04/2026 22:32:39 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 136.39 examples/s]
-10/04/2026 22:32:40 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 22:32:41 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 122.20 examples/s]
-10/04/2026 22:32:41 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]Inference: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.01 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-[50] 3488771911_1 label=contradiction consistent=False (4.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.24it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.22it/s]
-[51] 3488771834_1 label=entailment consistent=True (1.7s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.21it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.19it/s]
-[52] 3488771834_4 label=entailment consistent=True (1.8s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.83it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.82it/s]
-[53] 3488771835_1 label=entailment consistent=True (0.6s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.77it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.74it/s]
-[54] 3488771835_2 label=entailment consistent=True (0.6s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.63it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.61it/s]
-[55] 3488771836_3 label=entailment consistent=True (1.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.60it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.57it/s]
-[56] 3488771836_6 label=entailment consistent=True (1.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.78it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.76it/s]
-[57] 3488771838_5 label=entailment consistent=True (2.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.22it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.20it/s]
-[58] 3488771840_6 label=entailment consistent=True (2.0s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.57it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.56it/s]
-[59] 3488771842_1 label=entailment consistent=True (11.8s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.11it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.10it/s]
-[60] 3488771842_6 label=entailment consistent=True (2.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.89it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.87it/s]
-[61] 3488771843_6 label=entailment consistent=True (4.6s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.31it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.29it/s]
-[62] 3488771845_3 label=entailment consistent=True (1.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.56it/s]
-[63] 3488771846_1 label=entailment consistent=True (0.9s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.78it/s]
-[64] 3488771846_2 label=entailment consistent=True (0.9s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.39it/s]
-[65] 3488771847_7 label=entailment consistent=True (0.7s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.88it/s]
-[66] 3488771848_1 label=entailment consistent=True (1.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.44it/s]
-[67] 3488771848_2 label=entailment consistent=True (1.4s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.30it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.28it/s]
-[68] 3488771849_3 label=entailment consistent=True (1.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.60it/s]
-[69] 3488771851_4 label=entailment consistent=True (0.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.42it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.41it/s]
-[70] 3488771852_1 label=entailment consistent=True (7.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.74it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.73it/s]
-[71] 3488771852_4 label=entailment consistent=True (7.0s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.26it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.25it/s]
-[72] 3488771853_1 label=entailment consistent=True (4.8s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.07it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.05it/s]
-[73] 3489825764_3 label=entailment consistent=True (2.6s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.11it/s]
-[74] 3489825769_9 label=entailment consistent=True (0.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.60it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.58it/s]
-[75] 3489825774_7 label=entailment consistent=True (4.4s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.01it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.99it/s]
-[76] 3489825776_9 label=entailment consistent=True (1.6s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.32it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.30it/s]
-[77] 3499318675_5 label=entailment consistent=True (1.6s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.74it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.71it/s]
-[78] 3503017461_7 label=entailment consistent=True (1.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.77it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.75it/s]
-[79] 3488771834_3 label=entailment consistent=True (1.7s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.87it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.86it/s]
-[80] 3502252169_2 label=entailment consistent=True (7.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.22it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.21it/s]
-[81] 3503017441_1 label=entailment consistent=True (3.0s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.06it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.04it/s]
-[82] 3503017442_9 label=entailment consistent=True (3.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.35it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.33it/s]
-[83] news_train_1 label=entailment consistent=True (2.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.87it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.85it/s]
-[84] news_train_2 label=entailment consistent=True (2.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.17it/s]
-[85] news_train_3 label=entailment consistent=True (1.5s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.24it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.22it/s]
-[86] news_train_4 label=entailment consistent=True (1.9s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.97it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.95it/s]
-[87] news_train_5 label=entailment consistent=True (1.1s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.55it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.53it/s]
-[88] news_train_6 label=entailment consistent=True (3.8s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.64it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.61it/s]
-[89] news_train_7 label=entailment consistent=True (1.7s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.82it/s]
-[90] news_train_8 label=entailment consistent=True (0.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.20it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.19it/s]
-[91] news_train_9 label=entailment consistent=True (2.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.36it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.34it/s]
-[92] news_train_10 label=entailment consistent=True (1.9s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.03it/s]
-[93] news_train_11 label=entailment consistent=True (2.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.05it/s]
-[94] news_train_12 label=entailment consistent=True (0.3s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.90it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.87it/s]
-[95] news_train_16 label=entailment consistent=True (1.9s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.80it/s]
-[96] news_train_18 label=entailment consistent=True (0.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.09it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.07it/s]
-[97] news_train_19 label=entailment consistent=True (1.8s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.25it/s]
-[98] news_train_21 label=entailment consistent=True (0.2s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.54it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.53it/s]
-[99] news_train_23 label=entailment consistent=True (1.7s)
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.75it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.74it/s]
-[100] news_train_25 label=entailment consistent=True (4.2s)
-{
-  "engine": "reference",
-  "threshold": -1.0,
-  "neg_mode": "identity",
-  "confusion": {
-    "tp": 44,
-    "fn": 6,
-    "tn": 50,
-    "fp": 0,
-    "skip": 37
-  },
-  "accuracy": 0.94,
-  "precision": 1.0,
-  "recall": 0.88,
-  "f1": 0.9362
-}
-report written to D:\tools\hufu\benchmarks\data\cache\contradoc_eval_reference_50_identity.json
-EXIT=0

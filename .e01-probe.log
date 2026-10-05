@@ -1,36 +1,0 @@
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-10/04/2026 09:00:24 - INFO - 	 missing_keys: []
-10/04/2026 09:00:24 - INFO - 	 unexpected_keys: []
-10/04/2026 09:00:24 - INFO - 	 mismatched_keys: []
-10/04/2026 09:00:24 - INFO - 	 error_msgs: []
-10/04/2026 09:00:24 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
-10/04/2026 09:00:24 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 153.58 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 09:00:24 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 1.78 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 09:00:27 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 218.84 examples/s]
-10/04/2026 09:00:27 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.03it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00,  1.03it/s]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-10/04/2026 09:00:28 - INFO - 	 No device provided, using cpu
-10/04/2026 09:00:28 - INFO - 	 Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
-candidates: 3
-  hc-08a7ae01a prob=0.993 accept=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
-  hc-281fd360f prob=0.987 accept=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
-  hc-aa5882645 prob=0.996 accept=True destructive=True support=True reasons=('destructive_threshold_satisfied',)
-dependencies: 3
-initial relation: [('v1', 'v2'), ('v1', 'v4'), ('v4', 'v2'), ('v4', 'v4')]
-final relation: []
-removals: 4
-consistent: False uncovered: ('v1', 'v4')

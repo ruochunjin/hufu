@@ -1,102 +1,0 @@
-......................F.......F.......................... [ 65%]
-..............................                                           [100%]
-================================== FAILURES ===================================
-__________ DocumentedDivergenceTests.test_f4_title_merge_divergence ___________
-
-self = <test_dual_track_l3.DocumentedDivergenceTests testMethod=test_f4_title_merge_divergence>
-
-    def test_f4_title_merge_divergence(self) -> None:
-        standard = _check(F4_CASE_QUERY, F4_CASE_DOC, engine="standard")
-        reference = _check(F4_CASE_QUERY, F4_CASE_DOC, engine="reference")
-        # Standard: merged title vertex unmatched ¡ú contradiction.
-        self.assertFalse(standard.consistent, standard.evidence)
-        self.assertIn("The Old Man and the Sea", standard.evidence)
-        # Reference: title demoted to predicate root, ?Where covered ¡ú consistent.
->       self.assertTrue(reference.consistent, reference.evidence)
-E       AssertionError: False is not true : [CONTRADICTION] Distance=0.2361 > threshold=-1.0
-E         \u2022 Q vertex unmatched in D: '?Where' (ID=v1)
-
-tests\e2e\test_dual_track_l3.py:134: AssertionError
----------------------------- Captured stdout call -----------------------------
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-[2026-10-03T19:46:11Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized Pi and frozen HC/D-match; Pi size: 4
-[2026-10-03T19:46:11Z INFO  graph_simulation::algorithm::hyper_simulation] Built HC and D-match dependency indices
-[2026-10-03T19:46:11Z INFO  graph_simulation::algorithm::hyper_simulation] Initialized valid HC set V_C
-[2026-10-03T19:46:11Z INFO  graph_simulation::algorithm::hyper_simulation] Seeded invalid anchor worklist
-[2026-10-03T19:46:11Z INFO  graph_simulation::algorithm::hyper_simulation] Completed Hyper Simulation worklist
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
----------------------------- Captured stderr call -----------------------------
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 155.73 examples/s]
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.25s/it]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 178.25 examples/s]
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 115.48 examples/s]
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.26s/it]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 105.67 examples/s]
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.29s/it]
------------------------------- Captured log call ------------------------------
-INFO     hufu.engine.reference_check:reference_check.py:58 Compute cosine distance: 0.2361, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:84 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:115 [CONTRADICTION] Distance=0.2361 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=v1)
-_______ ReferenceStructuralTests.test_supporting_doc_covers_placeholder _______
-
-self = <test_reference_l2.ReferenceStructuralTests testMethod=test_supporting_doc_covers_placeholder>
-
-    def test_supporting_doc_covers_placeholder(self) -> None:
-        verdict = _check(HEMINGWAY_QUERY, HEMINGWAY_SUPPORT, threshold=-1.0)
->       self.assertTrue(verdict.consistent, verdict.evidence)
-E       AssertionError: False is not true : [CONTRADICTION] Distance=0.2361 > threshold=-1.0
-E         \u2022 Q vertex unmatched in D: '?Where' (ID=v1)
-
-tests\e2e\test_reference_l2.py:74: AssertionError
----------------------------- Captured stdout call -----------------------------
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 0.00 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
----------------------------- Captured stderr call -----------------------------
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 110.52 examples/s]
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.31s/it]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 167.42 examples/s]
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.28s/it]
------------------------------- Captured log call ------------------------------
-INFO     hufu.engine.reference_check:reference_check.py:58 Compute cosine distance: 0.2361, threshold=-1.0\nINFO     hufu.engine.reference_check:reference_check.py:84 h_v allowed pairs (typed): 3\nINFO     hufu.engine.reference_check:reference_check.py:115 [CONTRADICTION] Distance=0.2361 > threshold=-1.0\n  \u2022 Q vertex unmatched in D: '?Where' (ID=v1)
-============================== warnings summary ===============================
-tests/e2e/test_benchmark_contradoc.py::ContraDocSmokeTests::test_reference_engine_flags_contradiction_pairs
-tests/e2e/test_benchmark_l4.py::EngineBenchmarkTests::test_engine_latency_comparison
-  D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-    warnings.warn(
-
-tests/e2e/test_benchmark_contradoc.py: 1 warning
-tests/e2e/test_benchmark_l4.py: 1 warning
-tests/e2e/test_bridge.py: 10 warnings
-tests/e2e/test_build_golden.py: 9 warnings
-tests/e2e/test_dual_track_l3.py: 4 warnings
-tests/e2e/test_reference_l2.py: 4 warnings
-tests/e2e/test_strategy_convergence.py: 4 warnings
-tests/test_text_level_integration.py: 1 warning
-  D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-    return options_class(*args, **kwargs)
-
--- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========================== short test summary info ===========================
-FAILED tests/e2e/test_dual_track_l3.py::DocumentedDivergenceTests::test_f4_title_merge_divergence
-FAILED tests/e2e/test_reference_l2.py::ReferenceStructuralTests::test_supporting_doc_covers_placeholder
-2 failed, 85 passed, 36 warnings, 15 subtests passed in 833.24s (0:13:53)
-EXIT=1

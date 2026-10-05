@@ -1,24 +1,0 @@
-[1] 3488771854_6 label=contradiction consistent=False (136.2s)
-[2] 3488771855_1 label=contradiction consistent=False (87.3s)
-[3] 3488771855_6 label=contradiction consistent=False (33.2s)
-[4] 3488771836_2 label=contradiction consistent=False (155.3s)
-[5] 3488771836_5 label=contradiction consistent=False (210.1s)
-[6] 3488771838_4 label=contradiction consistent=False (21.1s)
-D:\tools\hufu\.venv-e2e\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-10/04/2026 02:13:56 - INFO - 	 missing_keys: []
-10/04/2026 02:13:56 - INFO - 	 unexpected_keys: []
-10/04/2026 02:13:56 - INFO - 	 mismatched_keys: []
-10/04/2026 02:13:56 - INFO - 	 error_msgs: []
-10/04/2026 02:13:56 - INFO - 	 Model Parameters: 590.0M, Transformer: 434.6M, Coref head: 155.4M
-10/04/2026 02:13:56 - INFO - 	 Tokenize 1 inputs...
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:00<00:00, 150.33 examples/s]
-D:\tools\hufu\.venv-e2e\Lib\site-packages\pyarrow\compute.py:230: FutureWarning: Specifying null_placement in SortOptions is deprecated as of 25.0.0. Specify null_placement per sort_key instead.
-  return options_class(*args, **kwargs)
-10/04/2026 02:13:56 - INFO - 	 ***** Running Inference on 1 texts *****
-Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]Inference: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 1/1 [00:01<00:00,  1.70s/it]
-combine_links and retokenize took 0.00 seconds
-combine and retokenize took 1.98 seconds
-Dependency construction took 0.00 seconds
-Dependency processing took 0.00 seconds
-[7] 3488771834_1 label=entailment consistent=False (404.3s)
