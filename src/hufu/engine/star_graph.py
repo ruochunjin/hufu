@@ -380,17 +380,32 @@ def check_star(
             # reciprocal verbs ("A loved B" / "B loved A" is normal, not a
             # conflict — checked on either predicate, copulas excluded so
             # "is open" vs "is closed" still fires), and same-predicate
-            # recurring temporals ("open on Mondays" vs "on Tuesdays").
+            # recurring temporals where the ONLY difference is the temporal
+            # value itself ("open on Mondays" vs "on Tuesdays"); pairs that
+            # also differ in another attribute ("open" vs "closed" on
+            # Mondays) still fire.
             first_a = fa.predicate.strip().lower().split()[0]
             first_b = fb.predicate.strip().lower().split()[0]
             _reciprocal_no_copula = _RECIPROCAL_VERBS - {"is", "was", "are", "were", "be", "been"}
             if first_a in _reciprocal_no_copula or first_b in _reciprocal_no_copula:
                 continue
-            if fa.predicate.strip().casefold() == fb.predicate.strip().casefold():
-                if (
-                    _RECURRING_TEMPORAL.search(fa.sentence)
-                    or _RECURRING_TEMPORAL.search(fb.sentence)
-                ):
+            if fa.predicate.strip().casefold() == fb.predicate.strip().casefold() and (
+                _RECURRING_TEMPORAL.search(fa.sentence)
+                or _RECURRING_TEMPORAL.search(fb.sentence)
+            ):
+                def _non_temporal_diff() -> bool:
+                    values_a = {
+                        (role, vtype, text.strip().casefold())
+                        for text, vtype, role in fa.others
+                        if vtype not in {"TEMPORAL", "UNKNOWN"}
+                    }
+                    values_b = {
+                        (role, vtype, text.strip().casefold())
+                        for text, vtype, role in fb.others
+                        if vtype not in {"TEMPORAL", "UNKNOWN"}
+                    }
+                    return values_a != values_b
+                if not _non_temporal_diff():
                     continue
             cued_pairs.append((fa, fb, "R-SIMILAR"))
 
