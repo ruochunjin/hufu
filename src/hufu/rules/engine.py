@@ -36,15 +36,19 @@ class DefaultServices:
         return get_nli_label(premise, hypothesis)
 
     def nli_score(self, premise: str, hypothesis: str, label: str) -> float:
+        # Softmax probabilities, NOT raw logits: rule thresholds (e.g. 0.8)
+        # are probabilities; cross-encoder logits (3.5+) pass any threshold
+        # and made the NLI fallback fire on nearly everything (golden-mem
+        # attribution, 2026-10-08).
         from hufu.engine.nli import (
-            get_nli_contradiction_score_batch,
-            get_nli_entailment_score_batch,
+            get_nli_contradiction_probs_batch,
+            get_nli_entailment_probs_batch,
         )
 
         if label == "entailment":
-            return float(get_nli_entailment_score_batch([(premise, hypothesis)])[0])
+            return float(get_nli_entailment_probs_batch([(premise, hypothesis)])[0])
         if label == "contradiction":
-            return float(get_nli_contradiction_score_batch([(premise, hypothesis)])[0])
+            return float(get_nli_contradiction_probs_batch([(premise, hypothesis)])[0])
         raise ValueError(f"unsupported NLI label score: {label!r}")
 
 

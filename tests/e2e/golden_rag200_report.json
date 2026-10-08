@@ -1,0 +1,3604 @@
+{
+  "cases": [
+    {
+      "id": "R-WHERE-001",
+      "family": "where-born",
+      "query": "Where was Dr. Priya Raman born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 9.0,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-002",
+      "family": "where-born",
+      "query": "Where was Dr. Priya Raman born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-003",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.54,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-004",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-005",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.4,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-006",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-007",
+      "family": "where-born",
+      "query": "Where was Laura Bianchi born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-008",
+      "family": "where-born",
+      "query": "Where was Dr. Elena Marsh born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.53,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-009",
+      "family": "where-born",
+      "query": "Where was James Whitfield born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-010",
+      "family": "where-born",
+      "query": "Where was James Whitfield born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-011",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-012",
+      "family": "where-born",
+      "query": "Where was Dr. Priya Raman born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-013",
+      "family": "where-born",
+      "query": "Where was Dr. Elena Marsh born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-014",
+      "family": "where-born",
+      "query": "Where was Laura Bianchi born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-015",
+      "family": "where-born",
+      "query": "Where was Laura Bianchi born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-016",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-017",
+      "family": "where-born",
+      "query": "Where was Prof. David Chen born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.51,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-018",
+      "family": "where-born",
+      "query": "Where was Kevin Osei born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-019",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.28,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-020",
+      "family": "where-born",
+      "query": "Where was Dr. Elena Marsh born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.28,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-021",
+      "family": "where-born",
+      "query": "Where was Dr. Priya Raman born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.28,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-022",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-023",
+      "family": "where-born",
+      "query": "Where was Dr. Priya Raman born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-024",
+      "family": "where-born",
+      "query": "Where was Dr. Elena Marsh born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-025",
+      "family": "where-born",
+      "query": "Where was Prof. David Chen born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-026",
+      "family": "where-born",
+      "query": "Where was Tomás Herrera born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-027",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-028",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-029",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-030",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-031",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-032",
+      "family": "where-born",
+      "query": "Where was Dr. Elena Marsh born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-033",
+      "family": "where-born",
+      "query": "Where was Dr. Elena Marsh born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-034",
+      "family": "where-born",
+      "query": "Where was Michael Novak born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-035",
+      "family": "where-born",
+      "query": "Where was Tomás Herrera born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-036",
+      "family": "where-born",
+      "query": "Where was Sarah Okafor born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-037",
+      "family": "where-born",
+      "query": "Where was Rachel Kim born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-038",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-039",
+      "family": "where-born",
+      "query": "Where was Dr. Omar Farouk born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHERE-040",
+      "family": "where-born",
+      "query": "Where was Kevin Osei born?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-001",
+      "family": "when-founded",
+      "query": "When was Silverline Foods founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.44,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-002",
+      "family": "when-founded",
+      "query": "When was Bluepeak Analytics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-003",
+      "family": "when-founded",
+      "query": "When was Bluepeak Analytics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-004",
+      "family": "when-founded",
+      "query": "When was Helios Energy founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-005",
+      "family": "when-founded",
+      "query": "When was Helios Energy founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.27,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-006",
+      "family": "when-founded",
+      "query": "When was Silverline Foods founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-007",
+      "family": "when-founded",
+      "query": "When was Acme Robotics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-008",
+      "family": "when-founded",
+      "query": "When was Pinnacle Software founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-009",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-010",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-011",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-012",
+      "family": "when-founded",
+      "query": "When was Pinnacle Software founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-013",
+      "family": "when-founded",
+      "query": "When was Helios Energy founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-014",
+      "family": "when-founded",
+      "query": "When was Cascade Materials founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-015",
+      "family": "when-founded",
+      "query": "When was Cascade Materials founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-016",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-017",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-018",
+      "family": "when-founded",
+      "query": "When was Northwind Traders founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-019",
+      "family": "when-founded",
+      "query": "When was Helios Energy founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-020",
+      "family": "when-founded",
+      "query": "When was Silverline Foods founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-021",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-022",
+      "family": "when-founded",
+      "query": "When was Bluepeak Analytics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-023",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-024",
+      "family": "when-founded",
+      "query": "When was Acme Robotics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-025",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-026",
+      "family": "when-founded",
+      "query": "When was Acme Robotics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-027",
+      "family": "when-founded",
+      "query": "When was Bluepeak Analytics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-028",
+      "family": "when-founded",
+      "query": "When was Pinnacle Software founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-029",
+      "family": "when-founded",
+      "query": "When was Bluepeak Analytics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-030",
+      "family": "when-founded",
+      "query": "When was Pinnacle Software founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-031",
+      "family": "when-founded",
+      "query": "When was Cascade Materials founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-032",
+      "family": "when-founded",
+      "query": "When was Northwind Traders founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-033",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.28,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-034",
+      "family": "when-founded",
+      "query": "When was Pinnacle Software founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.28,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-035",
+      "family": "when-founded",
+      "query": "When was Orion Logistics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-036",
+      "family": "when-founded",
+      "query": "When was Northwind Traders founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-037",
+      "family": "when-founded",
+      "query": "When was Silverline Foods founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.3,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-038",
+      "family": "when-founded",
+      "query": "When was Bluepeak Analytics founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.29,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-039",
+      "family": "when-founded",
+      "query": "When was Pinnacle Software founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHEN-040",
+      "family": "when-founded",
+      "query": "When was Cascade Materials founded?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.31,
+      "error": null
+    },
+    {
+      "id": "R-WHO-001",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Northern Static'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.61,
+      "error": null
+    },
+    {
+      "id": "R-WHO-002",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Winter Ledger'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.38,
+      "error": null
+    },
+    {
+      "id": "R-WHO-003",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.48,
+      "error": null
+    },
+    {
+      "id": "R-WHO-004",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHO-005",
+      "family": "who-wrote",
+      "query": "Who wrote the textbook 'Graphs in Practice'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.52,
+      "error": null
+    },
+    {
+      "id": "R-WHO-006",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-007",
+      "family": "who-wrote",
+      "query": "Who wrote the memoir 'Paper Trails'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-008",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Silent Harbor'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-009",
+      "family": "who-wrote",
+      "query": "Who wrote the monograph 'Quiet Engines'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.38,
+      "error": null
+    },
+    {
+      "id": "R-WHO-010",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Winter Ledger'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-011",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Glass Meridian'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-012",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Silent Harbor'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHO-013",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Glass Meridian'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHO-014",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-015",
+      "family": "who-wrote",
+      "query": "Who wrote the memoir 'Paper Trails'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-016",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Winter Ledger'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-017",
+      "family": "who-wrote",
+      "query": "Who wrote the textbook 'Graphs in Practice'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-018",
+      "family": "who-wrote",
+      "query": "Who wrote the monograph 'Quiet Engines'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-WHO-019",
+      "family": "who-wrote",
+      "query": "Who wrote the monograph 'Quiet Engines'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-WHO-020",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Silent Harbor'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-021",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Glass Meridian'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-022",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Northern Static'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-023",
+      "family": "who-wrote",
+      "query": "Who wrote the memoir 'Paper Trails'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHO-024",
+      "family": "who-wrote",
+      "query": "Who wrote the monograph 'Quiet Engines'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-WHO-025",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Winter Ledger'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-026",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Winter Ledger'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-027",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Silent Harbor'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHO-028",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Glass Meridian'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHO-029",
+      "family": "who-wrote",
+      "query": "Who wrote the monograph 'Quiet Engines'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-WHO-030",
+      "family": "who-wrote",
+      "query": "Who wrote the memoir 'Paper Trails'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHO-031",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Silent Harbor'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHO-032",
+      "family": "who-wrote",
+      "query": "Who wrote the textbook 'Graphs in Practice'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-033",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHO-034",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHO-035",
+      "family": "who-wrote",
+      "query": "Who wrote the textbook 'Graphs in Practice'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-WHO-036",
+      "family": "who-wrote",
+      "query": "Who wrote the monograph 'Quiet Engines'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-WHO-037",
+      "family": "who-wrote",
+      "query": "Who wrote the biography 'Iron Roots'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-WHO-038",
+      "family": "who-wrote",
+      "query": "Who wrote the textbook 'Graphs in Practice'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-WHO-039",
+      "family": "who-wrote",
+      "query": "Who wrote the novel 'Silent Harbor'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-WHO-040",
+      "family": "who-wrote",
+      "query": "Who wrote the textbook 'Graphs in Practice'?",
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-NUM-001",
+      "family": "how-many",
+      "query": "How many people does Pinnacle Software employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.61,
+      "error": null
+    },
+    {
+      "id": "R-NUM-002",
+      "family": "how-many",
+      "query": "How many people does Pinnacle Software employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-003",
+      "family": "how-many",
+      "query": "How many people does Summit Aerospace employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-004",
+      "family": "how-many",
+      "query": "How many people does Vertex Instruments employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-005",
+      "family": "how-many",
+      "query": "How many people does Pinnacle Software employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-006",
+      "family": "how-many",
+      "query": "How many people does Bluepeak Analytics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-007",
+      "family": "how-many",
+      "query": "How many people does Cascade Materials employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-008",
+      "family": "how-many",
+      "query": "How many people does Bluepeak Analytics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-NUM-009",
+      "family": "how-many",
+      "query": "How many people does Vertex Instruments employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-010",
+      "family": "how-many",
+      "query": "How many people does Northwind Traders employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-NUM-011",
+      "family": "how-many",
+      "query": "How many people does Helios Energy employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.36,
+      "error": null
+    },
+    {
+      "id": "R-NUM-012",
+      "family": "how-many",
+      "query": "How many people does Helios Energy employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-013",
+      "family": "how-many",
+      "query": "How many people does Orion Logistics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-014",
+      "family": "how-many",
+      "query": "How many people does Bluepeak Analytics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-015",
+      "family": "how-many",
+      "query": "How many people does Cascade Materials employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-016",
+      "family": "how-many",
+      "query": "How many people does Summit Aerospace employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-017",
+      "family": "how-many",
+      "query": "How many people does Bluepeak Analytics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-018",
+      "family": "how-many",
+      "query": "How many people does Pinnacle Software employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-019",
+      "family": "how-many",
+      "query": "How many people does Cascade Materials employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-020",
+      "family": "how-many",
+      "query": "How many people does Summit Aerospace employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-021",
+      "family": "how-many",
+      "query": "How many people does Cascade Materials employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-022",
+      "family": "how-many",
+      "query": "How many people does Bluepeak Analytics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-023",
+      "family": "how-many",
+      "query": "How many people does Cascade Materials employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-024",
+      "family": "how-many",
+      "query": "How many people does Redwood Pharma employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-025",
+      "family": "how-many",
+      "query": "How many people does Orion Logistics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-026",
+      "family": "how-many",
+      "query": "How many people does Silverline Foods employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-027",
+      "family": "how-many",
+      "query": "How many people does Silverline Foods employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-028",
+      "family": "how-many",
+      "query": "How many people does Acme Robotics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.35,
+      "error": null
+    },
+    {
+      "id": "R-NUM-029",
+      "family": "how-many",
+      "query": "How many people does Pinnacle Software employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-030",
+      "family": "how-many",
+      "query": "How many people does Acme Robotics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-031",
+      "family": "how-many",
+      "query": "How many people does Helios Energy employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-032",
+      "family": "how-many",
+      "query": "How many people does Orion Logistics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-NUM-033",
+      "family": "how-many",
+      "query": "How many people does Helios Energy employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-034",
+      "family": "how-many",
+      "query": "How many people does Silverline Foods employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-NUM-035",
+      "family": "how-many",
+      "query": "How many people does Orion Logistics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-036",
+      "family": "how-many",
+      "query": "How many people does Orion Logistics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.32,
+      "error": null
+    },
+    {
+      "id": "R-NUM-037",
+      "family": "how-many",
+      "query": "How many people does Acme Robotics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.33,
+      "error": null
+    },
+    {
+      "id": "R-NUM-038",
+      "family": "how-many",
+      "query": "How many people does Orion Logistics employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-NUM-039",
+      "family": "how-many",
+      "query": "How many people does Redwood Pharma employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.54,
+      "error": null
+    },
+    {
+      "id": "R-NUM-040",
+      "family": "how-many",
+      "query": "How many people does Pinnacle Software employ?",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "bad_slots": [],
+      "seconds": 0.34,
+      "error": null
+    },
+    {
+      "id": "R-DECL-001",
+      "family": "declarative",
+      "query": "The Pulse Pro heart-rate monitor weighs 8.5 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 1.12,
+      "error": null
+    },
+    {
+      "id": "R-DECL-002",
+      "family": "declarative",
+      "query": "The Atlas cargo e-bike weighs 4.1 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 1.02,
+      "error": null
+    },
+    {
+      "id": "R-DECL-003",
+      "family": "declarative",
+      "query": "The Aurora X1 drone weighs 8.4 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 1.42,
+      "error": null
+    },
+    {
+      "id": "R-DECL-004",
+      "family": "declarative",
+      "query": "The Forge 3D printer weighs 5.6 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 1.08,
+      "error": null
+    },
+    {
+      "id": "R-DECL-005",
+      "family": "declarative",
+      "query": "The Vertex Pro laser rangefinder weighs 7.8 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.57,
+      "error": null
+    },
+    {
+      "id": "R-DECL-006",
+      "family": "declarative",
+      "query": "The Atlas cargo e-bike weighs 3.8 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.41,
+      "error": null
+    },
+    {
+      "id": "R-DECL-007",
+      "family": "declarative",
+      "query": "The Aurora X1 drone weighs 4.6 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.61,
+      "error": null
+    },
+    {
+      "id": "R-DECL-008",
+      "family": "declarative",
+      "query": "The Nimbus weather station weighs 1.9 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.61,
+      "error": null
+    },
+    {
+      "id": "R-DECL-009",
+      "family": "declarative",
+      "query": "The Titan PRO battery pack weighs 7.6 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.63,
+      "error": null
+    },
+    {
+      "id": "R-DECL-010",
+      "family": "declarative",
+      "query": "The Echo smart speaker weighs 4.9 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.76,
+      "error": null
+    },
+    {
+      "id": "R-DECL-011",
+      "family": "declarative",
+      "query": "The Atlas cargo e-bike weighs 5.1 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.4,
+      "error": null
+    },
+    {
+      "id": "R-DECL-012",
+      "family": "declarative",
+      "query": "The Atlas cargo e-bike weighs 1.4 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.44,
+      "error": null
+    },
+    {
+      "id": "R-DECL-013",
+      "family": "declarative",
+      "query": "The Forge 3D printer weighs 5.1 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.53,
+      "error": null
+    },
+    {
+      "id": "R-DECL-014",
+      "family": "declarative",
+      "query": "The Pulse Pro heart-rate monitor weighs 4.7 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.54,
+      "error": null
+    },
+    {
+      "id": "R-DECL-015",
+      "family": "declarative",
+      "query": "The Voyager GPS watch weighs 5.3 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.57,
+      "error": null
+    },
+    {
+      "id": "R-DECL-016",
+      "family": "declarative",
+      "query": "The Summit camping stove weighs 7.6 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.64,
+      "error": null
+    },
+    {
+      "id": "R-DECL-017",
+      "family": "declarative",
+      "query": "The Nimbus weather station weighs 8.1 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.43,
+      "error": null
+    },
+    {
+      "id": "R-DECL-018",
+      "family": "declarative",
+      "query": "The Echo smart speaker weighs 8.9 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-DECL-019",
+      "family": "declarative",
+      "query": "The Forge 3D printer weighs 6.8 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.59,
+      "error": null
+    },
+    {
+      "id": "R-DECL-020",
+      "family": "declarative",
+      "query": "The Pulse Pro heart-rate monitor weighs 4.5 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.58,
+      "error": null
+    },
+    {
+      "id": "R-DECL-021",
+      "family": "declarative",
+      "query": "The Aurora X1 drone weighs 8.0 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.56,
+      "error": null
+    },
+    {
+      "id": "R-DECL-022",
+      "family": "declarative",
+      "query": "The Vertex Pro laser rangefinder weighs 4.2 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.53,
+      "error": null
+    },
+    {
+      "id": "R-DECL-023",
+      "family": "declarative",
+      "query": "The Summit camping stove weighs 7.0 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    },
+    {
+      "id": "R-DECL-024",
+      "family": "declarative",
+      "query": "The Pulse Pro heart-rate monitor weighs 4.0 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    },
+    {
+      "id": "R-DECL-025",
+      "family": "declarative",
+      "query": "The Titan PRO battery pack weighs 4.1 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    },
+    {
+      "id": "R-DECL-026",
+      "family": "declarative",
+      "query": "The Aurora X1 drone weighs 6.9 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.58,
+      "error": null
+    },
+    {
+      "id": "R-DECL-027",
+      "family": "declarative",
+      "query": "The Pulse Pro heart-rate monitor weighs 5.6 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.38,
+      "error": null
+    },
+    {
+      "id": "R-DECL-028",
+      "family": "declarative",
+      "query": "The Atlas cargo e-bike weighs 1.4 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-DECL-029",
+      "family": "declarative",
+      "query": "The Atlas cargo e-bike weighs 8.8 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.41,
+      "error": null
+    },
+    {
+      "id": "R-DECL-030",
+      "family": "declarative",
+      "query": "The Nimbus weather station weighs 2.8 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    },
+    {
+      "id": "R-DECL-031",
+      "family": "declarative",
+      "query": "The Summit camping stove weighs 8.6 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    },
+    {
+      "id": "R-DECL-032",
+      "family": "declarative",
+      "query": "The Summit camping stove weighs 8.0 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.38,
+      "error": null
+    },
+    {
+      "id": "R-DECL-033",
+      "family": "declarative",
+      "query": "The Summit camping stove weighs 3.4 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.38,
+      "error": null
+    },
+    {
+      "id": "R-DECL-034",
+      "family": "declarative",
+      "query": "The Summit camping stove weighs 3.3 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    },
+    {
+      "id": "R-DECL-035",
+      "family": "declarative",
+      "query": "The Forge 3D printer weighs 1.7 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.67,
+      "error": null
+    },
+    {
+      "id": "R-DECL-036",
+      "family": "declarative",
+      "query": "The Aurora X1 drone weighs 2.2 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.6,
+      "error": null
+    },
+    {
+      "id": "R-DECL-037",
+      "family": "declarative",
+      "query": "The Aurora X1 drone weighs 6.2 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.6,
+      "error": null
+    },
+    {
+      "id": "R-DECL-038",
+      "family": "declarative",
+      "query": "The Titan PRO battery pack weighs 6.1 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.4,
+      "error": null
+    },
+    {
+      "id": "R-DECL-039",
+      "family": "declarative",
+      "query": "The Titan PRO battery pack weighs 4.2 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.37,
+      "error": null
+    },
+    {
+      "id": "R-DECL-040",
+      "family": "declarative",
+      "query": "The Voyager GPS watch weighs 0.7 kg.",
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "bad_slots": [],
+      "seconds": 0.39,
+      "error": null
+    }
+  ]
+}

@@ -13,6 +13,7 @@ Rule sets are JSON data.  Built-in predicates register themselves into
 from hufu.rules import (
     predicates as _builtin_predicates,  # noqa: F401 - registers built-ins
 )
+from hufu.rules.calibrate import ThresholdReport, learn_threshold_youden
 from hufu.rules.engine import (
     ConditionTrace,
     DefaultServices,
@@ -30,6 +31,7 @@ from hufu.rules.registry import (
 
 __all__ = [
     "Condition",
+    "ThresholdReport",
     "ConditionTrace",
     "DEFAULT_REGISTRY",
     "DefaultServices",
@@ -41,5 +43,6 @@ __all__ = [
     "RuleSet",
     "Services",
     "Verdict",
+    "learn_threshold_youden",
     "predicate",
 ]

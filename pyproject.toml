@@ -4,7 +4,7 @@ requires = ["hatchling"]
 
 [project]
 name = "hufu-dq"
-version = "0.4.0"
+version = "0.5.0"
 description = "HuFu (虎符): neuro-symbolic data-quality verification — hypergraph-simulation consistency checking for vector retrieval, documents, and LLM data"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -39,6 +39,9 @@ models = [
 ]
 # LLM-assisted rule discovery and graph enrichment (optional features).
 llm = ["openai>=1.30"]
+# OHunt outlier pipeline: hinge classification / KNN & RF repairs need
+# sklearn; detectors and the measured-impact classifier stay dependency-free.
+outliers = ["scikit-learn>=1.4"]
 # LLM-assisted graph building via LangChain (optional, legacy interface).
 graph = ["langchain-core>=0.3", "networkx>=3.0", "pydantic>=2.0", "tenacity>=8.0", "requests>=2.31"]
 dev = ["pytest>=8.0", "ruff>=0.6"]

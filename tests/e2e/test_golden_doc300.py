@@ -50,7 +50,11 @@ class GoldenDoc300Tests(unittest.TestCase):
             start = time.perf_counter()
             try:
                 has_contra, _secs, evidence, conflicts, _chain = check_document_text(
-                    case.text, ***REMOVED***=***REMOVED***
+                    case.text, ***REMOVED***=***REMOVED***,
+                    # LLM ***REMOVED*** mode needs the full channel set (strict
+                    # counts only direct structural fires, which would make
+                    # the ***REMOVED*** a no-op).
+                    profile="full" if ***REMOVED*** else "strict",
                 )
                 error = None
             except Exception as exc:  # noqa: BLE001 - corpus runner records, not raises

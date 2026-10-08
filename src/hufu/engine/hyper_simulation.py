@@ -2631,7 +2631,8 @@ def consistent_detection(
     data_hg: LocalHypergraph,
     query_text: str,
     data_text: str,
-    distance_threshold: float = 0.25
+    distance_threshold: float = 0.25,
+    query_is_question: bool = True
 ) -> Tuple[bool, str]:
     """Run the binary inconsistency decision and return evidence."""
 
@@ -2639,10 +2640,10 @@ def consistent_detection(
     consistent_logger.debug("Enter the consistent detection")
     distance = get_distance(query_text, data_text)
     consistent_logger.info(f"Compute cosine distance: {distance:.4f}, threshold={distance_threshold}")
-    if distance <= distance_threshold:
-        evidence = f"[CONSISTENT] Distance={distance:.4f} ≤ threshold={distance_threshold}"
-        consistent_logger.info(evidence)
-        return False, evidence
+    # No early "consistent" return: conflicts hide in the MOST similar
+    # pairs (same frame, one value differs).  The golden suites pin the
+    # structural path with threshold=-1; the public gate must not
+    # short-circuit it (golden-rag200, 2026-10-08).
     consistent_logger.debug("Running hyper_simulation...")
     simulation, q_vertices_map, d_vertices_map = compute_hyper_simulation(query_hg, data_hg)
     critical_q_vertices = [v for v in query_hg.vertices if is_critical_vertex(v)]
@@ -2676,6 +2677,14 @@ def consistent_detection(
             consistent_logger.info(f"  • {line}")
     else:
         consistent_logger.info("All critical Q vertices are matched in D.")
+    if not has_contradiction and not query_is_question:
+        from .reference_check import declarative_polarity_verdict
+
+        polarity = declarative_polarity_verdict(query_text, data_text, distance)
+        if polarity is not None:
+            has_contradiction = polarity[0]
+            consistent_logger.info(polarity[1])
+            return has_contradiction, polarity[1]
     if has_contradiction:
         evidence = (
             f"[CONTRADICTION] Distance={distance:.4f} > threshold={distance_threshold}\n"

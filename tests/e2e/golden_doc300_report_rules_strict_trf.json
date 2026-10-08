@@ -1,0 +1,3760 @@
+{
+  "llm_enabled": false,
+  "backend": "local",
+  "cases": [
+    {
+      "id": "S-NUM-1",
+      "family": "numeric",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.66,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'regiment':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-NUM-2",
+      "family": "numeric",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'company':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-NUM-3",
+      "family": "numeric",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.12,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'reservoir':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-NUM-4",
+      "family": "numeric",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'striker':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-NUM-5",
+      "family": "numeric",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'stadium':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-DATE-1",
+      "family": "date",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'treaty':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-DATE-2",
+      "family": "date",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'company':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-DATE-3",
+      "family": "date",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.11,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'bridge':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-DATE-4",
+      "family": "date",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'reactor':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-DATE-5",
+      "family": "date",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'library':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PLACE-1",
+      "family": "place",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Ernest Hemingway':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PLACE-2",
+      "family": "place",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'headquarters':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PLACE-3",
+      "family": "place",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'cathedral':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PLACE-4",
+      "family": "place",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'probe':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PLACE-5",
+      "family": "place",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'ship':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PERSON-1",
+      "family": "person",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'wrote':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PERSON-2",
+      "family": "person",
+      "expected": true,
+      "actual": true,
+      "seconds": 1.46,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'CEO':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PERSON-3",
+      "family": "person",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'discovered':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PERSON-4",
+      "family": "person",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.11,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'committee':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-PERSON-5",
+      "family": "person",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'taught':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-NEG-1",
+      "family": "negation",
+      "expected": true,
+      "actual": false,
+      "seconds": 0.49,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-NEG-2",
+      "family": "negation",
+      "expected": true,
+      "actual": false,
+      "seconds": 0.23,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-NEG-3",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.15,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'drug':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-NEG-4",
+      "family": "negation",
+      "expected": true,
+      "actual": false,
+      "seconds": 0.11,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-NEG-5",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.19,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'river':",
+      "rules": [
+        "R-NEGATION",
+        "R-NEGATION"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ANT-1",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'museum':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ANT-2",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'stock price':",
+      "rules": [
+        "R-ANTONYM"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ANT-3",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'project':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ANT-4",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'machine':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ANT-5",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'senator':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ROLE-1",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'collector':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ROLE-2",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'startup':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ROLE-3",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'dog':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ROLE-4",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'landlord':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-ROLE-5",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'company':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-1",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-2",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-3",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.24,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "passive alternation"
+    },
+    {
+      "id": "S-CLEAN-4",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "sequential numbers, not a conflict"
+    },
+    {
+      "id": "S-CLEAN-5",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "recurring temporal is inclusive"
+    },
+    {
+      "id": "S-CLEAN-6",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-7",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-8",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 8 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-9",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "different players, different numbers"
+    },
+    {
+      "id": "S-CLEAN-10",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "unit conversion equivalent"
+    },
+    {
+      "id": "S-CLEAN-11",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-12",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-13",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 9 vertices, 4 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": ""
+    },
+    {
+      "id": "S-CLEAN-14",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 8 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "different life events, different places"
+    },
+    {
+      "id": "S-CLEAN-15",
+      "family": "clean",
+      "expected": true,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "late departure + on-schedule arrival is a real tension — expected contradiction via NLI; documents the boundary"
+    },
+    {
+      "id": "CD-POS-3488771843_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.83,
+      "error": null,
+      "evidence_head": "[CLEAN] 117 vertices, 68 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771849_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 5.62,
+      "error": null,
+      "evidence_head": "[CLEAN] 213 vertices, 124 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3488771855_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.04,
+      "error": null,
+      "evidence_head": "[CLEAN] 295 vertices, 162 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771836_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 134 vertices, 75 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3488771839_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 5.51,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'he':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3488771846_9",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 9.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'Philip Carey':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771850_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 2.83,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'dying man':",
+      "rules": [
+        "R-ANTONYM"
+      ],
+      "note": "['Content', 'Relation']"
+    },
+    {
+      "id": "CD-POS-3488771854_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.55,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'takes':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771857_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 3.75,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'War and the Future':",
+      "rules": [
+        "R-NUMERIC"
+      ],
+      "note": "['Content', 'Factual']"
+    },
+    {
+      "id": "CD-POS-3488771876_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 5.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 217 vertices, 115 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771882_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.26,
+      "error": null,
+      "evidence_head": "[CLEAN] 190 vertices, 105 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Relation']"
+    },
+    {
+      "id": "CD-POS-3488771900_6",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 8.92,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'Ichabod Crane':",
+      "rules": [
+        "R-ANTONYM"
+      ],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771913_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.93,
+      "error": null,
+      "evidence_head": "[CLEAN] 163 vertices, 90 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Relation']"
+    },
+    {
+      "id": "CD-POS-3489738228_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.72,
+      "error": null,
+      "evidence_head": "[CLEAN] 180 vertices, 91 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3489738278_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.85,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'number':",
+      "rules": [
+        "R-ANTONYM",
+        "R-NUMERIC"
+      ],
+      "note": "['Content', 'Factual']"
+    },
+    {
+      "id": "CD-POS-3489738295_9",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 11.52,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around ''s':",
+      "rules": [
+        "R-NEGATION",
+        "R-NEGATION",
+        "R-VALUE",
+        "R-NEGATION"
+      ],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3489825748_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 11.24,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'jailing':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3489825756_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 13.85,
+      "error": null,
+      "evidence_head": "[CLEAN] 502 vertices, 296 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3489825775_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 17.68,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'you':",
+      "rules": [
+        "R-NEGATION",
+        "R-NEGATION"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3499318676_10",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 10.67,
+      "error": null,
+      "evidence_head": "[CLEAN] 357 vertices, 209 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3499318681_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 16.32,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3503017466_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.79,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'was written':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3503017495_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.14,
+      "error": null,
+      "evidence_head": "[CLEAN] 209 vertices, 129 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3488771835_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 7.98,
+      "error": null,
+      "evidence_head": "[CLEAN] 314 vertices, 183 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3488771839_6",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.41,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'he':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771851_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.0,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'he':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3488771865_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 2.84,
+      "error": null,
+      "evidence_head": "[CLEAN] 131 vertices, 71 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771879_6",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 2.85,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'he':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771889_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.27,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Lucy Snowe':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Relation']"
+    },
+    {
+      "id": "CD-POS-3488771898_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.16,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'father':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3488771908_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 5.13,
+      "error": null,
+      "evidence_head": "[CLEAN] 234 vertices, 135 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3488771912_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 2.54,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771919_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 5.98,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is set':",
+      "rules": [
+        "R-VALUE",
+        "R-NEGATION",
+        "R-VALUE"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3489738222_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.97,
+      "error": null,
+      "evidence_head": "[CLEAN] 219 vertices, 122 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489738236_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 2.92,
+      "error": null,
+      "evidence_head": "[CLEAN] 161 vertices, 78 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3489738250_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.29,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'He':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3489738263_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 5.31,
+      "error": null,
+      "evidence_head": "[CLEAN] 300 vertices, 157 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Factual']"
+    },
+    {
+      "id": "CD-POS-3489738266_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 8.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 329 vertices, 184 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489738270_9",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.01,
+      "error": null,
+      "evidence_head": "[CLEAN] 256 vertices, 148 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489738273_9",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 7.58,
+      "error": null,
+      "evidence_head": "[CLEAN] 247 vertices, 158 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Factual']"
+    },
+    {
+      "id": "CD-POS-3489738277_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.77,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'he':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489738285_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 9.12,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'verdict':",
+      "rules": [
+        "R-VALUE",
+        "R-NEGATION",
+        "R-NEGATION",
+        "R-NEGATION"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489738290_9",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.37,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'people':",
+      "rules": [
+        "R-NUMERIC"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3489825751_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 13.12,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'have':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489825759_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 14.83,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'It':",
+      "rules": [
+        "R-NEGATION",
+        "R-NEGATION",
+        "R-NEGATION",
+        "R-NEGATION"
+      ],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489825762_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 13.53,
+      "error": null,
+      "evidence_head": "[CLEAN] 592 vertices, 335 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3489825771_11",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 10.84,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'have':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489825776_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 10.81,
+      "error": null,
+      "evidence_head": "[CLEAN] 500 vertices, 293 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Perspective/View/Opinion', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3489825781_10",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 17.43,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'Religious Freedom Restoration Act':",
+      "rules": [
+        "R-NEGATION",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3499318672_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 6.33,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'He':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3499318676_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 8.53,
+      "error": null,
+      "evidence_head": "[CLEAN] 362 vertices, 214 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3499318678_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 48.78,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'He':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3499318680_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 17.25,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3499318682_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 12.55,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'finds':",
+      "rules": [
+        "R-VALUE",
+        "R-NEGATION",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3499318683_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.45,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'ranked first':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-NUMERIC"
+      ],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3499318685_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 18.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'was':",
+      "rules": [
+        "R-NUMERIC",
+        "R-VALUE",
+        "R-VALUE",
+        "R-NUMERIC"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3499318688_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 6.01,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Typhoon Krosa':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3499318689_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 8.7,
+      "error": null,
+      "evidence_head": "[CLEAN] 330 vertices, 189 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3502252163_10",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 6.58,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'section':",
+      "rules": [
+        "R-NUMERIC",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3502252168_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 12.77,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Content', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3502252172_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 12.09,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'was':",
+      "rules": [
+        "R-VALUE",
+        "R-NEGATION",
+        "R-VALUE",
+        "R-ANTONYM"
+      ],
+      "note": "['Content']"
+    },
+    {
+      "id": "CD-POS-3502252178_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 16.5,
+      "error": null,
+      "evidence_head": "[CLEAN] 512 vertices, 294 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Content', 'Numeric']"
+    },
+    {
+      "id": "CD-POS-3488771855_6",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.85,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'is stolen':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": "['Negation', 'Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489825775_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 13.34,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'It':",
+      "rules": [
+        "R-NEGATION",
+        "R-NEGATION",
+        "R-NEGATION"
+      ],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3499318690_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 6.16,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'represented':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3489738250_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.26,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'He':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3499318675_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 3.16,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'originally designated':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3499318678_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 14.49,
+      "error": null,
+      "evidence_head": "[CLEAN] 374 vertices, 233 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3499318678_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 15.11,
+      "error": null,
+      "evidence_head": "[CLEAN] 375 vertices, 234 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3502252163_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 5.97,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'section':",
+      "rules": [
+        "R-NUMERIC",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Negation']"
+    },
+    {
+      "id": "CD-POS-3488771835_6",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.23,
+      "error": null,
+      "evidence_head": "[CLEAN] 313 vertices, 181 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771884_10",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 5.34,
+      "error": null,
+      "evidence_head": "[CLEAN] 299 vertices, 157 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489738245_6",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.86,
+      "error": null,
+      "evidence_head": "[CLEAN] 204 vertices, 117 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489738289_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 10.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 374 vertices, 212 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489825752_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 13.2,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'nomination':",
+      "rules": [
+        "R-ANTONYM",
+        "R-VALUE",
+        "R-ANTONYM"
+      ],
+      "note": "['Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3499318689_10",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 7.57,
+      "error": null,
+      "evidence_head": "[CLEAN] 335 vertices, 190 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3488771837_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 5.11,
+      "error": null,
+      "evidence_head": "[CLEAN] 199 vertices, 104 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Perspective/View/Opinion', 'Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3489825764_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 11.55,
+      "error": null,
+      "evidence_head": "[CLEAN] 486 vertices, 257 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Numeric', 'Causal']"
+    },
+    {
+      "id": "CD-POS-3489738220_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.01,
+      "error": null,
+      "evidence_head": "[CLEAN] 157 vertices, 80 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Numeric']"
+    },
+    {
+      "id": "CD-POS-3489738255_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 1.87,
+      "error": null,
+      "evidence_head": "[CLEAN] 137 vertices, 65 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Numeric']"
+    },
+    {
+      "id": "CD-POS-3489738273_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.23,
+      "error": null,
+      "evidence_head": "[CLEAN] 248 vertices, 158 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Numeric']"
+    },
+    {
+      "id": "CD-POS-3489738296_1",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 8.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'has died':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Numeric']"
+    },
+    {
+      "id": "CD-POS-3503017442_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 8.67,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'were killed':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "['Numeric', 'Factual']"
+    },
+    {
+      "id": "CD-POS-3488771886_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.92,
+      "error": null,
+      "evidence_head": "[CLEAN] 199 vertices, 120 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Factual', 'Causal', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489738221_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 2.8,
+      "error": null,
+      "evidence_head": "[CLEAN] 163 vertices, 77 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Factual']"
+    },
+    {
+      "id": "CD-POS-3489738269_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.3,
+      "error": null,
+      "evidence_head": "[CLEAN] 341 vertices, 169 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Factual']"
+    },
+    {
+      "id": "CD-POS-3499318672_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 5.41,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'He':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": "['Factual', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3503017442_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 7.23,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'were killed':",
+      "rules": [
+        "R-VALUE",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "['Factual', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3503017486_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.61,
+      "error": null,
+      "evidence_head": "[CLEAN] 184 vertices, 107 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Factual', 'Negation']"
+    },
+    {
+      "id": "CD-POS-3488771840_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 229 vertices, 111 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771840_10",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.35,
+      "error": null,
+      "evidence_head": "[CLEAN] 229 vertices, 112 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771878_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 4.42,
+      "error": null,
+      "evidence_head": "[CLEAN] 193 vertices, 109 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3489738232_5",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.91,
+      "error": null,
+      "evidence_head": "[CLEAN] 174 vertices, 96 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3489738277_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 6.32,
+      "error": null,
+      "evidence_head": "[CLEAN] 336 vertices, 172 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3503017483_7",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 12.76,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'goes':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "['Emotion/Mood/Feeling']"
+    },
+    {
+      "id": "CD-POS-3488771854_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 4.26,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'takes':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Relation']"
+    },
+    {
+      "id": "CD-POS-3503017462_4",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 11.02,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'received':",
+      "rules": [
+        "R-NUMERIC"
+      ],
+      "note": "['Relation']"
+    },
+    {
+      "id": "CD-POS-3488771840_2",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": false,
+      "seconds": 3.58,
+      "error": null,
+      "evidence_head": "[CLEAN] 230 vertices, 112 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "['Causal']"
+    },
+    {
+      "id": "CD-POS-3489825771_8",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 12.21,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'have':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Causal', 'Content', 'Perspective/View/Opinion']"
+    },
+    {
+      "id": "CD-POS-3489825751_3",
+      "family": "contradoc-pos",
+      "expected": true,
+      "actual": true,
+      "seconds": 12.09,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'have':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "['Other', 'Content']"
+    },
+    {
+      "id": "CD-NEG-3489825764_3",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 9.99,
+      "error": null,
+      "evidence_head": "[CLEAN] 483 vertices, 252 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_1",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.57,
+      "error": null,
+      "evidence_head": "[CLEAN] 231 vertices, 107 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_5",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 13.46,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'admitted':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-NUMERIC"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_9",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 5.18,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'secretary Tony Snow':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_16",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 7.46,
+      "error": null,
+      "evidence_head": "[CLEAN] 332 vertices, 167 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_23",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 8.0,
+      "error": null,
+      "evidence_head": "[CLEAN] 301 vertices, 175 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_29",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 10.42,
+      "error": null,
+      "evidence_head": "[CLEAN] 459 vertices, 240 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_34",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 9.64,
+      "error": null,
+      "evidence_head": "[CLEAN] 385 vertices, 225 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_38",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 7.93,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'has arranged':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_42",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 11.79,
+      "error": null,
+      "evidence_head": "[CLEAN] 452 vertices, 235 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_46",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 11.39,
+      "error": null,
+      "evidence_head": "[CLEAN] 377 vertices, 222 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_50",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.21,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Running':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_54",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 6.64,
+      "error": null,
+      "evidence_head": "[CLEAN] 234 vertices, 130 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_58",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 7.7,
+      "error": null,
+      "evidence_head": "[CLEAN] 366 vertices, 207 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_62",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 5.72,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'clients':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_67",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 4.99,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'population':",
+      "rules": [
+        "R-NUMERIC"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_73",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 13.71,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'was':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_79",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 2.66,
+      "error": null,
+      "evidence_head": "[CLEAN] 133 vertices, 63 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_84",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 7.6,
+      "error": null,
+      "evidence_head": "[CLEAN] 330 vertices, 150 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_89",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 11.4,
+      "error": null,
+      "evidence_head": "[CLEAN] 425 vertices, 227 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_94",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.33,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around '-- President Bush':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_98",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 6.98,
+      "error": null,
+      "evidence_head": "[CLEAN] 353 vertices, 182 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_102",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.81,
+      "error": null,
+      "evidence_head": "[CLEAN] 227 vertices, 125 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_107",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 5.16,
+      "error": null,
+      "evidence_head": "[CLEAN] 277 vertices, 138 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_111",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.55,
+      "error": null,
+      "evidence_head": "[CLEAN] 264 vertices, 136 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_116",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 3.12,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'I':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_121",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.18,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'goes':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_126",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 11.43,
+      "error": null,
+      "evidence_head": "[CLEAN] 468 vertices, 262 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_131",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 11.47,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_135",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.72,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'ORANGE COUNTY':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_140",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 19.01,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'know':",
+      "rules": [
+        "R-NEGATION",
+        "R-NEGATION"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_149",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 9.55,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'She':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NEGATION"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_154",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.96,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around '-- Genarlow Wilson':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NEGATION",
+        "R-NUMERIC"
+      ],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_159",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 5.67,
+      "error": null,
+      "evidence_head": "[CLEAN] 246 vertices, 143 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-news_train_163",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.55,
+      "error": null,
+      "evidence_head": "[CLEAN] 185 vertices, 105 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "news"
+    },
+    {
+      "id": "CD-NEG-3499318675_5",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 3.67,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'designation':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-3503017442_9",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.31,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'were killed':",
+      "rules": [
+        "R-VALUE",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29439",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 19.93,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'performed':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29429",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 13.43,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'massacre':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29420",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 10.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'rowed':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29402",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 8.57,
+      "error": null,
+      "evidence_head": "[CLEAN] 237 vertices, 123 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29390",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 15.62,
+      "error": null,
+      "evidence_head": "[CLEAN] 425 vertices, 248 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29379",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 19.97,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29365",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 14.75,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Areas':",
+      "rules": [
+        "R-VALUE",
+        "R-ANTONYM"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29354",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 6.76,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'H - 13':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29338",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 11.9,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'measure':",
+      "rules": [
+        "R-NUMERIC"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29321",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 10.67,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Maryland Route 704':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29312",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 14.95,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'reviewer':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29296",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 9.17,
+      "error": null,
+      "evidence_head": "[CLEAN] 303 vertices, 170 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29272",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 15.28,
+      "error": null,
+      "evidence_head": "[CLEAN] 468 vertices, 271 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29257",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 11.01,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29246",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 3.47,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'highway':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29228",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 9.82,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29220",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.94,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'A Book of Wood Engravings':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29208",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 10.39,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'produced':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29193",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 15.02,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Elisa':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29171",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 6.42,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'was held':",
+      "rules": [
+        "R-NUMERIC",
+        "R-VALUE",
+        "R-VALUE",
+        "R-NUMERIC"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29160",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 17.58,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'wrote':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29150",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 10.95,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29141",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 22.13,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29113",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 15.32,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29090",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 10.35,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'It':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29079",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 9.81,
+      "error": null,
+      "evidence_head": "[CLEAN] 354 vertices, 199 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29061",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 17.43,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'is':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-ANTONYM"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29049",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 17.68,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'was':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-NUMERIC",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29030",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 11.55,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'She':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NEGATION",
+        "R-NEGATION",
+        "R-NUMERIC"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_29014",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 11.19,
+      "error": null,
+      "evidence_head": "[CLEAN] 280 vertices, 174 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-wiki_train_28997",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 19.27,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "wiki"
+    },
+    {
+      "id": "CD-NEG-3488771834_1",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 5.47,
+      "error": null,
+      "evidence_head": "[CLEAN] 212 vertices, 126 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-3488771836_3",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 3.58,
+      "error": null,
+      "evidence_head": "[CLEAN] 136 vertices, 76 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-3488771842_1",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 9.71,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'decides':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-3488771846_1",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 9.28,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'Philip Carey':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-3488771848_2",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 4.6,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'Yorick':",
+      "rules": [
+        "R-ANTONYM",
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-3488771852_4",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 3.83,
+      "error": null,
+      "evidence_head": "[CLEAN] 137 vertices, 78 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_30",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.96,
+      "error": null,
+      "evidence_head": "[CLEAN] 174 vertices, 94 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_346",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 3.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 143 vertices, 70 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_736",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 5.65,
+      "error": null,
+      "evidence_head": "[CLEAN] 204 vertices, 115 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_942",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.15,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'then turns':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_1324",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 12.04,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'takes':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_1836",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 8.98,
+      "error": null,
+      "evidence_head": "[CLEAN] 325 vertices, 183 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_2288",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 5.38,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'returns':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_2465",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 6.86,
+      "error": null,
+      "evidence_head": "[CLEAN] 225 vertices, 127 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_2727",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 6.73,
+      "error": null,
+      "evidence_head": "[CLEAN] 235 vertices, 126 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_3347",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.35,
+      "error": null,
+      "evidence_head": "[CLEAN] 170 vertices, 96 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_3525",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 10.97,
+      "error": null,
+      "evidence_head": "[CLEAN] 344 vertices, 199 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_3962",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 7.73,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'writes':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_4176",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 3.97,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'becomes':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_4476",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 10.35,
+      "error": null,
+      "evidence_head": "[CLEAN] 384 vertices, 239 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_4595",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.3,
+      "error": null,
+      "evidence_head": "[CLEAN] 182 vertices, 101 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_4824",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 8.98,
+      "error": null,
+      "evidence_head": "[CLEAN] 341 vertices, 169 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_5244",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 9.77,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'promised':",
+      "rules": [
+        "R-NEGATION"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_5625",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 3.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 167 vertices, 85 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_6062",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.7,
+      "error": null,
+      "evidence_head": "[CLEAN] 217 vertices, 120 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_6387",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 3.83,
+      "error": null,
+      "evidence_head": "[CLEAN] 131 vertices, 69 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_6678",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.45,
+      "error": null,
+      "evidence_head": "[CLEAN] 170 vertices, 88 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_7060",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 10.5,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is concerned mainly':",
+      "rules": [
+        "R-VALUE",
+        "R-ANTONYM",
+        "R-VALUE",
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_7415",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.49,
+      "error": null,
+      "evidence_head": "[CLEAN] 161 vertices, 88 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_7830",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 5.29,
+      "error": null,
+      "evidence_head": "[CLEAN] 225 vertices, 119 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_8006",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": false,
+      "seconds": 4.56,
+      "error": null,
+      "evidence_head": "[CLEAN] 227 vertices, 125 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "story"
+    },
+    {
+      "id": "CD-NEG-story_train_8383",
+      "family": "contradoc-neg",
+      "expected": false,
+      "actual": true,
+      "seconds": 8.88,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'is placed temporarily':",
+      "rules": [
+        "R-VALUE"
+      ],
+      "note": "story"
+    },
+    {
+      "id": "SYN-BIO-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.29,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.39,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.26,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.27,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-6",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-7",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.32,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-8",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-9",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.29,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-BIO-10",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography, consistent places/dates"
+    },
+    {
+      "id": "SYN-HIST-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition narrative, consistent timeline"
+    },
+    {
+      "id": "SYN-HIST-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition narrative, consistent timeline"
+    },
+    {
+      "id": "SYN-HIST-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition narrative, consistent timeline"
+    },
+    {
+      "id": "SYN-HIST-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 23 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition narrative, consistent timeline"
+    },
+    {
+      "id": "SYN-HIST-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.19,
+      "error": null,
+      "evidence_head": "[CLEAN] 23 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition narrative, consistent timeline"
+    },
+    {
+      "id": "SYN-NEWS-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.28,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 9 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "earnings report, consistent numbers"
+    },
+    {
+      "id": "SYN-TECH-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.16,
+      "error": null,
+      "evidence_head": "[CLEAN] 15 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "release notes, consistent metadata"
+    },
+    {
+      "id": "SYN-NEWS-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 9 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "earnings report, consistent numbers"
+    },
+    {
+      "id": "SYN-TECH-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CLEAN] 15 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "release notes, consistent metadata"
+    },
+    {
+      "id": "SYN-NEWS-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 9 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "earnings report, consistent numbers"
+    },
+    {
+      "id": "SYN-TECH-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CLEAN] 15 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "release notes, consistent metadata"
+    },
+    {
+      "id": "SYN-NEWS-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 9 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "earnings report, consistent numbers"
+    },
+    {
+      "id": "SYN-TECH-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CLEAN] 15 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "release notes, consistent metadata"
+    },
+    {
+      "id": "SYN-NEWS-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 22 vertices, 9 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "earnings report, consistent numbers"
+    },
+    {
+      "id": "SYN-TECH-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CLEAN] 15 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "release notes, consistent metadata"
+    },
+    {
+      "id": "SYN-BIOV-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.17,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.17,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.16,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.17,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.18,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-6",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.16,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-7",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.17,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-8",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.18,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-9",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-BIOV-10",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.18,
+      "error": null,
+      "evidence_head": "[CLEAN] 18 vertices, 5 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "biography reordered, consistent facts"
+    },
+    {
+      "id": "SYN-HISTV-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.13,
+      "error": null,
+      "evidence_head": "[CLEAN] 16 vertices, 6 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition reordered, consistent timeline"
+    },
+    {
+      "id": "SYN-HISTV-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.15,
+      "error": null,
+      "evidence_head": "[CLEAN] 16 vertices, 6 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition reordered, consistent timeline"
+    },
+    {
+      "id": "SYN-HISTV-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.17,
+      "error": null,
+      "evidence_head": "[CLEAN] 16 vertices, 6 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition reordered, consistent timeline"
+    },
+    {
+      "id": "SYN-HISTV-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 17 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition reordered, consistent timeline"
+    },
+    {
+      "id": "SYN-HISTV-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.16,
+      "error": null,
+      "evidence_head": "[CLEAN] 17 vertices, 7 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "expedition reordered, consistent timeline"
+    },
+    {
+      "id": "SYN-MIX-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 26 vertices, 11 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed news/tech, consistent numbers"
+    },
+    {
+      "id": "SYN-MIX-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.23,
+      "error": null,
+      "evidence_head": "[CLEAN] 26 vertices, 11 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed news/tech, consistent numbers"
+    },
+    {
+      "id": "SYN-MIX-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 26 vertices, 11 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed news/tech, consistent numbers"
+    },
+    {
+      "id": "SYN-MIX-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 26 vertices, 11 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed news/tech, consistent numbers"
+    },
+    {
+      "id": "SYN-MIX-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.19,
+      "error": null,
+      "evidence_head": "[CLEAN] 26 vertices, 11 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed news/tech, consistent numbers"
+    },
+    {
+      "id": "SYN-MIXV-1",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.23,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed tech/news reordered, consistent numbers"
+    },
+    {
+      "id": "SYN-MIXV-2",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed tech/news reordered, consistent numbers"
+    },
+    {
+      "id": "SYN-MIXV-3",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed tech/news reordered, consistent numbers"
+    },
+    {
+      "id": "SYN-MIXV-4",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.26,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed tech/news reordered, consistent numbers"
+    },
+    {
+      "id": "SYN-MIXV-5",
+      "family": "synthetic-clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 20 vertices, 8 edges, no star conflicts (profile=strict)",
+      "rules": [],
+      "note": "mixed tech/news reordered, consistent numbers"
+    }
+  ]
+}

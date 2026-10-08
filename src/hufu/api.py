@@ -49,7 +49,7 @@ def check_pair(
     *,
     distance_threshold: float = 0.25,
     use_gpu: bool = False,
-    engine: str = "standard",
+    engine: str = "reference",
     query_is_question: bool = True,
 ) -> ConsistencyVerdict:
     """Check whether one retrieved document is consistent with the query.
@@ -57,12 +57,14 @@ def check_pair(
     High cosine similarity does not imply semantic consistency: this runs the
     hyper-simulation structural check and returns an explainable verdict.
 
-    ``engine='standard'`` requires the ``models`` extra (spaCy
-    ``en_core_web_trf``, fastcoref, sentence-transformers) and the
-    ``simulation-alg`` Rust extension.  ``engine='reference'`` runs the
-    pure-Python reference core over bridged hypergraphs — no Rust toolchain
-    needed — and is validated against the standard path by the L3 dual-track
-    tests.
+    ``engine='reference'`` (default) runs the pure-Python reference core over
+    bridged hypergraphs — no Rust toolchain needed — and is the path pinned
+    by the golden suites (golden100/250/ContraDoc) and the only one with the
+    declarative polarity channel.  ``engine='standard'`` requires the
+    ``models`` extra (spaCy ``en_core_web_trf``, fastcoref,
+    sentence-transformers) plus the ``simulation-alg`` Rust extension; it is
+    faster on long documents but does not yet match wh-placeholders through
+    the Rust fixed point (known limitation, use reference for questions).
 
     ``query_is_question=False`` treats the query as a declarative claim
     (e.g. a sentence to be checked against the document) instead of an
@@ -103,7 +105,7 @@ def check_pair(
             "Build it with: pip install ./rust/simulation (needs a Rust toolchain)."
         ) from exc
 
-    query_hg = text_to_hypergraph(query_text, is_query=True)
+    query_hg = text_to_hypergraph(query_text, is_query=query_is_question)
     data_hg = text_to_hypergraph(document_text)
 
     instance = QueryInstance(query=query_text, data=[document_text], answers=[], ground_truth=[])
@@ -114,6 +116,7 @@ def check_pair(
         query_text,
         document_text,
         distance_threshold=distance_threshold,
+        query_is_question=query_is_question,
     )
     q_emb, d_emb = get_embedding_batch([query_text, document_text])
     distance = 1.0 - cosine_similarity(q_emb, d_emb)
@@ -133,12 +136,16 @@ def check_retrieval(
     distance_threshold: float = 0.25,
     use_gpu: bool = False,
     engine: str = "standard",
+    query_is_question: bool = True,
 ) -> list[ConsistencyVerdict]:
     """Check every retrieved document against the query, in input order.
 
     Use this as a post-checker between vector retrieval and generation in any
     RAG pipeline: documents flagged ``consistent=False`` are candidates for
-    filtering, repair, or down-weighting.
+    filtering, repair, or down-weighting.  Pass ``query_is_question=False``
+    when the query is a declarative claim to verify (fact-checking mode):
+    the polarity channel then catches value/negation conflicts in
+    near-identical passages.
     """
 
     verdicts: list[ConsistencyVerdict] = []
@@ -150,6 +157,7 @@ def check_retrieval(
                 distance_threshold=distance_threshold,
                 use_gpu=use_gpu,
                 engine=engine,
+                query_is_question=query_is_question,
             )
         )
     return verdicts

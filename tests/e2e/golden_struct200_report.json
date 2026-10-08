@@ -1,0 +1,2175 @@
+{
+  "cases": [
+    {
+      "id": "D-BIOL-001",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Priya Raman':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-002",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Michael Novak':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-003",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Prof. David Chen':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-004",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Priya Raman':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-005",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Laura Bianchi':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-006",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Omar Farouk':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-007",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Laura Bianchi':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-008",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Michael Novak':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-009",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Elena Marsh':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-010",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Ingrid Sorensen':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-011",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Laura Bianchi':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-012",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Tomás Herrera':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-013",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'James Whitfield':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-014",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Prof. David Chen':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-015",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Ingrid Sorensen':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-016",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'James Whitfield':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-017",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Elena Marsh':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-018",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Rachel Kim':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-019",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Priya Raman':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOL-020",
+      "family": "bio-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Prof. David Chen':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-BIOY-001",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Michael Novak':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-002",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Elena Marsh':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-003",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Prof. David Chen':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-004",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Omar Farouk':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-005",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Rachel Kim':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-006",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'James Whitfield':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-007",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Michael Novak':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-008",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Priya Raman':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-009",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Michael Novak':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-010",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Elena Marsh':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-011",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Kevin Osei':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-012",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Priya Raman':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-013",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Elena Marsh':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-014",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'James Whitfield':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-BIOY-015",
+      "family": "bio-year",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Prof. David Chen':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-001",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'e-bike':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-002",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'station':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-003",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'printer':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-004",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'watch':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-005",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'watch':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-006",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'printer':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-007",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'pack':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-008",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'stove':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-009",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'smart speaker':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-010",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'watch':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-011",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'monitor':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-012",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'smart speaker':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-013",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'stove':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-014",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'smart speaker':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-015",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'station':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-016",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'monitor':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-017",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'pack':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-018",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'printer':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-019",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'stove':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-SPEC-020",
+      "family": "spec-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'printer':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGL-001",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Helios Energy':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-002",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Acme Robotics':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-003",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Orion Logistics':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-004",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Harbor Freight Systems':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-005",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Vertex Instruments':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-006",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Harbor Freight Systems':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-007",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Orion Logistics':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-008",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Summit Aerospace':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-009",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Redwood Pharma':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-010",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Vertex Instruments':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-011",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Cascade Materials':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-012",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Vertex Instruments':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-013",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Orion Logistics':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-014",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Orion Logistics':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGL-015",
+      "family": "org-loc",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-VALUE around 'Orion Logistics':",
+      "rules": [
+        "R-VALUE",
+        "R-VALUE"
+      ]
+    },
+    {
+      "id": "D-ORGN-001",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Redwood Pharma':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-002",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Cascade Materials':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-003",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Silverline Foods':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-004",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Silverline Foods':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-005",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Northwind Traders':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-006",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Bluepeak Analytics':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-007",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Pinnacle Software':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-008",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Acme Robotics':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-009",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Northwind Traders':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ORGN-010",
+      "family": "org-num",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Bluepeak Analytics':",
+      "rules": [
+        "R-NUMERIC",
+        "R-NUMERIC"
+      ]
+    },
+    {
+      "id": "D-ROLE-001",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'Northwind Traders':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-002",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'laboratory':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-003",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'startup':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-004",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'museum':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-005",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'agency':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-006",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'studio':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-007",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'university':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-008",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'landlord':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-009",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.05,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'officer':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ROLE-010",
+      "family": "role",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.05,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ROLE around 'club':",
+      "rules": [
+        "R-ROLE",
+        "R-ROLE"
+      ]
+    },
+    {
+      "id": "D-ANT-001",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'stock price':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-002",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'prototype':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-003",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'startup':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-004",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'device':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-005",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'committee':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-006",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'team':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-007",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'vaccine':",
+      "rules": [
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-008",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'alloy':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-009",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'reform':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-ANT-010",
+      "family": "antonym",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-ANTONYM around 'army':",
+      "rules": [
+        "R-ANTONYM",
+        "R-ANTONYM"
+      ]
+    },
+    {
+      "id": "D-NEG-001",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
+      "rules": [
+        "R-NEGATION"
+      ]
+    },
+    {
+      "id": "D-NEG-002",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
+      "rules": [
+        "R-NEGATION"
+      ]
+    },
+    {
+      "id": "D-NEG-003",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
+      "rules": [
+        "R-NEGATION"
+      ]
+    },
+    {
+      "id": "D-NEG-004",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
+      "rules": [
+        "R-NEGATION"
+      ]
+    },
+    {
+      "id": "D-NEG-005",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
+      "rules": [
+        "R-NEGATION"
+      ]
+    },
+    {
+      "id": "D-NEG-006",
+      "family": "negation",
+      "expected": true,
+      "actual": true,
+      "seconds": 0.14,
+      "error": null,
+      "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
+      "rules": [
+        "R-NEGATION"
+      ]
+    },
+    {
+      "id": "D-CLEAN-001",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-002",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-003",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-004",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-005",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-006",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-007",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-008",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-009",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.2,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-010",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-011",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-012",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-013",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.19,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-014",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-015",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-016",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-017",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-018",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-019",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-020",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-021",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-022",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-023",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-024",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-025",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-026",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-027",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-028",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-029",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.22,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-030",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-031",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-032",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-033",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-034",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-035",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-036",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-037",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.21,
+      "error": null,
+      "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-038",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-039",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CLEAN-040",
+      "family": "clean",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-001",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-002",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-003",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-004",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-005",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-006",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-007",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-008",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-009",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-010",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-011",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-012",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-013",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-014",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-015",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-016",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-017",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-018",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-019",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.06,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CDIFF-020",
+      "family": "clean-diff",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.07,
+      "error": null,
+      "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-001",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-002",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-003",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-004",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-005",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-006",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-007",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-008",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-009",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-010",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-011",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-012",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-013",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.08,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-014",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-015",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-016",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-017",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-018",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.09,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-019",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    },
+    {
+      "id": "D-CREC-020",
+      "family": "clean-record",
+      "expected": false,
+      "actual": false,
+      "seconds": 0.1,
+      "error": null,
+      "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
+      "rules": []
+    }
+  ]
+}

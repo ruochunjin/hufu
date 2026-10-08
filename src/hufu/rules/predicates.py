@@ -109,6 +109,42 @@ def attr_conflict(a: Item, b: Item, params: Mapping[str, Any], services: Service
     return 1.0
 
 
+_LOCATION_PREPOSITIONS = ("in ", "at ", "inside ", "outside ", "near ")
+
+
+@predicate("attr_opposite")
+def attr_opposite(a: Item, b: Item, params: Mapping[str, Any], services: Services) -> float:
+    """1.0 when the two ``attr`` values are an OPPOSING pair, not merely
+    different.
+
+    CDR semantics (golden-mem attribution, 2026-10-08): ``attr_conflict``
+    fires on any difference, which flags "turn on" vs "turn up" and "warm"
+    vs "comfortable" — compatible variants, not conflicts.  This predicate
+    fires only for:
+
+    - explicit opposite pairs from ``params["opposites"]`` (a list of
+      ``[x, y]`` pairs, matched case-insensitively in either direction), or
+    - location-valued states: both values share a location preposition
+      ("in the kitchen" vs "in the bedroom") but name different places.
+    """
+
+    name = str(params["attr"])
+    va, vb = _attr(a, name), _attr(b, name)
+    if va is None or vb is None:
+        return 0.0
+    sa, sb = str(va).strip().casefold(), str(vb).strip().casefold()
+    if sa == sb:
+        return 0.0
+    for pair in params.get("opposites", []):
+        lo, hi = (str(v).strip().casefold() for v in pair)
+        if {sa, sb} == {lo, hi}:
+            return 1.0
+    for prep in _LOCATION_PREPOSITIONS:
+        if sa.startswith(prep) and sb.startswith(prep):
+            return 1.0
+    return 0.0
+
+
 @predicate("attr_present")
 def attr_present(a: Item, b: Item, params: Mapping[str, Any], services: Services) -> float:
     """1.0 when ``attr`` is present on both items."""

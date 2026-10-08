@@ -171,4 +171,30 @@ def trim_hnsw_edges(
     return removed
 
 
-__all__ = ["TrimDecision", "TrimResult", "trim_evidence", "trim_hnsw_edges"]
+def infer_conflicts_from_judgments(
+    judgments: Mapping[int, bool],
+) -> list[tuple[int, int]]:
+    """Infer inter-item conflicts from per-item consistency judgments.
+
+    The CDR *Trimming Theorem*: when the same witness (query) judges item
+    s1 consistent and item s2 conflicting, s1 and s2 contradict each other.
+    Conflict pairs are therefore the Cartesian product of the two judgment
+    classes — this derives item↔item conflicts from item↔query verdicts
+    without a dedicated pairwise detector (CDRs `context_relation`).
+
+    ``judgments`` maps item index → True (consistent with the witness) or
+    False (conflicting).  Returns sorted ``(i, j)`` pairs, ``i < j``.
+    """
+
+    consistent = sorted(index for index, ok in judgments.items() if ok)
+    dissenting = sorted(index for index, ok in judgments.items() if not ok)
+    return [(i, j) for i in consistent for j in dissenting]
+
+
+__all__ = [
+    "TrimDecision",
+    "TrimResult",
+    "infer_conflicts_from_judgments",
+    "trim_evidence",
+    "trim_hnsw_edges",
+]

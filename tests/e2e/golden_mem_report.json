@@ -1,0 +1,550 @@
+{
+  "cases": [
+    {
+      "id": "M-ACT-1",
+      "family": "action",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.4,
+      "note": ""
+    },
+    {
+      "id": "M-ACT-2",
+      "family": "action",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": ""
+    },
+    {
+      "id": "M-ACT-3",
+      "family": "action",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.39,
+      "note": ""
+    },
+    {
+      "id": "M-ACT-4",
+      "family": "action",
+      "expected": [
+        [
+          0,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          2
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.39,
+      "note": "charge vs drain are opposing actions on the same object"
+    },
+    {
+      "id": "M-ACT-5",
+      "family": "action",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.39,
+      "note": ""
+    },
+    {
+      "id": "M-STATE-1",
+      "family": "state",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.21,
+      "note": ""
+    },
+    {
+      "id": "M-STATE-2",
+      "family": "state",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.41,
+      "note": ""
+    },
+    {
+      "id": "M-STATE-3",
+      "family": "state",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": ""
+    },
+    {
+      "id": "M-STATE-4",
+      "family": "state",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.41,
+      "note": ""
+    },
+    {
+      "id": "M-STATE-5",
+      "family": "state",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.21,
+      "note": ""
+    },
+    {
+      "id": "M-VAL-1",
+      "family": "value",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.19,
+      "note": ""
+    },
+    {
+      "id": "M-VAL-2",
+      "family": "value",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.19,
+      "note": ""
+    },
+    {
+      "id": "M-VAL-3",
+      "family": "value",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.22,
+      "note": ""
+    },
+    {
+      "id": "M-VAL-4",
+      "family": "value",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": ""
+    },
+    {
+      "id": "M-VAL-5",
+      "family": "value",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": "24 vs 24.5 within rel_tol=0.05 -> no conflict (tolerance boundary)"
+    },
+    {
+      "id": "M-LOC-1",
+      "family": "location",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.21,
+      "note": ""
+    },
+    {
+      "id": "M-LOC-2",
+      "family": "location",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": ""
+    },
+    {
+      "id": "M-CLEAN-1",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": "same action on different objects + off on a third object: no shared-object opposition"
+    },
+    {
+      "id": "M-CLEAN-2",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.19,
+      "note": "closed door + lock action are compatible"
+    },
+    {
+      "id": "M-CLEAN-3",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": "80 vs 78 within rel_tol -> no conflict"
+    },
+    {
+      "id": "M-CLEAN-4",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": "location + ongoing action in the same place are compatible"
+    },
+    {
+      "id": "M-CLEAN-5",
+      "family": "boundary",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.21,
+      "note": "scheduled open/close still flags as conflict by rule semantics (temporal qualification is out of CDR scope; documents the boundary)"
+    },
+    {
+      "id": "M-CLEAN-6",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": "same action twice a day: no opposition"
+    },
+    {
+      "id": "M-CLEAN-7",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.21,
+      "note": ""
+    },
+    {
+      "id": "M-CLEAN-8",
+      "family": "clean",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.2,
+      "note": "start/end are different objects by design"
+    },
+    {
+      "id": "M-MULTI-1",
+      "family": "multi",
+      "expected": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.98,
+      "note": ""
+    },
+    {
+      "id": "M-MULTI-2",
+      "family": "multi",
+      "expected": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 1.02,
+      "note": ""
+    },
+    {
+      "id": "M-BOUND-1",
+      "family": "boundary",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.07,
+      "note": "turn on vs turn up are not opposing"
+    },
+    {
+      "id": "M-BOUND-2",
+      "family": "boundary",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.14,
+      "note": "warm and comfortable differ but are compatible (documents attr_conflict needing an opposites table for states; current rules fire on any difference only for action, state uses opposites list — see ruleset)"
+    },
+    {
+      "id": "M-NLI-1",
+      "family": "nli-fallback",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.21,
+      "note": "no attributes: only rico.nli_contradiction can fire"
+    },
+    {
+      "id": "M-NLI-2",
+      "family": "nli-fallback",
+      "expected": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ]
+      ],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.22,
+      "note": ""
+    },
+    {
+      "id": "M-NLI-3",
+      "family": "nli-fallback",
+      "expected": [],
+      "actual": [],
+      "missing": [],
+      "extra": [],
+      "seconds": 0.22,
+      "note": "paraphrase pair: NLI must not flag entailment as conflict"
+    }
+  ]
+}

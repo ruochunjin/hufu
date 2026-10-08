@@ -79,6 +79,18 @@ def get_nli_contradiction_probs_batch(pairs: list[tuple[str, str]]) -> list[floa
     return [float(prob[0]) for prob in probs]
 
 
+def get_nli_entailment_probs_batch(pairs: list[tuple[str, str]]) -> list[float]:
+    """Softmax probability of the entailment class for ordered pairs."""
+
+    import numpy as np
+
+    model = _get_nli_model()
+    scores = model.predict(pairs, batch_size=BATCH_SIZE)
+    exp = np.exp(scores - scores.max(axis=1, keepdims=True))
+    probs = exp / exp.sum(axis=1, keepdims=True)
+    return [float(prob[_ENTAILMENT_INDEX]) for prob in probs]
+
+
 def get_nli_label(text1: str, text2: str) -> str:
     """Predict one ordered text pair's NLI label."""
 

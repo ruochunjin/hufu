@@ -51,10 +51,19 @@ def get_nlp(use_gpu: bool = False) -> spacy.Language:
 
     The spaCy model is configurable through ``HUFU_SPACY_MODEL`` (default
     ``en_core_web_trf``); the coreference model through ``HUFU_COREF_MODEL``.
+
+    torch CPU ops are pinned to one thread (override with
+    ``HUFU_TORCH_THREADS``): multi-threaded reductions race on borderline
+    parser/NER decisions, so the same document could parse differently
+    across processes or under sustained load (golden-struct200 flakiness,
+    2026-10-08).  A consistency tool must be deterministic.
     """
 
     global _NLP
     if _NLP is None:
+        import torch
+
+        torch.set_num_threads(int(os.environ.get("HUFU_TORCH_THREADS", "1")))
         if use_gpu:
             spacy.require_gpu()
         _NLP = spacy.load(os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf"))

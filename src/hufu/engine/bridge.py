@@ -276,9 +276,17 @@ def bridge_type_compatible(qv: Vertex, dv: Vertex) -> bool:
         # vertex ("striker score"), hiding the head noun from typed matching.
         # A word-boundary containment pair approximates the production NLI
         # fallback, which accepts such fragment pairs as entailments
-        # (golden100 C12/J03).
+        # Lexical containment: retokenization merges noun compounds into one
+        # vertex ("striker score"), hiding the head noun from typed matching.
+        # A word-boundary containment pair approximates the production NLI
+        # fallback, which accepts such fragment pairs as entailments
+        # (golden100 C12/J03).  Boundaries are only enforced at WORD edges:
+        # "prof." ⊂ "prof. david chen" must match even though "." has no
+        # trailing word boundary (golden-rag200 R-WHERE-017).
         shorter, longer = (q_text, d_text) if len(q_text) <= len(d_text) else (d_text, q_text)
-        pattern = r"\b" + re.escape(shorter) + r"\b"
+        left = r"\b" if shorter[0].isalnum() else ""
+        right = r"\b" if shorter[-1].isalnum() else ""
+        pattern = left + re.escape(shorter) + right
         return bool(re.search(pattern, longer))
     expected = (qv.expected_type or "").upper() or qv.feature_type
     if expected in {"", "UNKNOWN", "WHAT", "WHICH", "REASON"}:

@@ -102,6 +102,44 @@ def _numeric_equal(query_text: str, data_text: str) -> bool:
     return abs(lv_base - rv_base) / magnitude <= 1e-3
 
 
+def declarative_polarity_verdict(
+    query_text: str, data_text: str, distance: float
+) -> tuple[bool, str] | None:
+    """Polarity channel for declarative claim pairs (numeric rule + NLI gate).
+
+    Vertex coverage cannot see negation/antonymy ("recognizes" vs "does not
+    recognize").  The numeric rule runs first: it catches magnitude
+    conflicts weak NLI models miss and forgives unit-converted truths they
+    flag.  Returns ``(has_contradiction, evidence)``, or None when neither
+    channel has a verdict (caller keeps its structural verdict).
+    """
+
+    if numeric_conflict(query_text, data_text):
+        return (
+            True,
+            f"[CONTRADICTION] Distance={distance:.4f}; "
+            "numeric conflict between the claims (rule check)",
+        )
+    if _numeric_equal(query_text, data_text):
+        return (
+            False,
+            f"[CONSISTENT] Distance={distance:.4f}; "
+            "numbers agree after unit conversion (rule check)",
+        )
+    from .nli import get_nli_label
+
+    nli_label = get_nli_label(query_text, data_text)
+    logger.info(f"declarative-pair NLI label: {nli_label}")
+    if nli_label == "contradiction":
+        return (
+            True,
+            f"[CONTRADICTION] Distance={distance:.4f}; "
+            "structural coverage satisfied but NLI polarity conflict "
+            "between the claims",
+        )
+    return None
+
+
 def is_critical_local_vertex(vertex) -> bool:
     """Rust-free copy of the production ``is_critical_vertex`` policy.
 
@@ -160,11 +198,13 @@ def reference_consistent_detection(
     distance = 1.0 - cosine_similarity(query_embedding, data_embedding)
     logger.info(f"Compute cosine distance: {distance:.4f}, threshold={distance_threshold}")
     if distance <= distance_threshold:
-        return (
-            False,
-            distance,
-            f"[CONSISTENT] Distance={distance:.4f} ≤ threshold={distance_threshold}",
-        )
+        # No early "consistent" return: conflicts hide in the MOST similar
+        # pairs (same frame, one value differs — "weighs 2.3 kg" vs "weighs
+        # 4.1 kg" has distance 0.01).  The golden suites pin the structural
+        # path with threshold=-1 for exactly this reason; the public gate
+        # must not short-circuit it (golden-rag200, 2026-10-08).  Distance
+        # still goes into the evidence for callers who pre-filter.
+        logger.info("distance within gate; structural check still runs")
 
     query_local = (
         query_local
@@ -178,7 +218,10 @@ def reference_consistent_detection(
     # Coverage follows the production critical-vertex policy, restricted to
     # vertices that remain matchable in contracts space (a verb can be
     # "critical" in production yet is structurally represented as a
-    # predicate here).
+    # predicate here; likewise merged-span entities may be represented only
+    # inside edge structure).  Unmatchable does NOT mean uncoverable —
+    # golden100 I01 (identical texts) proved that hard-failing on
+    # unmatchable critical vertices mass-regresses the pinned suites.
     matchable_ids = {v.id for v in query_core.vertices if v.matchable}
     critical = [
         v
@@ -236,39 +279,12 @@ def reference_consistent_detection(
     ]
     if not uncovered:
         if not query_is_question:
-            # Declarative claims need a polarity channel: vertex coverage
-            # cannot see negation/antonymy ("recognizes" vs "does not
-            # recognize").  The numeric rule runs first: it catches
-            # magnitude conflicts weak NLI models miss and forgives
-            # unit-converted truths they flag.  NLI decides otherwise.
-            if numeric_conflict(query_text, data_text):
-                evidence = (
-                    f"[CONTRADICTION] Distance={distance:.4f} > threshold; "
-                    "numeric conflict between the claims (rule check)"
-                )
-                logger.info(evidence)
-                return True, distance, evidence
-            if _numeric_equal(query_text, data_text):
-                evidence = (
-                    f"[CONSISTENT] Distance={distance:.4f} > threshold; "
-                    "numbers agree after unit conversion (rule check)"
-                )
-                logger.info(evidence)
-                return False, distance, evidence
-            from .nli import get_nli_label
-
-            nli_label = get_nli_label(query_text, data_text)
-            logger.info(f"declarative-pair NLI label: {nli_label}")
-            if nli_label == "contradiction":
-                evidence = (
-                    f"[CONTRADICTION] Distance={distance:.4f} > threshold; "
-                    "structural coverage satisfied but NLI polarity conflict "
-                    "between the claims"
-                )
-                logger.info(evidence)
-                return True, distance, evidence
+            verdict = declarative_polarity_verdict(query_text, data_text, distance)
+            if verdict is not None:
+                logger.info(verdict[1])
+                return verdict[0], distance, verdict[1]
         evidence = (
-            f"[CONSISTENT] Distance={distance:.4f} > threshold but structural "
+            f"[CONSISTENT] Distance={distance:.4f}; structural "
             f"coverage satisfied\n  ✓ All {len(critical)} critical Q vertices "
             "matched in D via reference HyperMatch"
         )

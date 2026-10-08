@@ -15,6 +15,27 @@ hypergraph simulation, quality rules) makes the final call.
 
 ## What it does today
 
+**Memory conflicts, conflict inference & calibration (v0.5).**
+`detect_memory_conflicts` applies CDR-style rules (opposing actions/states
+on the same object + VecSim) with explicit opposite-pair tables — pure
+structure, no model on the decision path for attributed memories; the NLI
+fallback is gated to unstructured text only.  Two CDR-paper algorithms join
+the toolkit: `infer_conflicts_from_judgments` (the Trimming Theorem — items
+whose consistency verdicts diverge against the same query conflict with
+each other) and `learn_threshold_youden` (ROC/Youden threshold calibration
+for similarity predicates, pure stdlib).
+
+**Outlier detection, classification & repair (v0.5).** Beyond the v0.4
+measured-impact classifier, HuFu now ports OHunt's exact semantics:
+`GapIsolationDetector` (gap-of-gaps normalization — robust to clustered
+data), `classify_outliers_hinge` (the paper's hinge three-way: full-margin
+outliers are *good*, in-margin *ugly*, misclassified *bad*), the repair
+family `repair_outliers` (KNN label repair — the paper's best —, RF label,
+mean/median value, KNN feature vote, delete), and `discover_outlier_pipeline`
+(OLearner-lite: grid search over detector θ × repair method with your
+downstream metric as the objective).  sklearn/faiss are optional extras —
+injected or lazily imported; the core stays dependency-free.
+
 **Document contradictions & training-data outliers (v0.4).**
 `detect_contradictions` checks statement pairs within and across documents
 against RICO-style rules (entity/value/polarity conflicts + NLI fallback),
@@ -99,12 +120,67 @@ from hufu import (
 # See tests/test_engine_core.py for a complete, runnable example.
 ```
 
+## Scope and limitations
+
+HuFu's document checker is deliberately **precision-first**: it aims to
+*certify* structural contradictions with explainable evidence, not to cover
+every semantic nuance. What that means in practice, measured on the
+300-document golden corpus (`tests/e2e/golden_doc300.py`: hand-built
+batteries + stratified ContraDoc positives/negatives + synthetic hard
+negatives):
+
+- **Reliable subdomain (default `profile="strict"`)**: conflicts provable
+  from structure alone — typed value-slot swaps (born in X vs Y, 300 vs
+  3000 men, May vs June 1883), role reversals on asymmetric verbs
+  (sold/hired/bit), antonym pairs (open/closed, increase/decrease), and
+  polarity flips on an otherwise identical frame (attended vs did not
+  attend). These rules never consult a model; every verdict ships with the
+  full decision chain.
+- **Deliberately out of scope for the strict verdict**: narrative tension,
+  perspective/emotion shifts, paraphrase-level disagreement, and temporal
+  *progressions* (a story legitimately giving the same attribute different
+  values at different times). Real long-form narrative contains the same
+  surface signatures as injected conflicts — clean ContraDoc stories trip
+  structural rules at high rates — so those channels (similarity+NLI cues,
+  weak negation cues) are computed and recorded in the decision chain but
+  do not change the strict verdict.
+- *****REMOVED***: deprecated (2026-10-08, measured).** The `full` profile +
+  `***REMOVED***=True` path (local ***REMOVED*** or API ***REMOVED*** gating the cued channels)
+  is kept for reproducibility but is **not recommended**: the local ***REMOVED***
+  judge over-confirms on narrative (precision 0.523 — a recall amplifier,
+  not a gate), the API judge is slow (~76 s/doc) yet still cannot fix the
+  cue channels' signal overload on clean narrative, and neither generalizes
+  to unseen domains. The strict, structure-only verdict is the supported
+  decision path.
+
+In short: use HuFu to *confirm* contradictions on structured /
+semi-structured content (knowledge bases, fact tables, records, curated
+documents), as a consistency post-checker for RAG retrieval, and for
+vector-memory conflict detection — always with full provenance. Long-form
+narrative contradiction hunting is explicitly out of scope.
+
+Measured on the frozen 300-document corpus (2026-10-07):
+
+| Mode | Correct | Precision | Recall | F1 | Wall time |
+|---|---|---|---|---|---|
+| rules-only (`strict`) | 203/300 | 0.636 | 0.669 | 0.652 | 12 min |
+| local ***REMOVED*** ***REMOVED*** (`full`) | 176/300 | 0.523 | 0.985 | 0.684 | 3.4 h |
+| Claude-API ***REMOVED*** (`full`) | 201/300 | 0.593 | 0.868 | 0.704 | 6.3 h |
+
+Strict mode is the only configuration whose false-flag rate is controlled
+(50/50 synthetic hard negatives, 14/15 hand-built clean docs); the local
+***REMOVED*** judge over-confirms and is a recall amplifier, not a precision gate;
+the API ***REMOVED*** gives the best recall/F1 but cannot fix the structural
+rules' signal overload on clean narrative — that residual is a methods
+boundary, not an engineering gap.
+
 ## Roadmap
 
 - **v0.1** — HyperMatch engine: reference core + text-level checking + Rust accelerator.
 - **v0.2** — Unified quality-rule DSL (CDR / RICO / OMR syntax), pluggable predicate library, memory-conflict scenario.
 - **v0.3** — Conflict-aware trimming (evidence level + HNSW edges); LLM-guided rule discovery with coverage/accuracy validation.
-- **v0.4** — Document contradiction detection with evidence provenance; training-data outlier management (good / bad / ugly). *(this release — the four application scenarios are complete)*
+- **v0.4** — Document contradiction detection with evidence provenance; training-data outlier management (good / bad / ugly).
+- **v0.5** — Full CDRs/OHunt integration *(this release)*: opposite-pair rule semantics + NLI fallback gating + softmax-probability fix; Trimming-Theorem witness conflict inference; Youden threshold calibration; gap-isolation detector; hinge three-way classification; repair family (KNN/RF label, mean/median, KNN features, delete); OLearner-lite pipeline discovery. ***REMOVED*** path deprecated (measured: slow, imprecise, poor generalization).
 
 Future directions: tighter coupling between the HyperMatch structural verdicts
 and the rule layer (structural predicates as rule conditions), prebuilt
