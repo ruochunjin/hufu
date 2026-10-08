@@ -94,7 +94,7 @@ def _check(query: str, doc: str, *, engine: str):
 class DualTrackAgreementTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_verdicts_agree_on_golden_cases(self) -> None:
         disagreements = []
@@ -132,7 +132,7 @@ class DocumentedDivergenceTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_f4_title_merge_divergence(self) -> None:
         standard = _check(F4_CASE_QUERY, F4_CASE_DOC, engine="standard")

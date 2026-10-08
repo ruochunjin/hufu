@@ -48,7 +48,7 @@ def _check(query: str, doc: str, *, threshold: float):
 class ReferenceDistanceGateTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_supporting_pair_consistent_via_gate(self) -> None:
         verdict = _check(HEMINGWAY_QUERY, HEMINGWAY_SUPPORT, threshold=0.25)
@@ -67,7 +67,7 @@ class ReferenceStructuralTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_supporting_doc_covers_placeholder(self) -> None:
         verdict = _check(HEMINGWAY_QUERY, HEMINGWAY_SUPPORT, threshold=-1.0)

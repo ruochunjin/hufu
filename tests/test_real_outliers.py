@@ -11,7 +11,6 @@ sklearn-gated; deterministic.
 from __future__ import annotations
 
 import importlib.util
-import random
 import unittest
 
 _SKLEARN = importlib.util.find_spec("sklearn") is not None
@@ -45,7 +44,6 @@ def _inject_noise(
 ) -> tuple[list[dict[str, float]], list[str], set[int]]:
     """Add lone far-out mislabeled points (damaging ground truth)."""
 
-    rng = random.Random(seed)
     keys = sorted(records[0].keys())
     columns = {key: [float(r[key]) for r in records] for key in keys}
     medians = {key: sorted(col)[len(col) // 2] for key, col in columns.items()}

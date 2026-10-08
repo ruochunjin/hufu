@@ -60,7 +60,7 @@ class BuildInvariantTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def _check_invariants(self, hg, text: str) -> None:
         vertex_ids = [v.id for v in hg.vertices]
@@ -90,7 +90,7 @@ class BuildAnchorTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_query_marks_placeholder(self) -> None:
         hg = _build(HEMINGWAY_QUERY, is_query=True)

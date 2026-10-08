@@ -93,7 +93,6 @@ class OutlierSweepTests(unittest.TestCase):
                     records, labels, noisy = _make_instance(
                         n_per_class, n_classes, n_features, gap, noise_rate, seed
                     )
-                    n_clean = n_classes * n_per_class
                     held, held_labels, _ = _make_instance(
                         max(30, n_per_class // 2), n_classes, n_features, gap, 0.0,
                         seed + 1000,

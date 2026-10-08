@@ -26,7 +26,7 @@ def main() -> None:
     for arg in sys.argv[2:]:
         if arg.startswith("--limit="):
             limit = int(arg.split("=", 1)[1])
-    os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+    os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     from hufu.engine.star_graph import check_document_text
 

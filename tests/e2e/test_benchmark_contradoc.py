@@ -57,7 +57,7 @@ def _contradiction_pairs(limit: int) -> list[tuple[str, str]]:
 class ContraDocSmokeTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_reference_engine_flags_contradiction_pairs(self) -> None:
         from hufu.engine.reference_check import reference_consistent_detection

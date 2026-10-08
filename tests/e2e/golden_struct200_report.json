@@ -18,7 +18,7 @@
       "family": "bio-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Michael Novak':",
       "rules": [
@@ -57,7 +57,7 @@
       "family": "bio-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Laura Bianchi':",
       "rules": [
@@ -135,7 +135,7 @@
       "family": "bio-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Laura Bianchi':",
       "rules": [
@@ -213,7 +213,7 @@
       "family": "bio-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Dr. Elena Marsh':",
       "rules": [
@@ -252,7 +252,7 @@
       "family": "bio-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Prof. David Chen':",
       "rules": [
@@ -291,7 +291,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.1,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Prof. David Chen':",
       "rules": [
@@ -317,7 +317,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Rachel Kim':",
       "rules": [
@@ -330,7 +330,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'James Whitfield':",
       "rules": [
@@ -343,7 +343,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Michael Novak':",
       "rules": [
@@ -382,7 +382,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Elena Marsh':",
       "rules": [
@@ -408,7 +408,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Dr. Priya Raman':",
       "rules": [
@@ -434,7 +434,7 @@
       "family": "bio-year",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'James Whitfield':",
       "rules": [
@@ -499,7 +499,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'watch':",
       "rules": [
@@ -512,7 +512,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'watch':",
       "rules": [
@@ -577,7 +577,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'watch':",
       "rules": [
@@ -590,7 +590,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.09,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'monitor':",
       "rules": [
@@ -616,7 +616,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'stove':",
       "rules": [
@@ -629,7 +629,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'smart speaker':",
       "rules": [
@@ -655,7 +655,7 @@
       "family": "spec-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'monitor':",
       "rules": [
@@ -733,7 +733,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Acme Robotics':",
       "rules": [
@@ -759,7 +759,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.09,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Harbor Freight Systems':",
       "rules": [
@@ -772,7 +772,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Vertex Instruments':",
       "rules": [
@@ -785,7 +785,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Harbor Freight Systems':",
       "rules": [
@@ -837,7 +837,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Vertex Instruments':",
       "rules": [
@@ -863,7 +863,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Vertex Instruments':",
       "rules": [
@@ -876,7 +876,7 @@
       "family": "org-loc",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-VALUE around 'Orion Logistics':",
       "rules": [
@@ -915,7 +915,7 @@
       "family": "org-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Redwood Pharma':",
       "rules": [
@@ -941,7 +941,7 @@
       "family": "org-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Silverline Foods':",
       "rules": [
@@ -1006,7 +1006,7 @@
       "family": "org-num",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NUMERIC around 'Acme Robotics':",
       "rules": [
@@ -1071,7 +1071,7 @@
       "family": "role",
       "expected": true,
       "actual": true,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ROLE around 'startup':",
       "rules": [
@@ -1084,7 +1084,7 @@
       "family": "role",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ROLE around 'museum':",
       "rules": [
@@ -1097,7 +1097,7 @@
       "family": "role",
       "expected": true,
       "actual": true,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ROLE around 'agency':",
       "rules": [
@@ -1149,7 +1149,7 @@
       "family": "role",
       "expected": true,
       "actual": true,
-      "seconds": 0.05,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ROLE around 'officer':",
       "rules": [
@@ -1162,7 +1162,7 @@
       "family": "role",
       "expected": true,
       "actual": true,
-      "seconds": 0.05,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ROLE around 'club':",
       "rules": [
@@ -1175,7 +1175,7 @@
       "family": "antonym",
       "expected": true,
       "actual": true,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ANTONYM around 'stock price':",
       "rules": [
@@ -1201,7 +1201,7 @@
       "family": "antonym",
       "expected": true,
       "actual": true,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ANTONYM around 'startup':",
       "rules": [
@@ -1253,7 +1253,7 @@
       "family": "antonym",
       "expected": true,
       "actual": true,
-      "seconds": 0.14,
+      "seconds": 0.13,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-ANTONYM around 'vaccine':",
       "rules": [
@@ -1352,7 +1352,7 @@
       "family": "negation",
       "expected": true,
       "actual": true,
-      "seconds": 0.14,
+      "seconds": 0.16,
       "error": null,
       "evidence_head": "[CONTRADICTION] R-NEGATION around 'prototype':",
       "rules": [
@@ -1386,7 +1386,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.09,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1446,7 +1446,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.09,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1496,7 +1496,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.19,
+      "seconds": 0.2,
       "error": null,
       "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1536,7 +1536,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.21,
+      "seconds": 0.2,
       "error": null,
       "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1556,7 +1556,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.09,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1566,7 +1566,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.09,
+      "seconds": 0.1,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1636,7 +1636,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1676,7 +1676,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1686,7 +1686,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1696,7 +1696,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.21,
+      "seconds": 0.22,
       "error": null,
       "evidence_head": "[CLEAN] 4 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1716,7 +1716,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1746,7 +1746,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.09,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1756,7 +1756,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.08,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CLEAN] 5 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1766,7 +1766,7 @@
       "family": "clean",
       "expected": false,
       "actual": false,
-      "seconds": 0.08,
+      "seconds": 0.09,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1846,7 +1846,7 @@
       "family": "clean-diff",
       "expected": false,
       "actual": false,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1886,7 +1886,7 @@
       "family": "clean-diff",
       "expected": false,
       "actual": false,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1896,7 +1896,7 @@
       "family": "clean-diff",
       "expected": false,
       "actual": false,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1936,7 +1936,7 @@
       "family": "clean-diff",
       "expected": false,
       "actual": false,
-      "seconds": 0.07,
+      "seconds": 0.06,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -1956,7 +1956,7 @@
       "family": "clean-diff",
       "expected": false,
       "actual": false,
-      "seconds": 0.06,
+      "seconds": 0.07,
       "error": null,
       "evidence_head": "[CLEAN] 6 vertices, 2 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -2046,7 +2046,7 @@
       "family": "clean-record",
       "expected": false,
       "actual": false,
-      "seconds": 0.08,
+      "seconds": 0.09,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -2066,7 +2066,7 @@
       "family": "clean-record",
       "expected": false,
       "actual": false,
-      "seconds": 0.09,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -2096,7 +2096,7 @@
       "family": "clean-record",
       "expected": false,
       "actual": false,
-      "seconds": 0.08,
+      "seconds": 0.1,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -2106,7 +2106,7 @@
       "family": "clean-record",
       "expected": false,
       "actual": false,
-      "seconds": 0.1,
+      "seconds": 0.08,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []
@@ -2156,7 +2156,7 @@
       "family": "clean-record",
       "expected": false,
       "actual": false,
-      "seconds": 0.1,
+      "seconds": 0.09,
       "error": null,
       "evidence_head": "[CLEAN] 7 vertices, 3 edges, no star conflicts (profile=strict)",
       "rules": []

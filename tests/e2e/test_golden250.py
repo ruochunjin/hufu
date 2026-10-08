@@ -27,7 +27,7 @@ REPORT_PATH = Path(__file__).parent / "golden250_report.json"
 class Golden250Tests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (model-aware get_nlp reloads per suite)
 
     def test_corpus_shape(self) -> None:
         self.assertEqual(len(CASES), 250)

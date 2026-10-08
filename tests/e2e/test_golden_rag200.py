@@ -22,7 +22,7 @@ class GoldenRag200Tests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         # trf default: sm's NER loses uncommon toponyms (see golden_struct200).
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_trf")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_trf"  # pinned (model-aware get_nlp reloads per suite)
 
     def test_corpus_shape(self) -> None:
         self.assertEqual(len(CASES), 200)

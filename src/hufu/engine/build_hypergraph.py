@@ -22,6 +22,7 @@ from hufu.hypergraph.dependency import Dependency, LocalDoc, Node
 from hufu.hypergraph.hypergraph import Hypergraph as LocalHypergraph
 
 _NLP: Optional[spacy.Language] = None
+_NLP_MODEL_NAME: Optional[str] = None
 def normalize_special_chars(text: str) -> str:
     """Replace escaped and literal control characters with normalized spaces."""
 
@@ -59,14 +60,21 @@ def get_nlp(use_gpu: bool = False) -> spacy.Language:
     2026-10-08).  A consistency tool must be deterministic.
     """
 
-    global _NLP
+    global _NLP, _NLP_MODEL_NAME
+    requested = os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf")
+    if _NLP is not None and _NLP_MODEL_NAME != requested:
+        # Model switch mid-process: rebuild the pipeline.  Test suites pin
+        # different models per corpus (sm for golden100 speed, trf for
+        # struct200 toponym recall); a single process runs them all.
+        _NLP = None
     if _NLP is None:
         import torch
 
         torch.set_num_threads(int(os.environ.get("HUFU_TORCH_THREADS", "1")))
         if use_gpu:
             spacy.require_gpu()
-        _NLP = spacy.load(os.environ.get("HUFU_SPACY_MODEL", "en_core_web_trf"))
+        _NLP = spacy.load(requested)
+        _NLP_MODEL_NAME = requested
         # HUFU_COREF=off skips coreference entirely: LingMess (590M) dominates
         # build time on long documents, and the no-coref fallback is already
         # exercised by the golden suites.

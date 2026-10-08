@@ -54,7 +54,7 @@ def _filtered(pairs, query_core, data_core) -> set[tuple[str, str]]:
 class StrategyConvergenceTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def _graphs(self, query_text: str, doc_text: str):
         from hufu.engine.bridge import bridge_hypergraph

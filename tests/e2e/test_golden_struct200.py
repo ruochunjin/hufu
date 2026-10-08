@@ -25,7 +25,7 @@ class GoldenStruct200Tests(unittest.TestCase):
         # Curitiba, Graz...), dropping GPE typing and with it the typed
         # value-slot fires — measured 13/20 on bio-loc with sm vs 20/20
         # with trf.  The engine's own default is trf for the same reason.
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_trf")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_trf"  # pinned (model-aware get_nlp reloads per suite)
 
     def test_corpus_shape(self) -> None:
         self.assertEqual(len(CASES), 186)

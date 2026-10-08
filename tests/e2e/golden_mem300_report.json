@@ -14,7 +14,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.35
+      "seconds": 0.36
     },
     {
       "id": "G-ACT-003",
@@ -46,7 +46,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.34
     },
     {
       "id": "G-ACT-007",
@@ -54,7 +54,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-ACT-008",
@@ -70,7 +70,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.2
     },
     {
       "id": "G-ACT-010",
@@ -86,7 +86,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.34
     },
     {
       "id": "G-ACT-012",
@@ -102,7 +102,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.34
     },
     {
       "id": "G-ACT-014",
@@ -110,7 +110,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.34
     },
     {
       "id": "G-ACT-015",
@@ -118,7 +118,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.41
+      "seconds": 0.35
     },
     {
       "id": "G-ACT-016",
@@ -158,7 +158,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.33
+      "seconds": 0.38
     },
     {
       "id": "G-ACT-021",
@@ -166,7 +166,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.22
     },
     {
       "id": "G-ACT-022",
@@ -174,7 +174,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.65
+      "seconds": 0.58
     },
     {
       "id": "G-ACT-023",
@@ -182,7 +182,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-ACT-024",
@@ -198,7 +198,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.56
     },
     {
       "id": "G-ACT-026",
@@ -206,7 +206,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-ACT-027",
@@ -214,7 +214,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-028",
@@ -222,7 +222,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.34
     },
     {
       "id": "G-ACT-029",
@@ -230,7 +230,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.35
     },
     {
       "id": "G-ACT-030",
@@ -238,7 +238,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-031",
@@ -246,7 +246,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.57
     },
     {
       "id": "G-ACT-032",
@@ -254,7 +254,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.63
+      "seconds": 0.57
     },
     {
       "id": "G-ACT-033",
@@ -262,7 +262,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.33
     },
     {
       "id": "G-ACT-034",
@@ -270,7 +270,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.59
     },
     {
       "id": "G-ACT-035",
@@ -278,7 +278,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-ACT-036",
@@ -286,7 +286,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.22
     },
     {
       "id": "G-ACT-037",
@@ -294,7 +294,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.59
     },
     {
       "id": "G-ACT-038",
@@ -302,7 +302,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.35
     },
     {
       "id": "G-ACT-039",
@@ -318,7 +318,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.34
     },
     {
       "id": "G-ACT-041",
@@ -334,7 +334,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-043",
@@ -342,7 +342,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-044",
@@ -350,7 +350,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.57
     },
     {
       "id": "G-ACT-045",
@@ -358,7 +358,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.59
     },
     {
       "id": "G-ACT-046",
@@ -366,7 +366,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.56
     },
     {
       "id": "G-ACT-047",
@@ -374,7 +374,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-048",
@@ -382,7 +382,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.23
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-049",
@@ -390,7 +390,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.63
+      "seconds": 0.61
     },
     {
       "id": "G-ACT-050",
@@ -398,7 +398,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.16
     },
     {
       "id": "G-ACT-051",
@@ -406,7 +406,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.59
+      "seconds": 0.58
     },
     {
       "id": "G-ACT-052",
@@ -414,7 +414,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-053",
@@ -422,7 +422,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-054",
@@ -438,7 +438,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.22
     },
     {
       "id": "G-ACT-056",
@@ -446,7 +446,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.57
     },
     {
       "id": "G-ACT-057",
@@ -454,7 +454,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.58
     },
     {
       "id": "G-ACT-058",
@@ -470,7 +470,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-ACT-060",
@@ -478,7 +478,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.59
+      "seconds": 0.57
     },
     {
       "id": "G-STATE-001",
@@ -486,7 +486,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.33
     },
     {
       "id": "G-STATE-002",
@@ -494,7 +494,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-003",
@@ -502,7 +502,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.66
     },
     {
       "id": "G-STATE-004",
@@ -526,7 +526,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.34
     },
     {
       "id": "G-STATE-007",
@@ -534,7 +534,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-STATE-008",
@@ -542,7 +542,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.23
     },
     {
       "id": "G-STATE-009",
@@ -550,7 +550,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-STATE-010",
@@ -558,7 +558,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-011",
@@ -566,7 +566,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.57
     },
     {
       "id": "G-STATE-012",
@@ -574,7 +574,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.59
+      "seconds": 0.6
     },
     {
       "id": "G-STATE-013",
@@ -582,7 +582,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.58
     },
     {
       "id": "G-STATE-014",
@@ -590,7 +590,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.59
     },
     {
       "id": "G-STATE-015",
@@ -598,7 +598,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-016",
@@ -606,7 +606,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-017",
@@ -614,7 +614,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.2
     },
     {
       "id": "G-STATE-018",
@@ -622,7 +622,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-019",
@@ -630,7 +630,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.41
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-020",
@@ -638,7 +638,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.59
     },
     {
       "id": "G-STATE-021",
@@ -646,7 +646,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-022",
@@ -654,7 +654,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.34
     },
     {
       "id": "G-STATE-023",
@@ -662,7 +662,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-024",
@@ -678,7 +678,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-STATE-026",
@@ -686,7 +686,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.6
     },
     {
       "id": "G-STATE-027",
@@ -694,7 +694,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-028",
@@ -702,7 +702,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.69
+      "seconds": 0.58
     },
     {
       "id": "G-STATE-029",
@@ -710,7 +710,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.57
     },
     {
       "id": "G-STATE-030",
@@ -726,7 +726,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.23
     },
     {
       "id": "G-STATE-032",
@@ -734,7 +734,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-033",
@@ -742,7 +742,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.64
+      "seconds": 0.57
     },
     {
       "id": "G-STATE-034",
@@ -766,7 +766,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.35
+      "seconds": 0.39
     },
     {
       "id": "G-STATE-037",
@@ -774,7 +774,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-038",
@@ -782,7 +782,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-STATE-039",
@@ -790,7 +790,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.58
     },
     {
       "id": "G-STATE-040",
@@ -798,7 +798,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.58
     },
     {
       "id": "G-STATE-041",
@@ -806,7 +806,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.34
     },
     {
       "id": "G-STATE-042",
@@ -814,7 +814,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.36
     },
     {
       "id": "G-STATE-043",
@@ -822,7 +822,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.63
     },
     {
       "id": "G-STATE-044",
@@ -830,7 +830,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-045",
@@ -838,7 +838,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-STATE-046",
@@ -846,7 +846,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.35
     },
     {
       "id": "G-STATE-047",
@@ -854,7 +854,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.37
     },
     {
       "id": "G-STATE-048",
@@ -862,7 +862,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.34
     },
     {
       "id": "G-STATE-049",
@@ -870,7 +870,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-STATE-050",
@@ -878,7 +878,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.23
+      "seconds": 0.17
     },
     {
       "id": "G-LOC-001",
@@ -902,7 +902,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.17
     },
     {
       "id": "G-LOC-004",
@@ -910,7 +910,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.36
     },
     {
       "id": "G-LOC-005",
@@ -918,7 +918,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-006",
@@ -934,7 +934,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-LOC-008",
@@ -947,7 +947,7 @@
           1
         ]
       ],
-      "seconds": 0.39
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-009",
@@ -955,7 +955,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-010",
@@ -963,7 +963,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.17
     },
     {
       "id": "G-LOC-011",
@@ -971,7 +971,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.4
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-012",
@@ -979,7 +979,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.42
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-013",
@@ -987,7 +987,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.26
     },
     {
       "id": "G-LOC-014",
@@ -995,7 +995,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.51
+      "seconds": 0.36
     },
     {
       "id": "G-LOC-015",
@@ -1003,7 +1003,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-016",
@@ -1011,7 +1011,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.42
+      "seconds": 0.39
     },
     {
       "id": "G-LOC-017",
@@ -1019,7 +1019,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.46
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-018",
@@ -1027,7 +1027,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.36
     },
     {
       "id": "G-LOC-019",
@@ -1043,7 +1043,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-021",
@@ -1056,7 +1056,7 @@
           2
         ]
       ],
-      "seconds": 0.4
+      "seconds": 0.36
     },
     {
       "id": "G-LOC-022",
@@ -1069,7 +1069,7 @@
           2
         ]
       ],
-      "seconds": 0.2
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-023",
@@ -1077,7 +1077,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.24
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-024",
@@ -1090,7 +1090,7 @@
           2
         ]
       ],
-      "seconds": 0.22
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-025",
@@ -1098,7 +1098,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.23
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-026",
@@ -1106,7 +1106,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-027",
@@ -1114,7 +1114,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.26
+      "seconds": 0.18
     },
     {
       "id": "G-LOC-028",
@@ -1122,7 +1122,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.82
+      "seconds": 0.4
     },
     {
       "id": "G-LOC-029",
@@ -1130,7 +1130,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.83
+      "seconds": 0.35
     },
     {
       "id": "G-LOC-030",
@@ -1138,7 +1138,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.45
+      "seconds": 0.19
     },
     {
       "id": "G-VAL-001",
@@ -1146,7 +1146,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.09
+      "seconds": 0.4
     },
     {
       "id": "G-VAL-002",
@@ -1154,7 +1154,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.77
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-003",
@@ -1162,7 +1162,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.08
+      "seconds": 0.35
     },
     {
       "id": "G-VAL-004",
@@ -1170,7 +1170,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.57
+      "seconds": 0.17
     },
     {
       "id": "G-VAL-005",
@@ -1178,7 +1178,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.8
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-006",
@@ -1186,7 +1186,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.72
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-007",
@@ -1194,7 +1194,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.93
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-008",
@@ -1202,7 +1202,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.13
+      "seconds": 0.39
     },
     {
       "id": "G-VAL-009",
@@ -1210,7 +1210,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.33
+      "seconds": 0.38
     },
     {
       "id": "G-VAL-010",
@@ -1218,7 +1218,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.19
     },
     {
       "id": "G-VAL-011",
@@ -1226,7 +1226,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.68
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-012",
@@ -1234,7 +1234,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.27
+      "seconds": 0.35
     },
     {
       "id": "G-VAL-013",
@@ -1242,7 +1242,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-014",
@@ -1250,7 +1250,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.26
+      "seconds": 0.35
     },
     {
       "id": "G-VAL-015",
@@ -1258,7 +1258,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.12
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-016",
@@ -1266,7 +1266,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.77
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-017",
@@ -1274,7 +1274,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 1.11
+      "seconds": 0.35
     },
     {
       "id": "G-VAL-018",
@@ -1282,7 +1282,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.32
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-019",
@@ -1290,7 +1290,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.27
+      "seconds": 0.23
     },
     {
       "id": "G-VAL-020",
@@ -1298,7 +1298,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.3
+      "seconds": 0.19
     },
     {
       "id": "G-VAL-021",
@@ -1306,7 +1306,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.25
+      "seconds": 0.17
     },
     {
       "id": "G-VAL-022",
@@ -1314,7 +1314,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.27
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-023",
@@ -1322,7 +1322,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.25
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-024",
@@ -1330,7 +1330,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.24
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-025",
@@ -1338,7 +1338,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-026",
@@ -1346,7 +1346,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.41
+      "seconds": 0.35
     },
     {
       "id": "G-VAL-027",
@@ -1354,7 +1354,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.17
     },
     {
       "id": "G-VAL-028",
@@ -1362,7 +1362,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.45
+      "seconds": 0.35
     },
     {
       "id": "G-VAL-029",
@@ -1370,7 +1370,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.52
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-030",
@@ -1378,7 +1378,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.47
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-031",
@@ -1386,7 +1386,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.21
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-032",
@@ -1402,7 +1402,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-034",
@@ -1410,7 +1410,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.19
     },
     {
       "id": "G-VAL-035",
@@ -1418,7 +1418,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.18
     },
     {
       "id": "G-VAL-036",
@@ -1426,7 +1426,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-037",
@@ -1434,7 +1434,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-038",
@@ -1442,7 +1442,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.21
+      "seconds": 0.17
     },
     {
       "id": "G-VAL-039",
@@ -1450,7 +1450,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.36
     },
     {
       "id": "G-VAL-040",
@@ -1458,7 +1458,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.36
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-001",
@@ -1466,7 +1466,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-002",
@@ -1474,7 +1474,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.24
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-003",
@@ -1482,7 +1482,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.23
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-004",
@@ -1490,7 +1490,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.41
+      "seconds": 0.38
     },
     {
       "id": "G-TOL-005",
@@ -1498,7 +1498,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.21
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-006",
@@ -1506,7 +1506,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.23
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-007",
@@ -1514,7 +1514,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.5
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-008",
@@ -1522,7 +1522,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.4
+      "seconds": 0.36
     },
     {
       "id": "G-TOL-009",
@@ -1530,7 +1530,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.21
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-010",
@@ -1546,7 +1546,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.56
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-012",
@@ -1554,7 +1554,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.31
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-013",
@@ -1562,7 +1562,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.27
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-014",
@@ -1570,7 +1570,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.53
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-015",
@@ -1578,7 +1578,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.49
+      "seconds": 0.39
     },
     {
       "id": "G-TOL-016",
@@ -1586,7 +1586,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.37
     },
     {
       "id": "G-TOL-017",
@@ -1594,7 +1594,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.34
     },
     {
       "id": "G-TOL-018",
@@ -1602,7 +1602,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-019",
@@ -1610,7 +1610,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-020",
@@ -1618,7 +1618,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.16
     },
     {
       "id": "G-TOL-021",
@@ -1626,7 +1626,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.42
+      "seconds": 0.37
     },
     {
       "id": "G-TOL-022",
@@ -1634,7 +1634,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-023",
@@ -1650,7 +1650,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.17
     },
     {
       "id": "G-TOL-025",
@@ -1658,7 +1658,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-026",
@@ -1666,7 +1666,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.24
+      "seconds": 0.17
     },
     {
       "id": "G-TOL-027",
@@ -1674,7 +1674,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.24
+      "seconds": 0.2
     },
     {
       "id": "G-TOL-028",
@@ -1682,7 +1682,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.28
+      "seconds": 0.18
     },
     {
       "id": "G-TOL-029",
@@ -1690,7 +1690,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.49
+      "seconds": 0.35
     },
     {
       "id": "G-TOL-030",
@@ -1698,7 +1698,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.5
+      "seconds": 0.36
     },
     {
       "id": "G-COBJ-001",
@@ -1706,7 +1706,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.32
+      "seconds": 0.2
     },
     {
       "id": "G-COBJ-002",
@@ -1714,7 +1714,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.42
+      "seconds": 0.34
     },
     {
       "id": "G-COBJ-003",
@@ -1722,7 +1722,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.5
+      "seconds": 0.35
     },
     {
       "id": "G-COBJ-004",
@@ -1730,7 +1730,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.53
+      "seconds": 0.34
     },
     {
       "id": "G-COBJ-005",
@@ -1738,7 +1738,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.41
+      "seconds": 0.33
     },
     {
       "id": "G-COBJ-006",
@@ -1746,7 +1746,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-007",
@@ -1754,7 +1754,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.23
     },
     {
       "id": "G-COBJ-008",
@@ -1762,7 +1762,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.4
+      "seconds": 0.35
     },
     {
       "id": "G-COBJ-009",
@@ -1770,7 +1770,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-010",
@@ -1778,7 +1778,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.18
     },
     {
       "id": "G-COBJ-011",
@@ -1786,7 +1786,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.35
     },
     {
       "id": "G-COBJ-012",
@@ -1794,7 +1794,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.44
+      "seconds": 0.35
     },
     {
       "id": "G-COBJ-013",
@@ -1802,7 +1802,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.43
+      "seconds": 0.34
     },
     {
       "id": "G-COBJ-014",
@@ -1810,7 +1810,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.16
     },
     {
       "id": "G-COBJ-015",
@@ -1818,7 +1818,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-016",
@@ -1826,7 +1826,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.42
+      "seconds": 0.35
     },
     {
       "id": "G-COBJ-017",
@@ -1834,7 +1834,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.43
+      "seconds": 0.35
     },
     {
       "id": "G-COBJ-018",
@@ -1842,7 +1842,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.2
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-019",
@@ -1850,7 +1850,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.23
     },
     {
       "id": "G-COBJ-020",
@@ -1858,7 +1858,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.41
+      "seconds": 0.34
     },
     {
       "id": "G-COBJ-021",
@@ -1866,7 +1866,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.36
     },
     {
       "id": "G-COBJ-022",
@@ -1874,7 +1874,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.16
     },
     {
       "id": "G-COBJ-023",
@@ -1890,7 +1890,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-025",
@@ -1914,7 +1914,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.39
     },
     {
       "id": "G-COBJ-028",
@@ -1922,7 +1922,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.21
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-029",
@@ -1938,7 +1938,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.16
     },
     {
       "id": "G-COBJ-031",
@@ -1946,7 +1946,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.34
     },
     {
       "id": "G-COBJ-032",
@@ -1954,7 +1954,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.18
+      "seconds": 0.2
     },
     {
       "id": "G-COBJ-033",
@@ -1962,7 +1962,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-COBJ-034",
@@ -1970,7 +1970,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.16
+      "seconds": 0.18
     },
     {
       "id": "G-COBJ-035",
@@ -1978,7 +1978,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.35
+      "seconds": 0.33
     },
     {
       "id": "G-COBJ-036",
@@ -1986,7 +1986,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.16
+      "seconds": 0.17
     },
     {
       "id": "G-COBJ-037",
@@ -2002,7 +2002,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-COBJ-039",
@@ -2018,7 +2018,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.38
+      "seconds": 0.36
     },
     {
       "id": "G-CCOMP-001",
@@ -2034,7 +2034,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.35
+      "seconds": 0.36
     },
     {
       "id": "G-CCOMP-003",
@@ -2042,7 +2042,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-004",
@@ -2050,7 +2050,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-005",
@@ -2058,7 +2058,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-006",
@@ -2066,7 +2066,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.35
+      "seconds": 0.36
     },
     {
       "id": "G-CCOMP-007",
@@ -2074,7 +2074,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.57
+      "seconds": 0.37
     },
     {
       "id": "G-CCOMP-008",
@@ -2082,7 +2082,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.21
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-009",
@@ -2090,7 +2090,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.45
+      "seconds": 0.35
     },
     {
       "id": "G-CCOMP-010",
@@ -2122,7 +2122,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-014",
@@ -2130,7 +2130,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.34
+      "seconds": 0.37
     },
     {
       "id": "G-CCOMP-015",
@@ -2138,7 +2138,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.16
+      "seconds": 0.17
     },
     {
       "id": "G-CCOMP-016",
@@ -2146,7 +2146,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-017",
@@ -2154,7 +2154,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.34
+      "seconds": 0.37
     },
     {
       "id": "G-CCOMP-018",
@@ -2162,7 +2162,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.36
     },
     {
       "id": "G-CCOMP-019",
@@ -2170,7 +2170,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.36
     },
     {
       "id": "G-CCOMP-020",
@@ -2178,7 +2178,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.19
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-021",
@@ -2194,7 +2194,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-023",
@@ -2218,7 +2218,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.33
+      "seconds": 0.36
     },
     {
       "id": "G-CCOMP-026",
@@ -2242,7 +2242,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-029",
@@ -2250,7 +2250,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-030",
@@ -2266,7 +2266,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.22
+      "seconds": 0.17
     },
     {
       "id": "G-CCOMP-032",
@@ -2274,7 +2274,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.34
+      "seconds": 0.35
     },
     {
       "id": "G-CCOMP-033",
@@ -2282,7 +2282,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.17
+      "seconds": 0.18
     },
     {
       "id": "G-CCOMP-034",
@@ -2298,7 +2298,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.39
+      "seconds": 0.33
     },
     {
       "id": "G-CCOMP-036",
@@ -2306,7 +2306,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.34
+      "seconds": 0.35
     },
     {
       "id": "G-CCOMP-037",
@@ -2330,7 +2330,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.16
+      "seconds": 0.17
     },
     {
       "id": "G-CCOMP-040",
@@ -2338,7 +2338,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.37
+      "seconds": 0.33
     },
     {
       "id": "G-MULTI-001",
@@ -2346,7 +2346,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.6
     },
     {
       "id": "G-MULTI-002",
@@ -2354,7 +2354,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.63
+      "seconds": 0.59
     },
     {
       "id": "G-MULTI-003",
@@ -2370,7 +2370,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.69
+      "seconds": 0.64
     },
     {
       "id": "G-MULTI-005",
@@ -2378,7 +2378,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.57
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-006",
@@ -2386,7 +2386,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.58
+      "seconds": 0.59
     },
     {
       "id": "G-MULTI-007",
@@ -2394,7 +2394,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.56
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-008",
@@ -2402,7 +2402,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.58
+      "seconds": 0.59
     },
     {
       "id": "G-MULTI-009",
@@ -2410,7 +2410,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.56
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-010",
@@ -2418,7 +2418,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-011",
@@ -2426,7 +2426,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.64
     },
     {
       "id": "G-MULTI-012",
@@ -2434,7 +2434,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.62
     },
     {
       "id": "G-MULTI-013",
@@ -2442,7 +2442,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.64
+      "seconds": 0.57
     },
     {
       "id": "G-MULTI-014",
@@ -2450,7 +2450,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.59
     },
     {
       "id": "G-MULTI-015",
@@ -2466,7 +2466,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.56
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-017",
@@ -2474,7 +2474,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.57
     },
     {
       "id": "G-MULTI-018",
@@ -2482,7 +2482,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.65
+      "seconds": 0.6
     },
     {
       "id": "G-MULTI-019",
@@ -2490,7 +2490,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.59
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-020",
@@ -2498,7 +2498,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.56
+      "seconds": 0.58
     },
     {
       "id": "G-MULTI-021",
@@ -2506,7 +2506,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.56
+      "seconds": 0.63
     },
     {
       "id": "G-MULTI-022",
@@ -2514,7 +2514,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.63
+      "seconds": 0.61
     },
     {
       "id": "G-MULTI-023",
@@ -2522,7 +2522,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.63
+      "seconds": 0.6
     },
     {
       "id": "G-MULTI-024",
@@ -2530,7 +2530,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.65
+      "seconds": 0.59
     },
     {
       "id": "G-MULTI-025",
@@ -2538,7 +2538,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.57
     },
     {
       "id": "G-MULTI-026",
@@ -2546,7 +2546,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.62
+      "seconds": 0.57
     },
     {
       "id": "G-MULTI-027",
@@ -2554,7 +2554,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.6
+      "seconds": 0.57
     },
     {
       "id": "G-MULTI-028",
@@ -2562,7 +2562,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.61
+      "seconds": 0.57
     },
     {
       "id": "G-MULTI-029",
@@ -2570,7 +2570,7 @@
       "missing": [],
       "extra": [],
       "out_of_scope": [],
-      "seconds": 0.69
+      "seconds": 0.56
     },
     {
       "id": "G-MULTI-030",

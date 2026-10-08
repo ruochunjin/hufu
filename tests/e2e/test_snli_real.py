@@ -13,7 +13,6 @@ Downloads SNLI via the HF mirror on first run (cached afterwards).
 
 from __future__ import annotations
 
-import importlib.util
 import os
 import unittest
 

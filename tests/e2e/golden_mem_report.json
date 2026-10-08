@@ -17,7 +17,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.4,
+      "seconds": 0.43,
       "note": ""
     },
     {
@@ -37,7 +37,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -57,7 +57,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.39,
+      "seconds": 0.38,
       "note": ""
     },
     {
@@ -77,7 +77,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.39,
+      "seconds": 0.38,
       "note": "charge vs drain are opposing actions on the same object"
     },
     {
@@ -97,7 +97,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.39,
+      "seconds": 0.37,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -137,7 +137,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.41,
+      "seconds": 0.37,
       "note": ""
     },
     {
@@ -157,7 +157,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.19,
       "note": ""
     },
     {
@@ -177,7 +177,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.41,
+      "seconds": 0.38,
       "note": ""
     },
     {
@@ -197,7 +197,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.19,
       "note": ""
     },
     {
@@ -217,7 +217,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -237,7 +237,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -257,7 +257,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.22,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -277,7 +277,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -287,7 +287,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.19,
       "note": "24 vs 24.5 within rel_tol=0.05 -> no conflict (tolerance boundary)"
     },
     {
@@ -307,7 +307,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -357,7 +357,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.19,
       "note": "80 vs 78 within rel_tol -> no conflict"
     },
     {
@@ -387,7 +387,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.19,
       "note": "scheduled open/close still flags as conflict by rule semantics (temporal qualification is out of CDR scope; documents the boundary)"
     },
     {
@@ -397,7 +397,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.19,
       "note": "same action twice a day: no opposition"
     },
     {
@@ -407,7 +407,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -473,7 +473,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 1.02,
+      "seconds": 0.93,
       "note": ""
     },
     {
@@ -493,7 +493,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.14,
+      "seconds": 0.07,
       "note": "warm and comfortable differ but are compatible (documents attr_conflict needing an opposites table for states; current rules fire on any difference only for action, state uses opposites list — see ruleset)"
     },
     {
@@ -513,7 +513,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.19,
       "note": "no attributes: only rico.nli_contradiction can fire"
     },
     {
@@ -533,7 +533,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.22,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -543,7 +543,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.22,
+      "seconds": 0.2,
       "note": "paraphrase pair: NLI must not flag entailment as conflict"
     }
   ]

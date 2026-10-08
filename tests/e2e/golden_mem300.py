@@ -19,7 +19,6 @@ Families:
 from __future__ import annotations
 
 import random
-from dataclasses import dataclass
 from typing import Any
 
 from tests.e2e.golden_mem_corpus import MemCase

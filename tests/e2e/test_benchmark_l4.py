@@ -53,7 +53,7 @@ def _timed_check(query: str, doc: str, *, engine: str) -> tuple[bool, float]:
 class EngineBenchmarkTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_engine_latency_comparison(self) -> None:
         results: dict[str, list[float]] = {"standard": [], "reference": []}

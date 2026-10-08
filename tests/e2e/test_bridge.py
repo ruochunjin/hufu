@@ -34,7 +34,7 @@ def _bridge(text: str, *, side: str, is_query: bool = False):
 class BridgeStructuralTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_all_local_vertices_convert(self) -> None:
         local, result = _bridge(DOC, side="data")
@@ -107,7 +107,7 @@ class BridgeStructuralTests(unittest.TestCase):
 class BridgeAllowedPairsTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        os.environ.setdefault("HUFU_SPACY_MODEL", "en_core_web_sm")
+        os.environ["HUFU_SPACY_MODEL"] = "en_core_web_sm"  # pinned (get_nlp reloads per suite)
 
     def test_domain_strategy_pairs_reference_core_vertices(self) -> None:
         from hufu.engine.bridge import bridge_allowed_pairs
