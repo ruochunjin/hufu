@@ -9,8 +9,8 @@ jobs:
   test:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
-        python-version: ["3.10", "3.12"]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -39,6 +39,29 @@ jobs:
         run: |
           pip install ruff
           ruff check src tests
+
+  models-smoke:
+    # Text-level path with the models extra: spaCy graph build on one small
+    # English model (e2e golden corpora stay HUFU_RUN_E2E-gated and local).
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install models extra
+        run: pip install -e ".[models]"
+      - name: Download spaCy model
+        run: python -m spacy download en_core_web_sm
+      - name: Graph-build smoke
+        env:
+          HUFU_SPACY_MODEL: en_core_web_sm
+          HUFU_COREF: "off"
+        run: |
+          python -c "from hufu.engine.build_hypergraph import text_to_hypergraph; hg = text_to_hypergraph('The regiment lost 300 men. The regiment lost 3000 men.'); assert len(hg.vertices) >= 3; print('hypergraph smoke OK:', len(hg.vertices), 'vertices')"
 
   rust:
     runs-on: ubuntu-latest

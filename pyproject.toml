@@ -3,7 +3,7 @@ build-backend = "hatchling.build"
 requires = ["hatchling"]
 
 [project]
-name = "hufu-dq"
+name = "hufu"
 version = "0.5.0"
 description = "HuFu (虎符): neuro-symbolic data-quality verification — hypergraph-simulation consistency checking for vector retrieval, documents, and LLM data"
 readme = "README.md"
