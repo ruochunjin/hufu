@@ -36,12 +36,6 @@ class GoldenDoc300Tests(unittest.TestCase):
 
     def test_star_engine_on_corpus(self) -> None:
         from hufu.engine.star_graph import check_document_text
-        from hufu.llm.***REMOVED*** import ***REMOVED***
-
-        backend = os.environ.get("***REMOVED***", "local")
-        ***REMOVED*** = os.environ.get("***REMOVED***", "0") == "1"
-        if ***REMOVED*** and backend == "***REMOVED***" and not ***REMOVED***():
-            ***REMOVED*** = False
 
         report: list[dict] = []
         failures: list[str] = []
@@ -50,11 +44,7 @@ class GoldenDoc300Tests(unittest.TestCase):
             start = time.perf_counter()
             try:
                 has_contra, _secs, evidence, conflicts, _chain = check_document_text(
-                    case.text, ***REMOVED***=***REMOVED***,
-                    # LLM ***REMOVED*** mode needs the full channel set (strict
-                    # counts only direct structural fires, which would make
-                    # the ***REMOVED*** a no-op).
-                    profile="full" if ***REMOVED*** else "strict",
+                    case.text
                 )
                 error = None
             except Exception as exc:  # noqa: BLE001 - corpus runner records, not raises
@@ -83,7 +73,7 @@ class GoldenDoc300Tests(unittest.TestCase):
 
         REPORT_PATH.write_text(
             json.dumps(
-                {"llm_enabled": ***REMOVED***, "backend": backend, "cases": report},
+                {"cases": report},
                 ensure_ascii=False,
                 indent=2,
             ),

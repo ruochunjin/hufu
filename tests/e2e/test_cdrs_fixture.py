@@ -2,10 +2,10 @@
 conflict scenario (robustness smoke on real prototype data).
 
 The prototype's conflict ground truth lives in the GOAL logic forms
-(`On_Drinks_Table1` vs `~On_Drinks_Table1`), produced by ChatGLM judgments —
-not in the instruction texts — so this suite does NOT assert pair-level
-accuracy.  It asserts the tool runs a real 85-entry bank end-to-end,
-produces explainable conflicts, and stays deterministic.
+(`On_Drinks_Table1` vs `~On_Drinks_Table1`), not in the instruction texts,
+so this suite does NOT assert pair-level accuracy.  It asserts the tool
+runs a real 85-entry bank end-to-end, produces explainable conflicts, and
+stays deterministic.
 """
 
 from __future__ import annotations

@@ -82,7 +82,7 @@ class StarConflict:
     nli_prob: float = 0.0
     # direct=True: fired from structure alone (typed slot swap, numeric
     # mismatch, role reversal, antonym pair, frame-identical polarity flip).
-    # direct=False: a model (NLI / LLM) confirmed a cued candidate — the
+    # direct=False: the NLI model confirmed a cued candidate — the
     # strict profile counts only direct fires in the verdict.
     direct: bool = True
 
@@ -465,7 +465,6 @@ def check_star(
     *,
     nli_threshold: float = 0.5,
     similar_threshold: float = 0.8,
-    ***REMOVED***: bool = False,
     chain=None,
 ) -> list[StarConflict]:
     """Apply the star rule set over fact pairs sharing one center."""
@@ -929,35 +928,6 @@ def check_star(
             continue
         nli_pairs.append((fa, fb, rule, cosine))
     if nli_pairs:
-        if ***REMOVED***:
-            # DocChecker ***REMOVED*** stage: the local small model judges all
-            # cued pairs of this star in ONE batched generation.
-            from .***REMOVED*** import ***REMOVED***_batch
-
-            verdicts = ***REMOVED***_batch(
-                [(fa.sentence, fb.sentence) for fa, fb, _rule, _c in nli_pairs]
-            )
-            for (fa, fb, rule, cosine), (is_contra, ctype) in zip(nli_pairs, verdicts):
-                if chain is not None:
-                    chain.add(
-                        "confirm",
-                        f"***REMOVED*** on {rule} pair: {'YES ' + ctype if is_contra else 'no'}",
-                        rule=rule, verdict=ctype, is_contradiction=is_contra,
-                    )
-                if is_contra:
-                    conflicts.append(
-                        StarConflict(
-                            rule=rule,
-                            center_text=star.center.text(),
-                            fact_a=fa,
-                            fact_b=fb,
-                            explanation=f"***REMOVED*** {rule} conflict (type={ctype}, cos={cosine:.2f})",
-                            cosine=cosine,
-                            nli_prob=1.0,
-                            direct=False,
-                        )
-                    )
-            return conflicts
         # NLI runs over full source sentences (full_desc), not the relation
         # fragments — fragmentary inputs ("open on Mondays") lose the
         # polarity signal the cross-encoder needs (CONTRA-antonym).
@@ -996,7 +966,6 @@ def detect_conflicts(
     local: LocalHypergraph,
     *,
     nli_threshold: float = 0.5,
-    ***REMOVED***: bool = False,
     chain=None,
 ) -> tuple[list[StarConflict], float]:
     """Run star extraction and the rule set over one built hypergraph."""
@@ -1014,7 +983,7 @@ def detect_conflicts(
     conflicts: list[StarConflict] = []
     for star in stars:
         conflicts.extend(
-            check_star(star, nli_threshold=nli_threshold, ***REMOVED***=***REMOVED***, chain=chain)
+            check_star(star, nli_threshold=nli_threshold, chain=chain)
         )
     logger.info(
         f"star-graph check: {len(stars)} stars, {len(conflicts)} conflicts "
@@ -1030,7 +999,6 @@ def check_document_text(
     text: str,
     *,
     nli_threshold: float = 0.5,
-    ***REMOVED***: bool = False,
     profile: str = "strict",
 ) -> tuple[bool, float, str, list[StarConflict], "DecisionChain"]:
     """One-call document self-contradiction check (graph-rule path).
@@ -1041,7 +1009,7 @@ def check_document_text(
     role reversal, antonym pairs, frame-anchored polarity flips) — conflicts
     provable from structure alone, which carry the measured doc-level
     precision on real text; ``profile="full"`` also reports the
-    NLI/***REMOVED*** channels (higher recall, lower precision).
+    NLI-confirmed channels (higher recall, lower precision).
     Returns ``(has_contradiction, seconds, evidence, conflicts,
     decision_chain)`` — the chain explains every step of the verdict.
     """
@@ -1061,14 +1029,14 @@ def check_document_text(
         vertices=len(local.vertices), edges=len(local.hyperedges),
     )
     conflicts, _ = detect_conflicts(
-        local, nli_threshold=nli_threshold, ***REMOVED***=***REMOVED***, chain=chain
+        local, nli_threshold=nli_threshold, chain=chain
     )
     if profile == "strict":
         # Data-backed default (doc300, 2026-10-06): only conflicts provable
         # from structure alone count in the verdict — typed slot swaps
         # (R-VALUE/R-NUMERIC), role reversals (R-ROLE), antonym pairs
         # (R-ANTONYM), and frame-identical polarity flips (R-NEGATION).
-        # Model-confirmed cues (NLI/LLM on similar/negated pairs) dominate
+        # NLI-confirmed cues (on similar/negated pairs) dominate
         # false flags on real narrative text, so they are findings-only here.
         conflicts = [
             c for c in conflicts if c.rule in STRICT_RULES and c.direct

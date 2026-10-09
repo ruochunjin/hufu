@@ -17,7 +17,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.43,
+      "seconds": 0.57,
       "note": ""
     },
     {
@@ -37,7 +37,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -57,7 +57,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.38,
+      "seconds": 0.41,
       "note": ""
     },
     {
@@ -97,7 +97,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.37,
+      "seconds": 0.36,
       "note": ""
     },
     {
@@ -137,7 +137,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.37,
+      "seconds": 0.42,
       "note": ""
     },
     {
@@ -177,7 +177,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.38,
+      "seconds": 0.39,
       "note": ""
     },
     {
@@ -197,7 +197,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.2,
       "note": ""
     },
     {
@@ -237,7 +237,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -277,7 +277,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.21,
+      "seconds": 0.26,
       "note": ""
     },
     {
@@ -287,7 +287,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.22,
       "note": "24 vs 24.5 within rel_tol=0.05 -> no conflict (tolerance boundary)"
     },
     {
@@ -307,7 +307,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -327,7 +327,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -357,7 +357,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.2,
       "note": "80 vs 78 within rel_tol -> no conflict"
     },
     {
@@ -367,7 +367,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": "location + ongoing action in the same place are compatible"
     },
     {
@@ -387,7 +387,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.21,
       "note": "scheduled open/close still flags as conflict by rule semantics (temporal qualification is out of CDR scope; documents the boundary)"
     },
     {
@@ -397,7 +397,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.21,
       "note": "same action twice a day: no opposition"
     },
     {
@@ -407,7 +407,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": ""
     },
     {
@@ -417,7 +417,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.21,
       "note": "start/end are different objects by design"
     },
     {
@@ -445,7 +445,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.98,
+      "seconds": 0.99,
       "note": ""
     },
     {
@@ -473,7 +473,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.93,
+      "seconds": 0.98,
       "note": ""
     },
     {
@@ -483,7 +483,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.07,
+      "seconds": 0.09,
       "note": "turn on vs turn up are not opposing"
     },
     {
@@ -513,7 +513,7 @@
       ],
       "missing": [],
       "extra": [],
-      "seconds": 0.19,
+      "seconds": 0.21,
       "note": "no attributes: only rico.nli_contradiction can fire"
     },
     {
@@ -543,7 +543,7 @@
       "actual": [],
       "missing": [],
       "extra": [],
-      "seconds": 0.2,
+      "seconds": 0.22,
       "note": "paraphrase pair: NLI must not flag entailment as conflict"
     }
   ]

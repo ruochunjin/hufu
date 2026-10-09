@@ -15,7 +15,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 9.21,
+      "seconds": 0.6,
       "error": null
     },
     {
@@ -33,7 +33,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -87,7 +87,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.51,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -105,7 +105,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -123,7 +123,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.39,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -141,7 +141,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.54,
+      "seconds": 0.55,
       "error": null
     },
     {
@@ -159,7 +159,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.36,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -195,7 +195,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.36,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -213,7 +213,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -231,7 +231,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -249,7 +249,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -267,7 +267,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -285,7 +285,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -303,7 +303,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.47,
+      "seconds": 0.45,
       "error": null
     },
     {
@@ -321,7 +321,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -339,7 +339,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -375,7 +375,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -411,7 +411,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -447,7 +447,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -465,7 +465,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -483,7 +483,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -501,7 +501,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.27,
       "error": null
     },
     {
@@ -519,7 +519,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -537,7 +537,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -555,7 +555,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -591,7 +591,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -609,7 +609,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -627,7 +627,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -645,7 +645,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -663,7 +663,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -717,7 +717,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -753,7 +753,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -771,7 +771,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -789,7 +789,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -807,7 +807,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.28,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -825,7 +825,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -861,7 +861,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -915,7 +915,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.28,
+      "seconds": 0.27,
       "error": null
     },
     {
@@ -933,7 +933,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -951,7 +951,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.28,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -969,7 +969,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -987,7 +987,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -1005,7 +1005,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -1077,7 +1077,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -1113,7 +1113,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -1131,7 +1131,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -1149,7 +1149,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -1167,7 +1167,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.28,
       "error": null
     },
     {
@@ -1185,7 +1185,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.27,
       "error": null
     },
     {
@@ -1203,7 +1203,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -1221,7 +1221,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.3,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -1239,7 +1239,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -1275,7 +1275,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -1293,7 +1293,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.29,
       "error": null
     },
     {
@@ -1311,7 +1311,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -1329,7 +1329,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -1365,7 +1365,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -1383,7 +1383,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -1401,7 +1401,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -1419,7 +1419,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.29,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -1473,7 +1473,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -1491,7 +1491,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.5,
+      "seconds": 0.49,
       "error": null
     },
     {
@@ -1509,7 +1509,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1527,7 +1527,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.51,
+      "seconds": 0.5,
       "error": null
     },
     {
@@ -1545,7 +1545,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -1563,7 +1563,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.36,
+      "seconds": 0.37,
       "error": null
     },
     {
@@ -1617,7 +1617,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -1635,7 +1635,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1653,7 +1653,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1671,7 +1671,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -1689,7 +1689,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -1707,7 +1707,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -1743,7 +1743,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.37,
       "error": null
     },
     {
@@ -1761,7 +1761,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.37,
       "error": null
     },
     {
@@ -1779,7 +1779,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.38,
       "error": null
     },
     {
@@ -1833,7 +1833,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1851,7 +1851,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.36,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1869,7 +1869,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.39,
+      "seconds": 0.37,
       "error": null
     },
     {
@@ -1905,7 +1905,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -1923,7 +1923,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.36,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1941,7 +1941,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -1959,7 +1959,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -1977,7 +1977,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -1995,7 +1995,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2013,7 +2013,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.4,
       "error": null
     },
     {
@@ -2031,7 +2031,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2049,7 +2049,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2067,7 +2067,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.36,
+      "seconds": 0.38,
       "error": null
     },
     {
@@ -2085,7 +2085,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -2103,7 +2103,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.4,
       "error": null
     },
     {
@@ -2139,7 +2139,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -2157,7 +2157,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -2175,7 +2175,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.61,
+      "seconds": 0.64,
       "error": null
     },
     {
@@ -2193,7 +2193,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2211,7 +2211,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2229,7 +2229,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2265,7 +2265,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2283,7 +2283,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2301,7 +2301,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2319,7 +2319,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -2337,7 +2337,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -2355,7 +2355,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2373,7 +2373,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2391,7 +2391,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2409,7 +2409,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -2427,7 +2427,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2445,7 +2445,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2463,7 +2463,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2481,7 +2481,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2499,7 +2499,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -2517,7 +2517,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2535,7 +2535,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.32,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2553,7 +2553,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2571,7 +2571,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.31,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -2589,7 +2589,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -2607,7 +2607,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.35,
       "error": null
     },
     {
@@ -2625,7 +2625,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2643,7 +2643,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2661,7 +2661,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.33,
       "error": null
     },
     {
@@ -2679,7 +2679,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -2697,7 +2697,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2715,7 +2715,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2733,7 +2733,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2751,7 +2751,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.34,
       "error": null
     },
     {
@@ -2769,7 +2769,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.34,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2805,7 +2805,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2823,7 +2823,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.35,
+      "seconds": 0.3,
       "error": null
     },
     {
@@ -2841,7 +2841,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.32,
       "error": null
     },
     {
@@ -2859,7 +2859,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.52,
+      "seconds": 0.51,
       "error": null
     },
     {
@@ -2877,7 +2877,7 @@
         true
       ],
       "bad_slots": [],
-      "seconds": 0.33,
+      "seconds": 0.31,
       "error": null
     },
     {
@@ -2895,7 +2895,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 1.14,
+      "seconds": 1.12,
       "error": null
     },
     {
@@ -2913,7 +2913,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 1.01,
+      "seconds": 0.99,
       "error": null
     },
     {
@@ -2931,7 +2931,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 1.46,
+      "seconds": 1.15,
       "error": null
     },
     {
@@ -2949,7 +2949,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 1.07,
+      "seconds": 1.09,
       "error": null
     },
     {
@@ -2967,7 +2967,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.56,
+      "seconds": 0.55,
       "error": null
     },
     {
@@ -2985,7 +2985,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.4,
+      "seconds": 0.37,
       "error": null
     },
     {
@@ -3003,7 +3003,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.65,
+      "seconds": 0.56,
       "error": null
     },
     {
@@ -3021,7 +3021,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.61,
+      "seconds": 0.58,
       "error": null
     },
     {
@@ -3039,7 +3039,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.66,
+      "seconds": 0.61,
       "error": null
     },
     {
@@ -3057,7 +3057,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.74,
+      "seconds": 0.75,
       "error": null
     },
     {
@@ -3075,7 +3075,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.43,
+      "seconds": 0.42,
       "error": null
     },
     {
@@ -3093,7 +3093,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.43,
+      "seconds": 0.45,
       "error": null
     },
     {
@@ -3111,7 +3111,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.51,
+      "seconds": 0.54,
       "error": null
     },
     {
@@ -3129,7 +3129,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.52,
+      "seconds": 0.54,
       "error": null
     },
     {
@@ -3147,7 +3147,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.57,
+      "seconds": 0.54,
       "error": null
     },
     {
@@ -3183,7 +3183,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.43,
+      "seconds": 0.42,
       "error": null
     },
     {
@@ -3201,7 +3201,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -3219,7 +3219,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.59,
+      "seconds": 0.58,
       "error": null
     },
     {
@@ -3237,7 +3237,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.61,
+      "seconds": 0.57,
       "error": null
     },
     {
@@ -3255,7 +3255,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.59,
+      "seconds": 0.55,
       "error": null
     },
     {
@@ -3273,7 +3273,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.51,
+      "seconds": 0.49,
       "error": null
     },
     {
@@ -3291,7 +3291,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -3309,7 +3309,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.45,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -3327,7 +3327,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.4,
+      "seconds": 0.41,
       "error": null
     },
     {
@@ -3345,7 +3345,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.6,
+      "seconds": 0.56,
       "error": null
     },
     {
@@ -3363,7 +3363,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.44,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -3381,7 +3381,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -3399,7 +3399,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.4,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -3417,7 +3417,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.4,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -3435,7 +3435,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -3453,7 +3453,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.36,
       "error": null
     },
     {
@@ -3471,7 +3471,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.39,
       "error": null
     },
     {
@@ -3489,7 +3489,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.37,
+      "seconds": 0.38,
       "error": null
     },
     {
@@ -3507,7 +3507,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.66,
+      "seconds": 0.67,
       "error": null
     },
     {
@@ -3525,7 +3525,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.58,
+      "seconds": 0.55,
       "error": null
     },
     {
@@ -3543,7 +3543,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.61,
+      "seconds": 0.6,
       "error": null
     },
     {
@@ -3561,7 +3561,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.41,
+      "seconds": 0.43,
       "error": null
     },
     {
@@ -3579,7 +3579,7 @@
         false
       ],
       "bad_slots": [],
-      "seconds": 0.38,
+      "seconds": 0.4,
       "error": null
     },
     {

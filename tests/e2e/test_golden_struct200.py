@@ -44,7 +44,7 @@ class GoldenStruct200Tests(unittest.TestCase):
             start = time.perf_counter()
             try:
                 has_contra, _secs, evidence, conflicts, _chain = check_document_text(
-                    case.text, ***REMOVED***=False
+                    case.text
                 )
                 error = None
             except Exception as exc:  # noqa: BLE001 - corpus runner records

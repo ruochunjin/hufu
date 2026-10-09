@@ -1,9 +1,9 @@
 """Doc300 corpus driver with progress output (mirrors test_golden_doc300.py).
 
 Usage:
-    python run_doc300.py <report_path> [--llm]
+    python run_doc300.py <report_path>
 
-Env: HUFU_RUN_E2E=1 HF_HUB_OFFLINE=1; for --llm also ***REMOVED***.
+Env: HUFU_RUN_E2E=1 HF_HUB_OFFLINE=1.
 """
 
 from __future__ import annotations
@@ -21,7 +21,6 @@ from tests.e2e.golden_doc300 import CASES  # noqa: E402
 
 def main() -> None:
     report_path = Path(sys.argv[1])
-    ***REMOVED*** = "--llm" in sys.argv
     limit = 0
     for arg in sys.argv[2:]:
         if arg.startswith("--limit="):
@@ -30,7 +29,6 @@ def main() -> None:
 
     from hufu.engine.star_graph import check_document_text
 
-    backend = os.environ.get("***REMOVED***", "local")
     cases = list(CASES[:limit]) if limit else list(CASES)
     report: list[dict] = []
     total_seconds = 0.0
@@ -38,12 +36,7 @@ def main() -> None:
         start = time.perf_counter()
         try:
             has_contra, _secs, evidence, conflicts, _chain = check_document_text(
-                case.text, ***REMOVED***=***REMOVED***,
-                # LLM ***REMOVED*** mode needs the full channel set: strict
-                # counts only direct structural fires, which would make the
-                # ***REMOVED*** a no-op.  Full profile + LLM = recall from all
-                # channels, precision from the LLM gate on noisy cues.
-                profile="full" if ***REMOVED*** else "strict",
+                case.text,
             )
             error = None
         except Exception as exc:  # noqa: BLE001 - corpus runner records, not raises
@@ -84,7 +77,7 @@ def main() -> None:
 
     report_path.write_text(
         json.dumps(
-            {"llm_enabled": ***REMOVED***, "backend": backend, "cases": report},
+            {"cases": report},
             ensure_ascii=False,
             indent=2,
         ),
