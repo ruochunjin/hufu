@@ -75,10 +75,51 @@ pip install ./rust/simulation  # Rust 不动点加速器（需 Rust 工具链）
 
 HuFu 整合了课题组多篇论文成果：
 
-- *Catching Inconsistencies in Vector Similarity Retrieval*（HyperMatch 超图模拟一致性检测）
+- *Catching Inconsistencies in Vector Similarity Retrieval*（HyperMatch 超图模拟一致性检测，SIGMOD 2027 Round 2）
 - *Conflict-Aware Memory for Embodied Agents: Enhancing Vector Data Quality via Detection Rules*（CDRs，ACL 2026）
-- *Detecting Contradictions Within and Across Documents*（DocChecker / RICO 规则）
-- *Outliers: The Good, the Bad and the Ugly*（OHunt / OMR 规则）
+- *Detecting Contradictions Within and Across Documents*（DocChecker / RICO 规则，SIGMOD 2027 Round 1）
+- *Outliers: The Good, the Bad and the Ugly*（OHunt / OMR 规则，PACMMOD 2025）
+
+## 引用本工作
+
+如果您在工作中使用了虎符，请引用相关论文（另见 CITATION.cff）：
+
+```bibtex
+@inproceedings{huang2027catching,
+  title={Catching Inconsistencies in Vector Similarity Retrieval},
+  author={Huang, Zixiao and Jin, Ruochun and Wang, Haotian and Zhang, Meng and Tang, Yuhua},
+  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027, Round 2)},
+  year={2027},
+  note={Corresponding author: Ruochun Jin}
+}
+
+@inproceedings{chen2027detecting,
+  title={Detecting Contradictions Within and Across Documents},
+  author={Chen, Shenglin and Fan, Wenfei and Jin, Ruochun and Ma, Kexin},
+  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027, Round 1)},
+  year={2027},
+  note={Corresponding author: Ruochun Jin}
+}
+
+@inproceedings{ma2026conflict,
+  title={Conflict-Aware Memory for Embodied Agents: Enhancing Vector Data Quality via Detection Rules},
+  author={Ma, Kexin and Wang, Haotian and Chen, Shenglin and Cai, Yishuai and Jin, Ruochun and others},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={28328--28347},
+  year={2026}
+}
+
+@article{chen2025outliers,
+  title={Outliers: The Good, the Bad and the Ugly},
+  author={Chen, Shenglin and Fan, Wenfei and Jin, Ruochun},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={3},
+  number={4},
+  pages={1--30},
+  year={2025},
+  publisher={ACM New York, NY, USA}
+}
+```
 
 ## 许可
 
