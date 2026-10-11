@@ -75,9 +75,9 @@ pip install ./rust/simulation  # Rust 不动点加速器（需 Rust 工具链）
 
 HuFu 整合了课题组多篇论文成果：
 
-- *Catching Inconsistencies in Vector Similarity Retrieval*（HyperMatch 超图模拟一致性检测，SIGMOD 2027 Round 2）
+- *Catching Inconsistencies in Vector Similarity Retrieval*（HyperMatch 超图模拟一致性检测，SIGMOD 2027）
 - *Conflict-Aware Memory for Embodied Agents: Enhancing Vector Data Quality via Detection Rules*（CDRs，ACL 2026）
-- *Detecting Contradictions Within and Across Documents*（DocChecker / RICO 规则，SIGMOD 2027 Round 1）
+- *Detecting Contradictions Within and Across Documents*（DocChecker / RICO 规则，SIGMOD 2027）
 - *Outliers: The Good, the Bad and the Ugly*（OHunt / OMR 规则，PACMMOD 2025）
 
 ## 引用本工作
@@ -88,7 +88,7 @@ HuFu 整合了课题组多篇论文成果：
 @inproceedings{huang2027catching,
   title={Catching Inconsistencies in Vector Similarity Retrieval},
   author={Huang, Zixiao and Jin, Ruochun and Wang, Haotian and Zhang, Meng and Tang, Yuhua},
-  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027, Round 2)},
+  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027)},
   year={2027},
   note={Corresponding author: Ruochun Jin}
 }
@@ -96,7 +96,7 @@ HuFu 整合了课题组多篇论文成果：
 @inproceedings{chen2027detecting,
   title={Detecting Contradictions Within and Across Documents},
   author={Chen, Shenglin and Fan, Wenfei and Jin, Ruochun and Ma, Kexin},
-  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027, Round 1)},
+  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027)},
   year={2027},
   note={Corresponding author: Ruochun Jin}
 }

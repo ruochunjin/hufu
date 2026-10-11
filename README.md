@@ -150,7 +150,7 @@ HuFu integrates several peer-reviewed works. If you use it, please cite:
 @inproceedings{huang2027catching,
   title={Catching Inconsistencies in Vector Similarity Retrieval},
   author={Huang, Zixiao and Jin, Ruochun and Wang, Haotian and Zhang, Meng and Tang, Yuhua},
-  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027, Round 2)},
+  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027)},
   year={2027},
   note={Corresponding author: Ruochun Jin}
 }
@@ -158,7 +158,7 @@ HuFu integrates several peer-reviewed works. If you use it, please cite:
 @inproceedings{chen2027detecting,
   title={Detecting Contradictions Within and Across Documents},
   author={Chen, Shenglin and Fan, Wenfei and Jin, Ruochun and Ma, Kexin},
-  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027, Round 1)},
+  booktitle={Proceedings of the ACM on Management of Data (SIGMOD 2027)},
   year={2027},
   note={Corresponding author: Ruochun Jin}
 }
