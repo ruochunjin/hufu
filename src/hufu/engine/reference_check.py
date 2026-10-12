@@ -102,6 +102,107 @@ def _numeric_equal(query_text: str, data_text: str) -> bool:
     return abs(lv_base - rv_base) / magnitude <= 1e-3
 
 
+# ---------------------------------------------------------------
+# Polarity-channel guards (ContractNLI FP findings 849/604/1829).
+# The NLI gate over-fires on legal/deontic text; each guard names one
+# over-fire shape and vetoes the contradiction verdict for it.  Guards are
+# deliberately narrow: plain negation conflicts (golden declarative
+# families) must pass through untouched.
+# ---------------------------------------------------------------
+
+_NEGATION_CUE = re.compile(
+    r"\b(?:not|no|never|cannot|can't|won't|don't|doesn't|didn't|isn't|aren't)\b", re.I
+)
+_EXCEPTION_MARKER = re.compile(r"\b(?:except|unless|other than|apart from|save that)\b", re.I)
+
+
+def _exception_scoped_negation(text: str) -> bool:
+    """Negation scoped by an exception clause ("shall not ... except ...")
+    is not an absolute denial — an NLI contradiction against it is unreliable."""
+
+    return bool(_EXCEPTION_MARKER.search(text)) and bool(_NEGATION_CUE.search(text))
+
+
+_DEONTIC_SCOPE = re.compile(
+    r"\bnot\s+(?:required|obliged|obligated|mandatory|necessary|bound)\b"
+    r"|\bno\s+obligation\b|\bnot\s+be\s+required\b"
+    r"|\bnot\s+(?:under\s+)?(?:any\s+)?obligation\b",
+    re.I,
+)
+
+
+def _deontic_scope_negation(text: str) -> bool:
+    """"not required/obligated" negates the *requirement*, not the action —
+    it does not contradict an affirmative obligation claim."""
+
+    if _DEONTIC_SCOPE.search(text):
+        return True
+    # "No party is under any obligation to ..." — negation cue plus the
+    # negative-polarity "under any obligation" idiom.
+    return bool(_NEGATION_CUE.search(text)) and bool(
+        re.search(r"\bunder\s+any\s+obligation\b", text, re.I)
+    )
+
+
+def _subject_anchor_missing(query_text: str, data_text: str) -> bool:
+    """True when the claim's main subject AND main predicate are both
+    absent from the document — cross-subject antonymy ("the Agreement
+    expires" vs "some obligations survive") is not a contradiction
+    (ContractNLI 1829).
+
+    The predicate must ALSO be absent: when the verb is shared, a differing
+    subject is exactly the contested slot and the conflict is real
+    (golden250 M14: "Jane Austen wrote Emma" vs "Charlotte Brontë wrote
+    Emma").  Conservative: any parse failure or missing subject means
+    "not missing" (verdict stands).
+    """
+
+    try:
+        from hufu.engine.build_hypergraph import get_nlp
+        from hufu.engine.star_graph import _word_stems
+
+        doc = get_nlp()(query_text)
+    except Exception:  # pragma: no cover - models unavailable: keep verdict
+        return False
+    subject_lemmas: list[str] = []
+    root_forms: list[str] = []
+    for token in doc:
+        if token.dep_ == "ROOT" and token.pos_ == "VERB":
+            # Lemma AND surface: irregular inflections (wrote/write) escape
+            # suffix-stripping stems, so the predicate check needs both.
+            root_forms.extend([token.lemma_.lower(), token.text.lower()])
+        if token.dep_ in ("nsubj", "nsubjpass") and token.head.pos_ in ("VERB", "AUX"):
+            if token.pos_ in ("NOUN", "PROPN"):
+                # The subject HEAD noun only: the subtree ("obligations of
+                # Agreement") drags in modifiers that may appear in the
+                # document without anchoring the subject itself (1829).
+                # Lemma AND surface (geese/goose escapes suffix stems).
+                subject_lemmas.extend([token.lemma_.lower(), token.text.lower()])
+            for conjunct in token.conjuncts:
+                if conjunct.pos_ in ("NOUN", "PROPN"):
+                    subject_lemmas.extend([conjunct.lemma_.lower(), conjunct.text.lower()])
+    if not subject_lemmas:
+        return False
+    data_stems: set[str] = set()
+    for word in re.findall(r"[A-Za-z]+", data_text.lower()):
+        data_stems |= _word_stems(word)
+    for lemma in subject_lemmas:
+        lemma_stems: set[str] = set()
+        for word in re.findall(r"[A-Za-z]+", lemma):
+            lemma_stems |= _word_stems(word)
+        if lemma_stems & data_stems:
+            return False
+    if root_forms:
+        verb_stems: set[str] = set()
+        for form in root_forms:
+            for word in re.findall(r"[A-Za-z]+", form):
+                verb_stems |= _word_stems(word)
+        if verb_stems & data_stems:
+            # Shared predicate: a differing subject is the contested slot.
+            return False
+    return True
+
+
 def declarative_polarity_verdict(
     query_text: str, data_text: str, distance: float
 ) -> tuple[bool, str] | None:
@@ -131,6 +232,19 @@ def declarative_polarity_verdict(
     nli_label = get_nli_label(query_text, data_text)
     logger.info(f"declarative-pair NLI label: {nli_label}")
     if nli_label == "contradiction":
+        guards = []
+        if _exception_scoped_negation(data_text):
+            guards.append("exception-scoped negation")
+        if _deontic_scope_negation(data_text):
+            guards.append("deontic-scope negation")
+        if _subject_anchor_missing(query_text, data_text):
+            guards.append("subject anchor absent")
+        if guards:
+            return (
+                False,
+                f"[CONSISTENT] Distance={distance:.4f}; NLI polarity conflict vetoed "
+                f"({'; '.join(guards)}) — not a structural contradiction",
+            )
         return (
             True,
             f"[CONTRADICTION] Distance={distance:.4f}; "
@@ -153,12 +267,18 @@ def is_critical_local_vertex(vertex) -> bool:
         return True
     from hufu.hypergraph.linguistic import Pos
 
-    if vertex.pos_equal(Pos.PRON):
-        # Pronouns carry no critical constraint of their own: when
-        # coreference resolves them, the referred entity vertex is critical
-        # in its own right; when it does not, an unmatchable pronoun surface
-        # form only fabricates coverage failures (DocNLI id 103: "It had a
-        # population ..." flagged solely on 'it').
+    if (
+        vertex.pos_equal(Pos.PRON)
+        and not vertex.pos_equal(Pos.NOUN)
+        and not vertex.pos_equal(Pos.PROPN)
+    ):
+        # Pure-pronoun vertices carry no critical constraint of their own:
+        # when coreference resolves them, the referred entity vertex is
+        # critical in its own right; unresolved, an unmatchable pronoun
+        # surface only fabricates coverage failures (DocNLI id 103).
+        # A vertex whose span merely CONTAINS a pronoun token next to real
+        # content ("any objects" = PRON+NOUN) stays critical — the quantified
+        # noun phrase is genuine query content (ContractNLI 1149/675).
         return False
     if vertex.dep().name in _CRITICAL_DEPS:
         return True

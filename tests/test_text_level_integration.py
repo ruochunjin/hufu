@@ -34,6 +34,23 @@ class TextLevelIntegrationTests(unittest.TestCase):
         self.assertTrue(verdicts[0].consistent)
         self.assertTrue(verdicts[0].evidence)
 
+    def test_quantified_noun_phrase_stays_critical(self) -> None:
+        """ContractNLI 1149/675 finding: the vertex "any objects" spans
+        PRON+NOUN; the pure-pronoun exemption must not swallow the noun
+        content — quantified phrases are genuine query content."""
+
+        from hufu.engine.build_hypergraph import text_to_hypergraph
+        from hufu.engine.reference_check import is_critical_local_vertex
+
+        hg = text_to_hypergraph(
+            "Receiving Party shall not reverse engineer any objects which "
+            "embody Disclosing Party's Confidential Information.",
+            is_query=False,
+        )
+        target = [v for v in hg.vertices if "objects" in v.text()]
+        self.assertTrue(target)
+        self.assertTrue(all(is_critical_local_vertex(v) for v in target))
+
     def test_pronoun_led_declarative_claim_is_not_coverage_blocked(self) -> None:
         """DocNLI finding (id 103): a declarative hypothesis whose subject is
         an unresolved pronoun ("It ...") must not fail coverage on the
