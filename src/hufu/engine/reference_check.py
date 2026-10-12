@@ -151,9 +151,17 @@ def is_critical_local_vertex(vertex) -> bool:
         return True
     if any(e.name != "NOT_ENTITY" for e in vertex.ents):
         return True
+    from hufu.hypergraph.linguistic import Pos
+
+    if vertex.pos_equal(Pos.PRON):
+        # Pronouns carry no critical constraint of their own: when
+        # coreference resolves them, the referred entity vertex is critical
+        # in its own right; when it does not, an unmatchable pronoun surface
+        # form only fabricates coverage failures (DocNLI id 103: "It had a
+        # population ..." flagged solely on 'it').
+        return False
     if vertex.dep().name in _CRITICAL_DEPS:
         return True
-    from hufu.hypergraph.linguistic import Pos
 
     return vertex.pos_equal(Pos.NOUN) or vertex.pos_equal(Pos.PROPN)
 

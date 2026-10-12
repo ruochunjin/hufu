@@ -34,6 +34,25 @@ class TextLevelIntegrationTests(unittest.TestCase):
         self.assertTrue(verdicts[0].consistent)
         self.assertTrue(verdicts[0].evidence)
 
+    def test_pronoun_led_declarative_claim_is_not_coverage_blocked(self) -> None:
+        """DocNLI finding (id 103): a declarative hypothesis whose subject is
+        an unresolved pronoun ("It ...") must not fail coverage on the
+        pronoun itself — pronouns carry no critical constraint of their own;
+        resolution, when possible, happens through coreference clusters.
+        """
+
+        import hufu
+
+        verdict = hufu.check_pair(
+            "It had a population of over 3,000 people at the 2010 census.",
+            "The 2010 census counted a population of 3,092 people in "
+            "Washington Township, up from 2,870 in 2000.",
+            engine="reference",
+            query_is_question=False,
+            distance_threshold=-1.0,
+        )
+        self.assertTrue(verdict.consistent, verdict.evidence)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

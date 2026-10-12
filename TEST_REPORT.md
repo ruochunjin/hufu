@@ -98,3 +98,22 @@
   Rust standard 引擎保留为长文档加速选项（wh 占位符覆盖缺陷已文档化）。
 - 待用户确认：GitHub 推送（ruochunjin/hufu 需本人凭证）、PyPI 发布（hufu-dq）、
   CITATION.cff 作者名单。
+
+## 6. 开放 NLI 基准鲁棒性补测（2026-10-12，v0.5.1 之后）
+
+`benchmarks/run_nli_eval.py`：分层抽样（15 或 10/类，种子固定）+ 双口径评分
+（contradiction-vs-rest 经典口径；not-covered-vs-entailed 覆盖语义口径）+ 逐例错误
+收容。全部在本机 e2e 环境、参考引擎、distance_threshold=-1.0 下测得：
+
+| 数据集 | 规模 | errors | 矛盾口径 acc / 召回 | 覆盖口径 acc | 单例耗时 |
+|---|---|---|---|---|---|
+| ContractNLI | 45（3 类×15） | 0 | 0.47 / 0.20 | 0.44 | 4-52s |
+| ConTRoL | 45（3 类×15） | 0 | 0.69 / 0.33 | 0.44 | 18-101s |
+| DocNLI | 20（2 类×10） | 0 | —（无矛盾类） | 0.70 | 34-86s |
+
+**结论**：鲁棒性目标达成（110 例零崩溃、耗时有界）；判别力中等且逐例归因后确认
+为钉定的范围边界（合同节选不覆盖定义术语、时间欺骗/法律范围等语义级矛盾无结构
+线索），非引擎缺陷。测试驱动仍抓出 2 个真 bug 并修复：①tasksource 字符串标签被
+整数 label_map 静默映射为 neutral（加载器修复）；②未消解代词被 dep 规则标为关键
+顶点导致覆盖误报（`is_critical_vertex` PRON 豁免，双引擎同步，DocNLI id 103 复测
+转一致；golden100/250 钉定回归全绿）。

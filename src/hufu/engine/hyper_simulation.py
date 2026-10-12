@@ -2626,6 +2626,11 @@ def is_critical_vertex(vertex: Vertex) -> bool:
         return True
     if any(e != Entity.NOT_ENTITY for e in vertex.ents):
         return True
+    if vertex.pos_equal(Pos.PRON):
+        # Pronouns carry no critical constraint of their own: resolution, when
+        # possible, flows through coreference clusters; an unresolved pronoun
+        # surface form only fabricates coverage failures (DocNLI id 103).
+        return False
     dep = vertex.dep()
     if dep in {Dep.nsubj, Dep.nsubjpass, Dep.dobj, Dep.iobj, Dep.pobj}:
         return True
