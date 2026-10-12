@@ -12,7 +12,6 @@ from __future__ import annotations
 import importlib.util
 import os
 import random
-import string
 import unittest
 
 _ENABLED = os.environ.get("HUFU_RUN_E2E") == "1"
