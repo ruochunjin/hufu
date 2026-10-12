@@ -2071,12 +2071,25 @@ def get_d_match(sc1: SemanticCluster, sc2: SemanticCluster, score_threshold: flo
 # D-match estimation
 # ---------------------------------------------------------------------------
 def query_same_type(v1: Vertex, v2: Vertex) -> bool:
-    """Apply the query-placeholder type gate."""
+    """Apply the query-placeholder type gate.
 
-    if v1.query_type():
-        return False
+    The first guard was inverted for the engine's whole life: it rejected
+    every placeholder (typed or not), so wh-questions never matched through
+    the standard path (golden-rag200 standard-engine sweep, 2026-10-12).
+    Untyped placeholders (WHAT/WHICH/REASON/none) are wildcards, matching
+    the bridge gate's production semantics.
+    """
+
     qt = v1.query_type()
+    if qt is None:
+        # No type information on the placeholder: wildcard (any non-verb).
+        return not v2.is_verb()
+    if qt in (QueryType.WHAT, QueryType.WHICH):
+        return not v2.is_verb()
     v2_type = v2.type()
+    if qt == QueryType.BELONGS:
+        # "Whose/which's X" is legitimately answered by agents, places, orgs.
+        return v2_type in {ENT.PERSON, ENT.ORG, ENT.GPE, ENT.LOC, ENT.FAC, ENT.COUNTRY, ENT.NORP}
     if qt == QueryType.PERSON and v2_type:
         return v2_type == ENT.PERSON
     elif qt == QueryType.TIME and v2_type:

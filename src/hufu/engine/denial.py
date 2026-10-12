@@ -45,7 +45,10 @@ def _hard_type_match_only(u: Vertex, v: Vertex) -> Tuple[bool, str]:
     vt = v.text().strip()
     if not ut or not vt:
         return False, "Empty text"
-    if u.is_virtual() or v.is_virtual():
+    # Query placeholders ARE virtual by construction (the hole to fill);
+    # rejecting them at the virtual gate made ?Who/?How-many pairs
+    # unmatchable (standard-engine wh-placeholder bug, 2026-10-12).
+    if (u.is_virtual() and not u.is_query()) or v.is_virtual():
         return False, "Virtual vertex is not matchable in hard mode"
     query_type = u.query_type()
     if u.is_query() and query_type:
@@ -56,8 +59,15 @@ def _hard_type_match_only(u: Vertex, v: Vertex) -> Tuple[bool, str]:
             return True, "QueryType=TIME → matched Data entity type: TEMPORAL"
         if query_type == QueryType.LOCATION and v_type in {ENT.GPE, ENT.LOC, ENT.FAC, ENT.ORG, ENT.COUNTRY}:
             return True, "QueryType=LOCATION → matched Data entity type: GPE/LOC/FAC/ORG/COUNTRY"
-        if query_type == QueryType.NUMBER and v_type == ENT.NUMBER:
-            return True, "QueryType=NUMBER → matched Data entity type: NUMBER"
+        if query_type == QueryType.NUMBER:
+            # Merged quantity spans lose NUM under retokenization and WordNet
+            # can mistype them ("7293 people" → GROUP).  The bridge solves
+            # this with a digit/word-led surface test; mirror it here
+            # (golden-rag200 how-many, 2026-10-12).
+            from hufu.engine.bridge import _contains_number
+
+            if v_type == ENT.NUMBER or _contains_number(v) or v.pos_range(Pos.NUM):
+                return True, "QueryType=NUMBER → matched NUMBER/digit-led surface/pos NUM"
         if query_type == QueryType.BELONGS and v_type in {ENT.PERSON, ENT.ORG, ENT.GPE, ENT.COUNTRY, ENT.GROUP}:
             return True, "QueryType=BELONGS → matched Data entity type: PERSON/ORG/GPE/COUNTRY/GROUP"
         if query_type in {QueryType.WHAT, QueryType.WHICH} and (
@@ -336,7 +346,10 @@ def denial_comment_by_label_hard(u: Vertex, v: Vertex, label: str) -> Tuple[bool
     vt = v.text().strip()
     if not ut or not vt:
         return False, "Empty text"
-    if u.is_virtual() or v.is_virtual():
+    # Query placeholders ARE virtual by construction (the hole to fill);
+    # rejecting them at the virtual gate made ?Who/?How-many pairs
+    # unmatchable (standard-engine wh-placeholder bug, 2026-10-12).
+    if (u.is_virtual() and not u.is_query()) or v.is_virtual():
         return False, "Virtual vertex is not matchable in hard mode"
     type_match, type_reason = _hard_type_match_only(u, v)
     if not type_match:
@@ -380,7 +393,14 @@ def compute_allowed_pairs_batch_with_score(
     confidence_scores: Dict[Tuple[int, int], float] = {}
     contradicted_count = 0
     for (q_id, q_vertex, d_id, d_vertex), (nli_label, nli_score) in zip(candidate_pairs_metadata, nli_labels_with_score):
-        is_allowed = nli_label != "contradiction"
+        # Placeholder pairs bypass the NLI check: "?Where" is a query hole,
+        # not content — NLI on ("Portland", "?Where") is meaningless and
+        # always reads contradiction, killing every wh-answer pair
+        # (standard-engine wh-placeholder bug, golden-rag200 2026-10-12).
+        if q_vertex.is_query():
+            is_allowed = True
+        else:
+            is_allowed = nli_label != "contradiction"
         if is_allowed:
             allowed.add((q_id, d_id))
             confidence_scores[(q_id, d_id)] = nli_score
