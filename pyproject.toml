@@ -4,7 +4,7 @@ requires = ["hatchling"]
 
 [project]
 name = "hufu"
-version = "0.5.3"
+version = "0.5.4"
 description = "HuFu (虎符): neuro-symbolic data-quality verification — hypergraph-simulation consistency checking for vector retrieval, documents, and LLM data"
 readme = "README.md"
 requires-python = ">=3.10"
