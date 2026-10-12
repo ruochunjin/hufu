@@ -42,8 +42,7 @@ class GoldenRag200Tests(unittest.TestCase):
             try:
                 verdicts = check_retrieval(
                     case.query, list(case.documents),
-                    engine="reference",  # validated path (golden-pinned);
-                    # the Rust standard path predates the declarative channel
+                    engine=os.environ.get("HUFU_RAG_ENGINE", "reference"),
                     query_is_question=case.is_question,
                 )
                 actual = tuple(v.consistent for v in verdicts)
