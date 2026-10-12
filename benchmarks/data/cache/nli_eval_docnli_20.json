@@ -1,0 +1,188 @@
+{
+ "dataset": "docnli",
+ "per_label": 10,
+ "seed": 20261012,
+ "n": 20,
+ "errors": 0,
+ "contradiction_vs_rest": {
+  "tp": 0,
+  "fp": 6,
+  "tn": 14,
+  "fn": 0,
+  "precision": 0.0,
+  "recall": null,
+  "accuracy": 0.7
+ },
+ "not_covered_vs_entailed": {
+  "tp": 5,
+  "fp": 1,
+  "tn": 9,
+  "fn": 5,
+  "precision": 0.8333333333333334,
+  "recall": 0.5,
+  "accuracy": 0.7
+ },
+ "wall_seconds": 1341.8,
+ "rows": [
+  {
+   "id": "272",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 69.89,
+   "evidence": "[CONSISTENT] Distance=0.1772; structural coverage satisfied\n  ✓ All 13 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "168",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 108.75,
+   "evidence": "[CONSISTENT] Distance=0.4040; structural coverage satisfied\n  ✓ All 11 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "238",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 86.29,
+   "evidence": "[CONSISTENT] Distance=0.4118; structural coverage satisfied\n  ✓ All 19 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "261",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 34.22,
+   "evidence": "[CONSISTENT] Distance=0.1325; structural coverage satisfied\n  ✓ All 20 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "82",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 79.12,
+   "evidence": "[CONSISTENT] Distance=0.1317; structural coverage satisfied\n  ✓ All 12 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "83",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 60.1,
+   "evidence": "[CONSISTENT] Distance=0.1147; structural coverage satisfied\n  ✓ All 15 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "16",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 37.72,
+   "evidence": "[CONTRADICTION] Distance=0.0011 > threshold=-1.0\n  • Q vertex unmatched in D: 'at least 150,000' (ID=6)",
+   "error": null
+  },
+  {
+   "id": "99",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 42.94,
+   "evidence": "[CONSISTENT] Distance=0.0214; structural coverage satisfied\n  ✓ All 14 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "251",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 63.74,
+   "evidence": "[CONSISTENT] Distance=0.3034; structural coverage satisfied\n  ✓ All 17 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "219",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 86.25,
+   "evidence": "[CONSISTENT] Distance=0.3229; structural coverage satisfied\n  ✓ All 14 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "177",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 47.56,
+   "evidence": "[CONTRADICTION] Distance=0.0024 > threshold=-1.0\n  • Q vertex unmatched in D: 'the past two years' (ID=1)",
+   "error": null
+  },
+  {
+   "id": "81",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 45.92,
+   "evidence": "[CONSISTENT] Distance=0.1334; structural coverage satisfied\n  ✓ All 12 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "103",
+   "label": "entailment",
+   "predicted_contradiction": true,
+   "seconds": 68.96,
+   "evidence": "[CONTRADICTION] Distance=0.1513 > threshold=-1.0\n  • Q vertex unmatched in D: 'it' (ID=28)",
+   "error": null
+  },
+  {
+   "id": "266",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 27.05,
+   "evidence": "[CONTRADICTION] Distance=0.0809; structural coverage satisfied but NLI polarity conflict between the claims",
+   "error": null
+  },
+  {
+   "id": "173",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 41.09,
+   "evidence": "[CONTRADICTION] Distance=0.0064 > threshold=-1.0\n  • Q vertex unmatched in D: 'CA' (ID=4)",
+   "error": null
+  },
+  {
+   "id": "39",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 84.34,
+   "evidence": "[CONSISTENT] Distance=0.1679; structural coverage satisfied\n  ✓ All 21 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "53",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 86.09,
+   "evidence": "[CONSISTENT] Distance=0.2416; structural coverage satisfied\n  ✓ All 16 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "128",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 53.9,
+   "evidence": "[CONSISTENT] Distance=0.1000; structural coverage satisfied\n  ✓ All 17 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "133",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 107.62,
+   "evidence": "[CONSISTENT] Distance=0.2093; structural coverage satisfied\n  ✓ All 12 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "213",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 110.25,
+   "evidence": "[CONTRADICTION] Distance=0.2034; structural coverage satisfied but NLI polarity conflict between the claims",
+   "error": null
+  }
+ ]
+}

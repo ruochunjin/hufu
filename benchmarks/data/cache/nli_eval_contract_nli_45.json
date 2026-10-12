@@ -1,0 +1,388 @@
+{
+ "dataset": "contract_nli",
+ "per_label": 15,
+ "seed": 20261012,
+ "n": 45,
+ "errors": 0,
+ "contradiction_vs_rest": {
+  "tp": 3,
+  "fp": 12,
+  "tn": 18,
+  "fn": 12,
+  "precision": 0.2,
+  "recall": 0.2,
+  "accuracy": 0.4666666666666667
+ },
+ "not_covered_vs_entailed": {
+  "tp": 10,
+  "fp": 5,
+  "tn": 10,
+  "fn": 20,
+  "precision": 0.6666666666666666,
+  "recall": 0.3333333333333333,
+  "accuracy": 0.4444444444444444
+ },
+ "wall_seconds": 654.8,
+ "rows": [
+  {
+   "id": "57",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 20.13,
+   "evidence": "[CONSISTENT] Distance=0.4400; structural coverage satisfied\n  ✓ All 2 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "837",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 11.46,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.3735)",
+   "error": null
+  },
+  {
+   "id": "1879",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 38.56,
+   "evidence": "[CONSISTENT] Distance=0.6386; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1659",
+   "label": "contradiction",
+   "predicted_contradiction": true,
+   "seconds": 18.54,
+   "evidence": "[CONTRADICTION] Distance=0.2924; structural coverage satisfied but NLI polarity conflict between the claims",
+   "error": null
+  },
+  {
+   "id": "203",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 32.2,
+   "evidence": "[CONSISTENT] Distance=0.4987; structural coverage satisfied\n  ✓ All 3 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1904",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 28.31,
+   "evidence": "[CONSISTENT] Distance=0.3472; structural coverage satisfied\n  ✓ All 4 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "455",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 15.83,
+   "evidence": "[CONSISTENT] Distance=0.4486; structural coverage satisfied\n  ✓ All 3 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1220",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 0.34,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.2666)",
+   "error": null
+  },
+  {
+   "id": "351",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 0.78,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.4862)",
+   "error": null
+  },
+  {
+   "id": "1149",
+   "label": "contradiction",
+   "predicted_contradiction": true,
+   "seconds": 16.22,
+   "evidence": "[CONTRADICTION] Distance=0.4004 > threshold=-1.0\n  • Q vertex unmatched in D: 'any objects' (ID=4)",
+   "error": null
+  },
+  {
+   "id": "1882",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 21.94,
+   "evidence": "[CONSISTENT] Distance=0.4115; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1100",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 1.78,
+   "evidence": "[CONTRADICTION] Distance=0.1909 > threshold=-1.0\n  • Q vertex unmatched in D: 'any objects' (ID=4)",
+   "error": null
+  },
+  {
+   "id": "849",
+   "label": "entailment",
+   "predicted_contradiction": true,
+   "seconds": 2.44,
+   "evidence": "[CONTRADICTION] Distance=0.2896; structural coverage satisfied but NLI polarity conflict between the claims",
+   "error": null
+  },
+  {
+   "id": "484",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 0.35,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.4747)",
+   "error": null
+  },
+  {
+   "id": "971",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 16.02,
+   "evidence": "[CONSISTENT] Distance=0.3475; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1357",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 0.29,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.4965)",
+   "error": null
+  },
+  {
+   "id": "1719",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 23.64,
+   "evidence": "[CONSISTENT] Distance=0.3877; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1577",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 23.6,
+   "evidence": "[CONSISTENT] Distance=0.1895; structural coverage satisfied\n  ✓ All 5 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "789",
+   "label": "entailment",
+   "predicted_contradiction": true,
+   "seconds": 5.24,
+   "evidence": "[CONTRADICTION] Distance=0.3861 > threshold=-1.0\n  • Q vertex unmatched in D: 'Confidential' (ID=5)",
+   "error": null
+  },
+  {
+   "id": "60",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 20.24,
+   "evidence": "[CONTRADICTION] Distance=0.2632 > threshold=-1.0\n  • Q vertex unmatched in D: 'law' (ID=7)",
+   "error": null
+  },
+  {
+   "id": "535",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 10.59,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.4158)",
+   "error": null
+  },
+  {
+   "id": "1330",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 3.07,
+   "evidence": "[CONTRADICTION] Distance=0.4537 > threshold=-1.0\n  • Q vertex unmatched in D: 'Party' (ID=2)",
+   "error": null
+  },
+  {
+   "id": "202",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 20.31,
+   "evidence": "[CONTRADICTION] Distance=0.3256 > threshold=-1.0\n  • Q vertex unmatched in D: 'Confidential' (ID=6)",
+   "error": null
+  },
+  {
+   "id": "1990",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 13.78,
+   "evidence": "[CONTRADICTION] Distance=0.3824 > threshold=-1.0\n  • Q vertex unmatched in D: 'Party' (ID=2)",
+   "error": null
+  },
+  {
+   "id": "1052",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 23.88,
+   "evidence": "[CONSISTENT] Distance=0.3158; structural coverage satisfied\n  ✓ All 2 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "621",
+   "label": "entailment",
+   "predicted_contradiction": true,
+   "seconds": 24.7,
+   "evidence": "[CONTRADICTION] Distance=0.3980 > threshold=-1.0\n  • Q vertex unmatched in D: 'Confidential' (ID=5)",
+   "error": null
+  },
+  {
+   "id": "1432",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 17.66,
+   "evidence": "[CONSISTENT] Distance=0.3763; structural coverage satisfied\n  ✓ All 3 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "976",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 11.67,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.3568)",
+   "error": null
+  },
+  {
+   "id": "1437",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 10.6,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.3349)",
+   "error": null
+  },
+  {
+   "id": "1963",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 12.21,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.3959)",
+   "error": null
+  },
+  {
+   "id": "1569",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 3.72,
+   "evidence": "[CONSISTENT] Distance=0.2664; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1166",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 9.57,
+   "evidence": "[CONTRADICTION] Distance=0.4514 > threshold=-1.0\n  • Q vertex unmatched in D: 'any objects' (ID=4)",
+   "error": null
+  },
+  {
+   "id": "380",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 3.78,
+   "evidence": "[CONSISTENT] Distance=0.2752; structural coverage satisfied\n  ✓ All 3 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1030",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 33.74,
+   "evidence": "[CONSISTENT] Distance=0.3467; structural coverage satisfied\n  ✓ All 3 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "695",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 19.05,
+   "evidence": "[CONSISTENT] Distance=0.3591; structural coverage satisfied\n  ✓ All 2 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "528",
+   "label": "neutral",
+   "predicted_contradiction": true,
+   "seconds": 11.96,
+   "evidence": "[CONTRADICTION] Distance=0.4753 > threshold=-1.0\n  • Q vertex unmatched in D: 'Confidential' (ID=6)",
+   "error": null
+  },
+  {
+   "id": "604",
+   "label": "entailment",
+   "predicted_contradiction": true,
+   "seconds": 4.48,
+   "evidence": "[CONTRADICTION] Distance=0.2589; structural coverage satisfied but NLI polarity conflict between the claims",
+   "error": null
+  },
+  {
+   "id": "1829",
+   "label": "entailment",
+   "predicted_contradiction": true,
+   "seconds": 4.64,
+   "evidence": "[CONTRADICTION] Distance=0.4420; structural coverage satisfied but NLI polarity conflict between the claims",
+   "error": null
+  },
+  {
+   "id": "233",
+   "label": "entailment",
+   "predicted_contradiction": false,
+   "seconds": 12.04,
+   "evidence": "[CONSISTENT] No critical vertices to cover (distance=0.3416)",
+   "error": null
+  },
+  {
+   "id": "655",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 29.89,
+   "evidence": "[CONSISTENT] Distance=0.3728; structural coverage satisfied\n  ✓ All 5 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "669",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 33.28,
+   "evidence": "[CONSISTENT] Distance=0.6062; structural coverage satisfied\n  ✓ All 4 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "435",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 16.67,
+   "evidence": "[CONSISTENT] Distance=0.2817; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "1795",
+   "label": "neutral",
+   "predicted_contradiction": false,
+   "seconds": 3.74,
+   "evidence": "[CONSISTENT] Distance=0.7124; structural coverage satisfied\n  ✓ All 3 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "893",
+   "label": "contradiction",
+   "predicted_contradiction": false,
+   "seconds": 5.5,
+   "evidence": "[CONSISTENT] Distance=0.3676; structural coverage satisfied\n  ✓ All 1 critical Q vertices matched in D via reference HyperMatch",
+   "error": null
+  },
+  {
+   "id": "675",
+   "label": "contradiction",
+   "predicted_contradiction": true,
+   "seconds": 16.4,
+   "evidence": "[CONTRADICTION] Distance=0.4649 > threshold=-1.0\n  • Q vertex unmatched in D: 'any objects' (ID=4)",
+   "error": null
+  }
+ ]
+}
