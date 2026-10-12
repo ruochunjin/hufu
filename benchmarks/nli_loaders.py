@@ -131,6 +131,14 @@ def _load_rows(hf_id: str, config: str | None, split: str):
 
     from datasets import load_dataset
 
+    cache_dir = DATA_DIR / "cache" / hf_id.replace("/", "--") / (config or "default") / split
+    cached = sorted(cache_dir.glob("*.parquet")) if cache_dir.exists() else []
+    if cached:
+        # Local parquet cache wins: reruns are fully offline and immune to
+        # hub/mirror outages.
+        return load_dataset(
+            "parquet", data_files={split: [str(p) for p in cached]}, split=split
+        )
     try:
         return load_dataset(hf_id, config, split=split) if config else load_dataset(hf_id, split=split)
     except RuntimeError as exc:
@@ -160,7 +168,6 @@ def _load_rows(hf_id: str, config: str | None, split: str):
     # The parquet-API URLs redirect to the real files; the ``datasets`` hub
     # filesystem cannot resolve them through mirrors, so download to a local
     # cache (which also makes reruns fully offline).
-    cache_dir = DATA_DIR / "cache" / hf_id.replace("/", "--") / (config or "default") / split
     cache_dir.mkdir(parents=True, exist_ok=True)
     local_files = []
     for url in urls:
@@ -196,7 +203,13 @@ def load_hf_nli(
         if limit is not None and index >= limit:
             break
         raw_label = row[spec["label_key"]]
-        mapped = label_map.get(raw_label, "neutral")
+        if isinstance(raw_label, str):
+            # Some distributions (tasksource) store string labels directly —
+            # the integer label_map must not silently swallow them (found by
+            # the ConTRoL run: every row fell through to "neutral").
+            mapped = raw_label.strip().lower()
+        else:
+            mapped = label_map.get(raw_label, "neutral")
         if mapped == "not_entailment":
             mapped = "neutral"
         yield NLIExample(
