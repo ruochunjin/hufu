@@ -55,6 +55,38 @@ def stratified_sample(name: str, per_label: int, seed: int, split: str, scan_lim
     return picked
 
 
+def _write_report(out: Path, args, rows: list[dict], n_error: int, t0: float) -> None:
+    """Write the (possibly partial) report — scoring is over completed rows."""
+
+    ok = [r for r in rows if r["predicted_contradiction"] is not None]
+
+    def _scores(positive_labels: set[str]) -> dict:
+        tp = sum(1 for r in ok if r["label"] in positive_labels and r["predicted_contradiction"])
+        fn = sum(1 for r in ok if r["label"] in positive_labels and not r["predicted_contradiction"])
+        fp = sum(1 for r in ok if r["label"] not in positive_labels and r["predicted_contradiction"])
+        tn = sum(1 for r in ok if r["label"] not in positive_labels and not r["predicted_contradiction"])
+        tot = tp + fn + fp + tn
+        return {
+            "tp": tp, "fp": fp, "tn": tn, "fn": fn,
+            "precision": tp / (tp + fp) if tp + fp else None,
+            "recall": tp / (tp + fn) if tp + fn else None,
+            "accuracy": (tp + tn) / tot if tot else None,
+        }
+
+    report = {
+        "dataset": args.dataset,
+        "per_label": args.per_label,
+        "seed": args.seed,
+        "n": len(rows),
+        "errors": n_error,
+        "contradiction_vs_rest": _scores({"contradiction"}),
+        "not_covered_vs_entailed": _scores({"neutral", "contradiction"}),
+        "wall_seconds": round(time.perf_counter() - t0, 1),
+        "rows": rows,
+    }
+    out.write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", required=True, choices=["contract_nli", "docnli", "control"])
@@ -72,10 +104,30 @@ def main() -> None:
     print(f"[{args.dataset}] {len(examples)} examples "
           f"({ {k: sum(1 for e in examples if e.label == k) for k in {e.label for e in examples}} })")
 
+    # Resume: an existing report at --out contributes completed rows; ids
+    # already done are skipped so killed long runs restart cheaply.
+    out = Path(args.out) if args.out else REPORT_DIR / f"nli_eval_{args.dataset}_{len(examples)}.json"
+    done_rows: list[dict] = []
+    done_ids: set[str] = set()
+    if out.exists():
+        try:
+            prior = json.loads(out.read_text(encoding="utf-8"))
+            done_rows = [r for r in prior.get("rows", []) if r.get("predicted_contradiction") is not None]
+            done_ids = {r["id"] for r in done_rows}
+            if done_ids:
+                print(f"resuming: {len(done_ids)} rows already done")
+        except (json.JSONDecodeError, OSError):
+            pass
+
     rows = []
     n_error = 0
     t0 = time.perf_counter()
+    total = len(examples) - len(done_ids)
+    seen = 0
     for i, ex in enumerate(examples):
+        if ex.example_id in done_ids:
+            continue
+        seen += 1
         start = time.perf_counter()
         try:
             verdict = check_pair(
@@ -104,9 +156,12 @@ def main() -> None:
                 "error": error,
             }
         )
-        print(f"  [{i + 1}/{len(examples)}] {ex.label:>13} -> {predicted_contra} "
+        print(f"  [{seen}/{total}] {ex.label:>13} -> {predicted_contra} "
               f"({elapsed:.1f}s){' ERROR ' + error if error else ''}", flush=True)
+        # incremental flush: partial results survive a killed shell
+        _write_report(out, args, done_rows + rows, n_error, t0)
 
+    rows = done_rows + rows
     ok = [r for r in rows if r["predicted_contradiction"] is not None]
 
     def _scores(positive_labels: set[str]) -> dict:
@@ -142,7 +197,6 @@ def main() -> None:
         "wall_seconds": round(time.perf_counter() - t0, 1),
         "rows": rows,
     }
-    out = Path(args.out) if args.out else REPORT_DIR / f"nli_eval_{args.dataset}_{len(rows)}.json"
     out.write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n[{args.dataset}] errors={n_error}")
     print(f"  contradiction-vs-rest:  acc={contradiction['accuracy']} recall={contradiction['recall']}")
