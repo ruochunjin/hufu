@@ -513,6 +513,34 @@ class ConsistencyTests(unittest.TestCase):
             {("w1", "w2"), ("w3",)},
         )
 
+    def test_complete_cores_combinatorial_explosion_is_bounded(self) -> None:
+        """DocNLI id 597 hang (2026-10-14): 8 requirements x 8 interchangeable
+        witnesses each = 8^8 complete selections; max_cores=256 was recorded
+        but search never STOPPED on truncation, so enumeration ran to
+        exhaustion.  The budgeted search must return quickly, truncated."""
+
+        import time
+
+        witnesses = tuple(
+            MatchedHCWitness(
+                f"w{i}_{j}", (f"qe{i}",), (f"d{i}_{j}",), f"c{i}_{j}",
+                ((f"qv{i}", f"dv{i}_{j}"),),
+            )
+            for i in range(8)
+            for j in range(8)
+        )
+        start = time.perf_counter()
+        result = compute_complete_cores(
+            tuple(f"qe{i}" for i in range(8)),
+            tuple(f"qv{i}" for i in range(8)),
+            witnesses,
+        )
+        elapsed = time.perf_counter() - start
+        self.assertLess(elapsed, 5.0)
+        self.assertTrue(result.truncated)
+        self.assertTrue(result.complete)
+        self.assertLessEqual(len(result.minimal_cores), 256)
+
     def test_document_marking_uses_complete_core_conflict_certificate_and_local_relation(self) -> None:
         query, data = two_hop_graphs()
         c1_dependency = HCDependency(

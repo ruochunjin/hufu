@@ -217,13 +217,25 @@ def compute_complete_cores(
 
     raw_solutions: set[frozenset[int]] = set()
     truncated = False
+    # Hard expansion budget: interchangeable witnesses (dense candidate sets)
+    # make the search tree combinatorial (DocNLI id 597: 8 requirements x 8
+    # witnesses each = 8^8 selections — effectively a hang).  Truncation at
+    # max_cores must also STOP the recursion, not just stop recording.
+    max_expansions = 100_000
+    expansions = 0
 
     def search(
         selected: frozenset[int],
         covered_edges: frozenset[str],
         covered_vertices: frozenset[str],
     ) -> None:
-        nonlocal truncated
+        nonlocal truncated, expansions
+        if truncated:
+            return
+        expansions += 1
+        if expansions > max_expansions:
+            truncated = True
+            return
         if any(solution <= selected for solution in raw_solutions):
             return
         if required_edge_set <= covered_edges and required_vertex_set <= covered_vertices:
